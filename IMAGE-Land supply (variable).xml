@@ -1,0 +1,301 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>IMAGE</sitename>
+    <dbname>imagedb</dbname>
+    <base>https://models.pbl.nl/image/Home_IMAGE</base>
+    <generator>MediaWiki 1.39.7</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">IMAGE-3</namespace>
+      <namespace key="5" case="first-letter">IMAGE-3 talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="102" case="first-letter">Property</namespace>
+      <namespace key="103" case="first-letter">Property talk</namespace>
+      <namespace key="106" case="first-letter">Form</namespace>
+      <namespace key="107" case="first-letter">Form talk</namespace>
+      <namespace key="108" case="first-letter">Concept</namespace>
+      <namespace key="109" case="first-letter">Concept talk</namespace>
+      <namespace key="112" case="first-letter">smw/schema</namespace>
+      <namespace key="113" case="first-letter">smw/schema talk</namespace>
+      <namespace key="114" case="first-letter">Rule</namespace>
+      <namespace key="115" case="first-letter">Rule talk</namespace>
+      <namespace key="2300" case="case-sensitive">Gadget</namespace>
+      <namespace key="2301" case="case-sensitive">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Land supply</title>
+    <ns>0</ns>
+    <id>1356</id>
+    <revision>
+      <id>27058</id>
+      <parentid>21141</parentid>
+      <timestamp>2016-10-07T07:34:39Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <minor/>
+      <comment>Text replace - "Source3=(.*)
+\|Reference2=(.*)" to "Source3=$1
+|Reference3=$2"</comment>
+      <origin>27058</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="386" sha1="fl4eya0j9nphv4td6d5cvh9t9zdhpko" xml:space="preserve">{{VariableTemplate
+|Label=Land Supply
+|Description=Available land for agriculture, per grid or region, depending on suitability for crops, and excluding unsuitable areas such as steep slopes, wetlands and protected areas.
+|Dimension=time, region
+|VariableType=model (from/to model)
+|Source2=
+|BasedOn2=
+|Reference2=
+|DriverGroup=
+|Source=
+|BasedOn=
+|Reference=
+|Source3=
+|Reference3=
+}}</text>
+      <sha1>fl4eya0j9nphv4td6d5cvh9t9zdhpko</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:PropertyTestTemplate</title>
+    <ns>10</ns>
+    <id>288</id>
+    <revision>
+      <id>26668</id>
+      <parentid>26667</parentid>
+      <timestamp>2016-05-11T10:05:25Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>26668</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="511" sha1="a152syqakewty1idk3wnhz6230w48wg" xml:space="preserve">&lt;noinclude&gt;
+This is the "testPropertyTemplate" template. returns true (&lt;&gt; 0) if page has property . reverse is optional and should be used as reverse=1 for reversed properties
+It should be called in the following format:
+&lt;pre&gt;
+{{PropertyTestTemplate
+|prop=
+|page=
+|reverse=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;&lt;!--
+--&gt;{{#ifeq:{{{reverse|}}}|1
+|{{#ask:[[{{{prop|}}}::{{{page|}}}]]|format=count}}
+|{{#ask:[[-{{{prop|}}}::{{{page|}}}]]|format=count}} }}&lt;!--
+--&gt;&lt;/includeonly&gt;</text>
+      <sha1>a152syqakewty1idk3wnhz6230w48wg</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:VariableTemplate</title>
+    <ns>10</ns>
+    <id>954</id>
+    <revision>
+      <id>37255</id>
+      <parentid>37245</parentid>
+      <timestamp>2024-04-17T14:19:58Z</timestamp>
+      <contributor>
+        <username>Huismanv</username>
+        <id>92</id>
+      </contributor>
+      <origin>37255</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="4615" sha1="2bmdwdwxv3rw698cqyfwn2fwu6gwnoe" xml:space="preserve">&lt;noinclude&gt;
+This is the "VariableTemplate" template.
+It should be called in the following format:
+&lt;pre&gt;
+{{VariableTemplate
+|Label=
+|Description=
+|Dimension=
+|Unit=
+|VariableType=
+|DriverGroup=
+|Source=
+|BasedOn
+|Reference
+|Source2=
+|BasedOn2=
+|Reference2=
+|Source3=
+|Reference3=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;table class="PageWidthTableTemplate"&gt;
+{{#ifeq:{{{Label|}}}|||
+&lt;tr&gt;&lt;td class="PageWidthTableFirstCell"&gt;'''Label:'''&lt;/td&gt;
+&lt;td class="PageWidthTableRemainderCell"&gt;
+{{{Label|}}}&lt;/td&gt;&lt;/tr&gt;
+}}
+{{#ifeq:{{{ShortDescription|}}}|||
+&lt;tr&gt;&lt;td class="PageWidthTableFirstCell"&gt;'''Short description:'''&lt;/td&gt;
+&lt;td class="PageWidthTableRemainderCell"&gt;
+{{{ShortDescription|}}}&lt;/td&gt;&lt;/tr&gt;
+}}
+{{#ifeq:{{{Description|}}}|||
+&lt;tr&gt;&lt;td class="PageWidthTableFirstCell"&gt;'''Description:'''&lt;/td&gt;
+&lt;td class="PageWidthTableRemainderCell"&gt;
+{{{Description|}}}&lt;/td&gt;&lt;/tr&gt;
+}}
+{{#ifeq:{{{Dimension|}}}|||
+&lt;tr&gt;&lt;td class="PageWidthTableFirstCell"&gt;'''Dimensions:'''&lt;/td&gt;
+&lt;td class="PageWidthTableRemainderCell"&gt;
+{{{Dimension|}}}&lt;/td&gt;&lt;/tr&gt;
+}}
+{{#ifeq:{{{Unit|}}}|||
+&lt;tr&gt;&lt;td class="PageWidthTableFirstCell"&gt;'''Default unit:'''&lt;/td&gt;
+&lt;td class="PageWidthTableRemainderCell"&gt;
+{{{Unit|}}}&lt;/td&gt;&lt;/tr&gt;
+}}
+{{#ifeq:{{{VariableType|}}}|||
+&lt;tr&gt;&lt;td class="PageWidthTableFirstCell"&gt;'''Variable type:'''&lt;/td&gt;
+&lt;td class="PageWidthTableRemainderCell"&gt;
+{{{VariableType|}}}&lt;/td&gt;&lt;/tr&gt;
+}}
+{{#ifeq:{{{DriverGroup|}}}|||
+&lt;tr&gt;&lt;td class="PageWidthTableFirstCell"&gt;'''Driver group:'''&lt;/td&gt;
+&lt;td class="PageWidthTableRemainderCell"&gt;
+{{{DriverGroup|}}}&lt;/td&gt;&lt;/tr&gt;
+}}
+{{#ifeq:{{{Source|}}}{{{Source2|}}}{{{Source3|}}}|||
+&lt;tr&gt;&lt;td class="PageWidthTableFirstCell"&gt;'''Source:'''&lt;/td&gt;
+&lt;td class="PageWidthTableRemainderCell"&gt;
+{{{Source|}}}{{{Source2|}}}{{{Source3|}}}&lt;/td&gt;&lt;/tr&gt;
+}}
+{{#ifeq:{{{BasedOn|}}}{{{BasedOn2|}}}|||
+&lt;tr&gt;&lt;td class="PageWidthTableFirstCell"&gt;'''Values based on:'''&lt;/td&gt;
+&lt;td class="PageWidthTableRemainderCell"&gt;
+{{{BasedOn|}}}{{{BasedOn2|}}}&lt;/td&gt;&lt;/tr&gt;
+}}
+{{#ifeq:{{{Reference|}}}{{{Reference2|}}}{{{Reference3|}}}|||
+&lt;tr&gt;&lt;td class="PageWidthTableFirstCell"&gt;'''Reference:'''&lt;/td&gt;
+&lt;td class="PageWidthTableRemainderCell"&gt;
+{{{Reference|}}}{{{Reference2|}}}{{{Reference3|}}}&lt;/td&gt;&lt;/tr&gt;
+}}
+&lt;/table&gt;&lt;br/&gt;
+
+{{#ifeq:{{{VariableType|}}}
+ |driver
+ |Drivers are described in the {{#ask:[[Category:Component]][[FrameworkElementType::driver component]]|format=Plainlist}} component.
+|}}
+
+{{#ifexpr:{{PropertyTestTemplate
+  |prop=HasOutputVar
+  |page={{PAGENAME}}
+  |reverse=1}}&gt;0
+  |''Variable is output of model component:''{{#ask:
+ [[{{PAGENAME}}]] 
+ | mainLabel=Variable
+ | ?IsOutputOf = output
+ | format=graph
+ | graphname=outputvariable
+ | graphcolor=yes
+ | graphlink=yes
+ | graphlabel=yes
+ | nodeshape=box
+ | arrowdirection=TB
+ | relation=parent
+ | graphsize==
+ | limit=2000
+ }}
+|}}&lt;br/&gt;
+{{#ifexpr:{{PropertyTestTemplate
+  |prop=HasInputVar
+  |page={{PAGENAME}}
+  |reverse=1}} &gt;0
+  |''Variable is input of model component(s):''{{#ask:
+  [[{{PAGENAME}}]]
+  | mainLabel=Variable
+  | ?IsInputFor = input 
+  | format=graph
+  | graphname=inputvariable
+  | graphcolor=yes
+  | graphlink=yes
+  | graphlabel=yes
+  | nodeshape=box
+  | arrowdirection=TB
+  | graphsize=9
+  | limit=200
+}}
+|}}
+{{#ifexpr:{{PropertyTestTemplate
+  |prop=HasParameter
+  |page={{PAGENAME}}
+  |reverse=1}} &gt; 0 
+  |''External parameter is input of model component(s):''{{#ask:
+   [[{{PAGENAME}}]]
+  | mainLabel=Variable
+  | ?IsParameterOf = input parameter of
+  | format=graph
+  | graphname=inputparameter
+  | graphcolor=yes
+  | graphlink=yes
+  | graphlabel=yes
+  | nodeshape=box
+  | arrowdirection=TB
+  | graphsize=9
+  | limit=200
+}}
+|}}&lt;br/&gt;
+
+* Click on a box to open the model component.
+[[Category:Variable]]
+&lt;!-- property settings--&gt;
+{{#set:HasLabel={{{Label|}}}
+  |HasShortDescription={{{Description|}}}
+  |HasDescription={{{Description|}}}
+  |HasDimension={{{Dimension|}}}|+sep=,
+  |HasDefaultUnit={{{Unit|}}}
+  |HasVariableType={{{VariableType|}}}
+  |DriverGroup={{{DriverGroup|}}}
+  |HasSource={{{Source|}}}{{{Source2|}}}{{{Source3|}}}|+sep=;
+  |HasValuesBasedOn={{{BasedOn|}}}{{{BasedOn2|}}}|+sep=;
+  |HasReference={{{Reference|}}}{{{Reference2|}}}{{{Reference3|}}}|+sep=;
+}}
+  {{#arraymap:
+     {{#ask:[[HasInputVar::{{PAGENAME}}]][[Concept:AllComponentLevels]]|link=none|sep=;}}
+     |;|xx
+     |{{#set:IsInputFor=xx}}
+     |}}
+  {{#arraymap:
+     {{#ask:[[HasOutputVar::{{PAGENAME}}]][[Concept:AllComponentLevels]]|link=none|sep=;}}
+     |;|xx
+     |{{#set:IsOutputOf=xx}}
+     |}}
+  {{#arraymap:
+     {{#ask:[[HasParameter::{{PAGENAME}}]][[Concept:AllComponentLevels]]|link=none|sep=;}}
+     |;|xx
+     |{{#set:IsParameterOf=xx}}
+     |}}&lt;/includeonly&gt;</text>
+      <sha1>2bmdwdwxv3rw698cqyfwn2fwu6gwnoe</sha1>
+    </revision>
+  </page>
+</mediawiki>

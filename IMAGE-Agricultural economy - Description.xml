@@ -1,0 +1,571 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>IMAGE</sitename>
+    <dbname>imagedb</dbname>
+    <base>https://models.pbl.nl/image/Home_IMAGE</base>
+    <generator>MediaWiki 1.39.7</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">IMAGE-3</namespace>
+      <namespace key="5" case="first-letter">IMAGE-3 talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="102" case="first-letter">Property</namespace>
+      <namespace key="103" case="first-letter">Property talk</namespace>
+      <namespace key="106" case="first-letter">Form</namespace>
+      <namespace key="107" case="first-letter">Form talk</namespace>
+      <namespace key="108" case="first-letter">Concept</namespace>
+      <namespace key="109" case="first-letter">Concept talk</namespace>
+      <namespace key="112" case="first-letter">smw/schema</namespace>
+      <namespace key="113" case="first-letter">smw/schema talk</namespace>
+      <namespace key="114" case="first-letter">Rule</namespace>
+      <namespace key="115" case="first-letter">Rule talk</namespace>
+      <namespace key="2300" case="case-sensitive">Gadget</namespace>
+      <namespace key="2301" case="case-sensitive">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Agricultural economy/Description</title>
+    <ns>0</ns>
+    <id>21</id>
+    <revision>
+      <id>37096</id>
+      <parentid>37063</parentid>
+      <timestamp>2023-03-14T14:10:05Z</timestamp>
+      <contributor>
+        <username>Stehfeste</username>
+        <id>88</id>
+      </contributor>
+      <comment>edited the description of food waste and diets, also adding references to relevant publications.</comment>
+      <origin>37096</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="9579" sha1="o70w5b74auc7fselste17ykizeva90m" xml:space="preserve">{{ComponentDescriptionTemplate
+|Reference=Hertel, 1997;Britz, 2003;Armington, 1969;Huang et al., 2004;Helming et al., 2010;Banse et al., 2008;Bruinsma, 2003;Woltjer et al., 2011;Van Meijl et al., 2006;Eickhout et al., 2009;Overmars et al., 2014;Alexandratos and Bruinsma, 2012;Gustavsson et al., 2011;Gustavsson et al., 2013
+}}
+&lt;div class="page_standard"&gt;
+
+The MAGNET model ([[Woltjer et al., 2014]]) is based on the standard GTAP model ([[Hertel, 1997]]), which is a multi-regional, static, applied computable general equilibrium ({{abbrTemplate|CGE}}) model based on neoclassical microeconomic theory. Although the model covers the entire economy, there is a special focus on agricultural sectors. It is a further development of GTAP regarding land use, household consumption, livestock, food, feed and energy crop production, and emission reduction from deforestation or afforestation.
+
+===Demand and supply===
+Household demand for agricultural products is calculated based on changes in income, income elasticities, preference shift, price elasticities, cross-price elasticities, and the commodity prices arising from changes in the supply side. Demand and supply are balanced via prices to reach equilibrium. Income elasticities for agricultural commodities are consistent with FAO estimates ([[Britz, 2003]]), and dynamically depend on purchasing power parity ({{abbrTemplate|PPP}}) corrected GDP per capita. The supply of all commodities is modelled by an input–output structure that explicitly links the production of goods and services for final consumption via different processing stages back to primary products (crops and livestock products) and resources. At each production level, input of labour, capital, and intermediate input or resources (e.g., land) can be substituted for one another. For example, labour, capital and land are input factors in crop production, and substitution of these production factors is driven by changes in their relative prices. If the price of one input factor increases, it is substituted by other factors, following the price elasticity of substitution.
+
+===Regional aggregation and trade=== 
+MAGNET is flexible in its regional aggregation (140 regions). In linking with IMAGE, MAGNET distinguishes 28 individual large world regions, closely matching the regions in IMAGE (Figure [[Region classification map|IMAGE regions]]). Slightly more detail is provided the European regions in order to properly model the EU single market. Similar to most other {{abbrTemplate|CGE}} models, MAGNET assumes that products traded internationally are differentiated according to country of origin. Thus, domestic and foreign products are not identical, but are imperfect substitutes (Armington assumption; [[Armington, 1969]]). 
+
+===Land use===
+In addition to the standard [[GTAP database|GTAP model]], MAGNET includes a dynamic land-supply function ([[Van Meijl et al., 2006]]) that accounts for the availability and suitability of land for agricultural use, based on information from IMAGE (see below). A nested land-use structure accounts for the differences in substitutability of the various types of land use ([[Huang et al., 2004]]; [[Van Meijl et al., 2006]]). In addition, MAGNET includes international and EU agricultural policies, such as production quota and export/import tariffs ([[Helming et al., 2010]]). 
+
+===Biofuel crops===
+MAGNET includes ethanol and biodiesel as first-generation biofuels made from wheat, sugar cane, maize, and oilseeds ([[Banse et al., 2008]]) and the use of by-products ({{abbrTemplate|DDGS}}, oilcakes) from biofuel production in the livestock sector. Second-generation biofuels are also included, with the potential amount of residues available from IMAGE/TIMER ([[Daioglou et al., 2016]]).
+
+===Livestock===
+MAGNET distinguishes the livestock commodities of beef cattle, dairy cattle, other cattle (sheep &amp; goats), dairy cattle, poultry, and pig and other animal products. The first three are the ruminant sectors which are grass and crop fed, while the poultry and pigs sectors are crop fed. Modelling the livestock sector includes different feedstuffs, such as feed crops, co-products from biofuels (oil cakes from rapeseed-based biofuel, or distillers grain from wheat-based biofuels), and grass ([[Woltjer, 2011]]). Grass may be substituted by feed from crops for ruminants. 
+
+===Land supply===
+In MAGNET, land supply is calculated using a land-supply curve that relates the area in use for agriculture to the land price. Total land supply includes all land that is potentially available for agriculture, where crop production is possible under soil and climatic conditions, and where no other restrictions apply such as urban or protected area designations (see also Component Land-use allocation). In the IMAGE model, total land supply for each region is obtained from potential crop productivity and land availability on a resolution of 5x5 arcminutes ([[Mandryk et al., 2015]]). The supply curve depends on total land supply, current agricultural area, current land price, and estimated price elasticity of land supply in the starting year. Regions differ with regard to the proportion of land in use, and with regard to change in land prices in relation to changes in agricultural land use.
+
+===Reduced land availability===
+By restricting land supply in IMAGE and MAGNET, the models can assess scenarios with additional protected areas, or reduced emissions from deforestation and forest degradation ({{abbrTemplate|REDD}}). These areas are excluded from the land supply curve in MAGNET, leading to lower elasticities, less land-use change and higher prices, and are also excluded from the allocation of agricultural land in IMAGE (e.g., [[Overmars et al., 2014]], [[Doelman et al., 2018]]).
+
+===Intensification of crop and pasture production===
+Crop and pasture yields in MAGNET may change as a result of the following four processes:
+# autonomous technological change (external scenario assumption); 
+# intensification due to the substitution of production factors (endogenous);
+# climate change (from IMAGE);
+# change in agricultural area affecting crop yields (such as, decreasing average yields due to expansion into less suitable regions; from IMAGE).
+
+Biophysical yield effects due to climate and area changes are calculated by the IMAGE crop model and communicated to MAGNET. Likewise, also the potential yields and thus the yield gap can be assessed with the crop model in IMAGE. External assumptions on autonomous technological changes are mostly based on FAO projections ([[Alexandratos and Bruinsma, 2012]]), which describe per region and commodity, the assumed future changes in yields for a wide range of crop types. In MAGNET, the biophysical yield changes are combined with the autonomous technological change to give the total exogenous yield change. In addition, during the simulation period, MAGNET calculates an endogenous intensification as a result of price-driven substitution between labour, land and capital. Projections of crop yield increase in IMAGE-MAGNET and other global agricultural models were evaluated recently      ([[Van Zeist et al., 2020]]). In IMAGE, regional yield changes due to autonomous technological change and endogenous intensification according to MAGNET are used in the spatially explicit allocation of land use (Component [[Land-use allocation]]).
+
+===Food Waste Reduction===
+In earlier work like for the SSP scenarios, we applied a uniform reduction of food waste (Stehfest et al. 2019, [[Doelman et al., 2018]]).  From IMAGE 3.2 onwards, high- and medium-income regions can reduce food waste to achieve the lowest level among them (we typically do not adress food waste in low-income regions, where food waste tends to be low and largely occurring on the farm level). This implementation is based on Gustavsson et al. ([[Gustavsson et al., 2011|2011]]; [[Gustavsson et al., 2013|2013]]), from where we derive the levels of food waste for five commodity types (cereals, other_plant_based, meat, fish_seafood, melk_eggs) and three food supply chain steps (primary, processing, consumption). Then, we find the lowest food waste level among high- and medium-income regions for each commodity type and food supply chain step and define them as food waste targets. Then, we calculate the change in the production efficiency that resembles the food waste reduction necessary for the regions to achieve their food waste targets. Finally, we calculate the MAGNET shock required to meet the targets and run MAGNET with the new production efficiencies, which resemble the reduction in food waste. The reduction in food waste reduces the pressure on the food system resulting in less agricultural land use, lower GHG emissions and reduced food prices.
+
+===Diet Changes===
+Another way to reduce the impact of food consumption on the environment is by adopting healthier diets, as also indicated in earlier work from the IMAGE team (e.g. Stehfest et al. 2009, 2013). These diets could be entirely plant-based or have reduced in meat and dairy consumption, or follow prescribed healthy diets addressing all food groups (Willet et al. 2019). In all cases, the changes especially in livestock-based commodities lead to reduced agricultural land use, and modifications in trade and production systems. Furthermore, in some scenarios we also explore the substitution of meat through artificial meat (Van Vuuren et al., 2018). These changes in consumption are prescribed for MAGNET, where also substitutions with other food commodities are specified. 
+&lt;/div&gt;</text>
+      <sha1>o70w5b74auc7fselste17ykizeva90m</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:AddInfoPartsTemplate</title>
+    <ns>10</ns>
+    <id>3500</id>
+    <revision>
+      <id>36145</id>
+      <parentid>26182</parentid>
+      <timestamp>2020-03-10T14:49:43Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>36145</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="398" sha1="h2k1ehd04h4ncmao10u8rklzj0q9k9a" xml:space="preserve">&lt;noinclude&gt;display additional info in the parts content table&lt;/noinclude&gt;&lt;includeonly&gt;
+{{#ifexpr:{{PropertyTestTemplate
+    |prop=AIBelongsToPage
+    |page={{FULLPAGENAME}}
+    |reverse=1}} &gt;0
+|
+''Additional info''
+    {{#ask:[[AIBelongsToPage::{{FULLPAGENAME}}]]
+     |mainlabel=
+     |? HasPageLabel=
+     |link=none
+     |format=Plainlist
+     |template=PagePartTemplate
+    }}
+|}}&lt;/includeonly&gt;</text>
+      <sha1>h2k1ehd04h4ncmao10u8rklzj0q9k9a</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:DisplayFlowchartTemplate</title>
+    <ns>10</ns>
+    <id>2696</id>
+    <revision>
+      <id>36176</id>
+      <parentid>13842</parentid>
+      <timestamp>2020-03-10T16:12:33Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>36176</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="296" sha1="9u8pus57dy684y5equx2wznfhyiuiwc" xml:space="preserve">&lt;noinclude&gt;
+1=filename
+&lt;/noinclude&gt;
+&lt;includeonly&gt;{{#ask:[[Category:Figure]][[HasFigureType::Flowchart]][[BelongsToComponent::{{{1|}}}]]
+ |mainlabel=page
+ |?HasPageName=figure
+ |?HasAltTitle=alt
+ |?HasCaption=caption
+ |format=Plainlist
+ |link=none
+ |template=ViewFlowchartTemplate
+}}&lt;/includeonly&gt;</text>
+      <sha1>9u8pus57dy684y5equx2wznfhyiuiwc</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:IconTemplate</title>
+    <ns>10</ns>
+    <id>2205</id>
+    <revision>
+      <id>36143</id>
+      <parentid>8901</parentid>
+      <timestamp>2020-03-10T14:48:19Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>36143</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="336" sha1="c72w036rv26g8yumqead77x2lsy78ag" xml:space="preserve">&lt;noinclude&gt;template for asking and positioning the icon of a page&lt;/noinclude&gt;
+&lt;includeonly&gt;{{#ask:[[Category:Figure]][[HasFigureType::Icon]][[BelongsToComponent::{{{1|}}}]]
+  |mainlabel=page
+  |?HasPageName=figure
+  |?HasCaption=caption
+  |?HasAltTitle=alt
+  |format=Plainlist
+  |link=none
+  |template=ViewIconTemplate
+}} &lt;/includeonly&gt;</text>
+      <sha1>c72w036rv26g8yumqead77x2lsy78ag</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:InfoBoxTemplate</title>
+    <ns>10</ns>
+    <id>1484</id>
+    <revision>
+      <id>36432</id>
+      <parentid>36227</parentid>
+      <timestamp>2020-03-24T14:41:53Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>36432</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2870" sha1="8iph7xfip9l7gcymr7tmqb4wj8tfr4n" xml:space="preserve">&lt;noinclude&gt;
+It should be called in the following format:
+&lt;pre&gt;
+{{InfoBoxtemplate}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;&lt;!--
+check the need for an infobox on this page (most recent version is the norm)
+--&gt;{{#ifeq:{{InfoboxTestTemplate|basepage={{ROOTPAGENAME}}|subpage={{SUBPAGENAME}} }}|0|| &lt;!--
+existing data for infobox
+--&gt;&lt;div class="InfoBoxTemplateClear"&gt;&lt;table class="InfoBoxStyle"&gt; &lt;!--
+--&gt;{{#ifeq:{{PropertyTestTemplate|prop=IsImplementationOf|page={{ROOTPAGENAME}}|reverse=1 }}|0||
+&lt;tr&gt;&lt;td class="InfoBoxCellStyleTemplate"&gt;Component is implemented in:&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;{{#arraymap:
+  {{#ask:[[IsImplementationOf::{{ROOTPAGENAME}}]]|link=none|sep=;}}
+  |;|yy
+  |{{#arraymap: {{#ask:[[Category:ModelVersion]][[IsVersionOf::yy]]|link=none|sep=;}}
+    |;|xx
+    |{{#ifeq:{{#ask:[[IsCurrentVersion::true]][[IsVersionOf::yy]]|link=none}}|xx
+      |&lt;ul&gt;&lt;li&gt;[[yy]] (version {{#ask:[[xx]]|format=Plainlist}})&lt;/li&gt;&lt;/ul&gt;
+      {{#ask:[[Category:AggregatedComponent]][[-IsImplementationOf::yy]]
+        |intro=Aggregated component:|format=ul
+      }}{{#ask:[[Category:Component]][[-IsImplementationOf::yy]]
+           |intro=Components:|format=ul}}
+    |}}    
+  |}}
+| and }}
+&lt;/td&gt;&lt;/tr&gt;&lt;!--
+--&gt;{{#ifeq:{{PropertyTestTemplate|prop=HasIMAGEComponent|page={{#titleparts: {{FULLPAGENAME}}|1}} }}|0||
+&lt;tr&gt;&lt;td class="InfoBoxCellStyleTemplate"&gt;Related IMAGE components&lt;/td&gt;&lt;/tr&gt;
+&lt;tr &gt;&lt;td&gt;{{#ask:[[-HasIMAGEComponent::{{#titleparts: {{FULLPAGENAME}}|1}}]]|format=ul}}
+&lt;/td&gt;&lt;/tr&gt;}}
+}}&lt;!--
+--&gt;{{#ifeq:{{PropertyTestTemplate|prop=HasApplication|page={{#titleparts: {{FULLPAGENAME}}|1}} }}|0||
+&lt;tr&gt;&lt;td class="InfoBoxCellStyleTemplate"&gt;Projects/Applications&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;{{#ask:[[-HasApplication::{{#titleparts: {{FULLPAGENAME}}|1}}]]|format=ul}}
+&lt;/td&gt;&lt;/tr&gt;}}&lt;!--
+--&gt;{{#ifeq:{{PropertyTestTemplate|prop=HasModelDatabase|page={{#titleparts: {{FULLPAGENAME}}|1}} }}|0||
+&lt;tr&gt;&lt;td class="InfoBoxCellStyleTemplate"&gt;Models/Databases&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;{{#ask:[[-HasModelDatabase::{{#titleparts: {{FULLPAGENAME}}|1}}]]|format=ul}}
+&lt;/td&gt;&lt;/tr&gt;}}&lt;!--
+--&gt;{{#ifeq:{{PropertyTestTemplate|prop=HasOverview|page={{#titleparts: {{FULLPAGENAME}}|1}} }}|0||
+&lt;tr&gt;&lt;td class="InfoBoxCellStyleTemplate"&gt;Relevant  overviews&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;{{#ask:[[-HasOverview::{{#titleparts: {{FULLPAGENAME}}|1}}]]|format=ul}}
+&lt;/td&gt;&lt;/tr&gt;}}&lt;!--
+--&gt;{{#ifeq:{{PropertyTestTemplate|prop=HasKeyReference|page={{#titleparts: {{FULLPAGENAME}}|1}} }}|0||
+&lt;tr&gt;&lt;td class="InfoBoxCellStyleTemplate"&gt;Key publications&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;tr&gt;&lt;td&gt;{{#ask:[[-HasKeyReference::{{#titleparts: {{FULLPAGENAME}}|1}}]]|format=ul}}
+&lt;/td&gt;&lt;/tr&gt;}}&lt;!--
+--&gt;{{#ifeq:{{PropertyTestTemplate|prop=HasReference|page={{FULLPAGENAME}} }}|0||
+&lt;tr&gt;&lt;td class="InfoBoxCellStyleTemplate"&gt;References&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class="mw-collapsible mw-collapsed"&gt;
+{{#ask:[[-HasReference::{{FULLPAGENAME}}]]|format=ul}}
+&lt;/td&gt;&lt;/tr&gt;
+}}
+&lt;/table&gt;
+&lt;/div&gt;
+}}&lt;!--
+--&gt;&lt;/includeonly&gt;</text>
+      <sha1>8iph7xfip9l7gcymr7tmqb4wj8tfr4n</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:InfoboxTestTemplate</title>
+    <ns>10</ns>
+    <id>291</id>
+    <revision>
+      <id>26666</id>
+      <parentid>23993</parentid>
+      <timestamp>2016-05-11T10:00:11Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>26666</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="901" sha1="aoh0zz8jrnyisq6249z2e7kl8bq7sp7" xml:space="preserve">&lt;noinclude&gt;
+This is the "InfoboxTestTemplate" template. it returns 1 (true) if an infobox should be displayed, 0 (false) otherwise
+It should be called in the following format; subpage is optional
+&lt;pre&gt;
+{{InfoboxTestTemplate
+|basepage=
+|subpage=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;&lt;!--
+--&gt;{{#ifexpr:
+{{PropertyTestTemplate|prop=HasReference|page={{{basepage|}}} }} or 
+{{PropertyTestTemplate|prop=HasIMAGEComponent|page={{{basepage|}}} }} or
+{{PropertyTestTemplate|prop=HasApplication|page={{{basepage|}}} }} or
+{{PropertyTestTemplate|prop=HasModelDatabase|page={{{basepage|}}} }} or
+{{PropertyTestTemplate|prop=HasKeyReference|page={{{basepage|}}} }} or
+{{#ifeq:{{{subpage|}}}|
+  |{{PropertyTestTemplate|prop=HasReference|page={{{basepage|}}} }}
+  |{{PropertyTestTemplate|prop=HasReference|page={{{basepage|}}}/{{{subpage|}}} }} 
+}}
+|1|0}}&lt;!--
+--&gt;&lt;/includeonly&gt;</text>
+      <sha1>aoh0zz8jrnyisq6249z2e7kl8bq7sp7</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:LinkToExpertpageTemplate</title>
+    <ns>10</ns>
+    <id>7273</id>
+    <revision>
+      <id>35883</id>
+      <parentid>35875</parentid>
+      <timestamp>2019-03-06T14:41:45Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>35883</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="622" sha1="ck2nloxza9igooepwxyv10jvvs3nquk" xml:space="preserve">&lt;noinclude&gt;
+This is the "LinkToExpertpageTemplate" template.
+It should be called in the following format:
+&lt;pre&gt;
+{{LinkToExpertpageTemplate
+1 page from category Component
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;&lt;!--
+--&gt;{{#ifeq:{{#show:{{FULLPAGENAME}}|? -ExpertPageBelongsTo}}||
+     |&lt;div class="toc"&gt;'''More detailed (Expert) descriptions:'''&lt;!--
+   --&gt;&lt;ul&gt;{{#arraymap:
+            {{#ask:[[ExpertPageBelongsTo::{{FULLPAGENAME}}]]|link=none|sep=;}}
+            |;|mainpage
+            |&lt;li&gt;[[mainpage|{{#show:mainpage|?HasLabel}}]]&lt;/li&gt;&lt;!--
+   --&gt;|}}&lt;/ul&gt;&lt;/div&gt;&lt;!--
+--&gt;}} &lt;/includeonly&gt;</text>
+      <sha1>ck2nloxza9igooepwxyv10jvvs3nquk</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:PropertyTestTemplate</title>
+    <ns>10</ns>
+    <id>288</id>
+    <revision>
+      <id>26668</id>
+      <parentid>26667</parentid>
+      <timestamp>2016-05-11T10:05:25Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>26668</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="511" sha1="a152syqakewty1idk3wnhz6230w48wg" xml:space="preserve">&lt;noinclude&gt;
+This is the "testPropertyTemplate" template. returns true (&lt;&gt; 0) if page has property . reverse is optional and should be used as reverse=1 for reversed properties
+It should be called in the following format:
+&lt;pre&gt;
+{{PropertyTestTemplate
+|prop=
+|page=
+|reverse=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;&lt;!--
+--&gt;{{#ifeq:{{{reverse|}}}|1
+|{{#ask:[[{{{prop|}}}::{{{page|}}}]]|format=count}}
+|{{#ask:[[-{{{prop|}}}::{{{page|}}}]]|format=count}} }}&lt;!--
+--&gt;&lt;/includeonly&gt;</text>
+      <sha1>a152syqakewty1idk3wnhz6230w48wg</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:ViewIconTemplate</title>
+    <ns>10</ns>
+    <id>1034</id>
+    <revision>
+      <id>15363</id>
+      <parentid>15362</parentid>
+      <timestamp>2014-01-29T15:08:48Z</timestamp>
+      <contributor>
+        <username>LiselotteHeukelom</username>
+        <id>45</id>
+      </contributor>
+      <origin>15363</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="114" sha1="tppm3bro57o2zsqb4fhjjsoqbgld6uk" xml:space="preserve">[[{{{2|}}}|plain|255px|right|link=Framework overview|{{{3|}}}. Figure links to "Framework overview"|alt={{{4|}}}]]</text>
+      <sha1>tppm3bro57o2zsqb4fhjjsoqbgld6uk</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:PagePartTemplate</title>
+    <ns>10</ns>
+    <id>1978</id>
+    <revision>
+      <id>36330</id>
+      <parentid>23670</parentid>
+      <timestamp>2020-03-19T16:12:19Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>36330</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="49" sha1="lb4cjbzdtwhwo9f9qe2bmv55fh1c84o" xml:space="preserve">&lt;li class="toclevel-1"&gt;[[{{{1|}}}|{{{2|}}}]]&lt;/li&gt;</text>
+      <sha1>lb4cjbzdtwhwo9f9qe2bmv55fh1c84o</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:ViewFlowchartTemplate</title>
+    <ns>10</ns>
+    <id>1002</id>
+    <revision>
+      <id>22184</id>
+      <parentid>7386</parentid>
+      <timestamp>2014-05-16T07:25:42Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <origin>22184</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="66" sha1="irv39ytf6pcf97u832j3tv1wkc6w4zz" xml:space="preserve">[[{{{2|}}}|thumb|right|240px|alt={{{3|}}}|{{{4|}}}|link={{{1|}}}]]</text>
+      <sha1>irv39ytf6pcf97u832j3tv1wkc6w4zz</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:AbbrTemplate</title>
+    <ns>10</ns>
+    <id>3420</id>
+    <revision>
+      <id>36141</id>
+      <parentid>23322</parentid>
+      <timestamp>2020-03-10T14:47:10Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>36141</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="138" sha1="il1dxwmfyyg0wu2yjd7m985czybyrir" xml:space="preserve">&lt;noinclude&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;&lt;abbr title="{{#show:{{{1|}}}|?IsAbbrOf}}"&gt;{{{1|}}}&lt;/abbr&gt;{{#set:HasAcronym={{{1|}}} }}&lt;/includeonly&gt;</text>
+      <sha1>il1dxwmfyyg0wu2yjd7m985czybyrir</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:ComponentFrameTemplate</title>
+    <ns>10</ns>
+    <id>6467</id>
+    <revision>
+      <id>36217</id>
+      <parentid>36216</parentid>
+      <timestamp>2020-03-11T08:30:42Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>36217</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="444" sha1="qtdmjcrjzd4yj5jykszsrfcgeged1zt" xml:space="preserve">&lt;noinclude&gt;
+this template displays and layouts the standard elements of a component
+&lt;/noinclude&gt;&lt;includeonly&gt;&lt;div class="top_container"&gt;{{IconTemplate|{{#titleparts: {{FULLPAGENAME}}|1}} }}
+{{ContentPartsTemplate|PagePartHeader=Parts of {{FULLPAGENAME}} }}{{LinkToExpertpageTemplate }}
+__TOC____NOEDITSECTION__ &lt;/div&gt;&lt;div class="container"&gt;{{InfoBoxTemplate}}{{DisplayFlowchartTemplate|{{#titleparts: {{FULLPAGENAME}}|1}} }}&lt;/div&gt;&lt;/includeonly&gt;</text>
+      <sha1>qtdmjcrjzd4yj5jykszsrfcgeged1zt</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:ContentPartsTemplate</title>
+    <ns>10</ns>
+    <id>2012</id>
+    <revision>
+      <id>36146</id>
+      <parentid>33659</parentid>
+      <timestamp>2020-03-10T14:50:59Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>36146</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="786" sha1="qoik9fj53hlyi5wkvlzgwmgzvn38vn4" xml:space="preserve">&lt;noinclude&gt;
+Template to display main page and subpages of an 'object' 
+&lt;pre&gt;
+{{ContentPartsTemplate
+|PagePartHeader=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{{#ifexpr:{{PropertyTestTemplate
+  |prop=BelongsToPage
+  |page= {{#titleparts:{{FULLPAGENAME}}|1}}
+  |reverse=1}}&gt;0
+|
+  &lt;div class="toc"&gt;
+&lt;strong&gt;{{{PagePartHeader|}}}&lt;/strong&gt;
+  &lt;ol&gt;
+  {{#ask:[[ {{#titleparts:{{FULLPAGENAME}}|1}}]][[!AggregatedComponent]]
+   |mainlabel=
+   |? HasPageLabel=
+   |link=none
+   |format=Plainlist
+   |template=PagePartTemplate
+  }}
+  {{#ask:[[BelongsToPage::{{#titleparts: {{FULLPAGENAME}}|1}}]][[!AggregatedComponent]]
+   |mainlabel=
+   |? HasPageLabel=
+   |? HasSequence=
+   |sort=HasSequence
+   |link=none
+   |format=Plainlist
+   |template=PagePartTemplate
+  }}{{addInfoPartsTemplate}}&lt;/ol&gt;&lt;/div&gt;
+|}}</text>
+      <sha1>qoik9fj53hlyi5wkvlzgwmgzvn38vn4</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:ComponentDescriptionTemplate</title>
+    <ns>10</ns>
+    <id>331</id>
+    <revision>
+      <id>36491</id>
+      <parentid>33457</parentid>
+      <timestamp>2020-04-01T12:45:05Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>36491</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="526" sha1="jlag8qklle4fyh3vgxc5rymu5xmj2a0" xml:space="preserve">&lt;noinclude&gt;
+This is the "ComponentSubpageTemplate" template.
+It should be called in the following format:
+&lt;pre&gt;
+{{ComponentDescriptionTemplate
+|Reference
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;{{ComponentFrameTemplate}}&lt;div class="page_standard"&gt;
+==Model description of {{ROOTPAGENAME}}==
+&lt;/div&gt;
+[[Category:ComponentDescription]]
+{{#set:
+|HasReference={{{Reference|}}}|+sep=;
+|HasPageLabel=Model description
+|BelongsToPage={{#titleparts: {{FULLPAGENAME}}|1}}
+|HasSequence=1
+}}&lt;/includeonly&gt;</text>
+      <sha1>jlag8qklle4fyh3vgxc5rymu5xmj2a0</sha1>
+    </revision>
+  </page>
+</mediawiki>

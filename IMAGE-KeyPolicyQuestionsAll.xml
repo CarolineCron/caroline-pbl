@@ -1,0 +1,1869 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>IMAGE</sitename>
+    <dbname>imagedb</dbname>
+    <base>https://models.pbl.nl/image/Home_IMAGE</base>
+    <generator>MediaWiki 1.39.7</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">IMAGE-3</namespace>
+      <namespace key="5" case="first-letter">IMAGE-3 talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="102" case="first-letter">Property</namespace>
+      <namespace key="103" case="first-letter">Property talk</namespace>
+      <namespace key="106" case="first-letter">Form</namespace>
+      <namespace key="107" case="first-letter">Form talk</namespace>
+      <namespace key="108" case="first-letter">Concept</namespace>
+      <namespace key="109" case="first-letter">Concept talk</namespace>
+      <namespace key="112" case="first-letter">smw/schema</namespace>
+      <namespace key="113" case="first-letter">smw/schema talk</namespace>
+      <namespace key="114" case="first-letter">Rule</namespace>
+      <namespace key="115" case="first-letter">Rule talk</namespace>
+      <namespace key="2300" case="case-sensitive">Gadget</namespace>
+      <namespace key="2301" case="case-sensitive">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>PQ1 (ESD)</title>
+    <ns>0</ns>
+    <id>1045</id>
+    <revision>
+      <id>23498</id>
+      <parentid>18686</parentid>
+      <timestamp>2014-05-23T10:52:08Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23498</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="365" sha1="4q4zajz80wj34pmqcwm954qnl2m7vjg" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=How can energy supply and demand become more sustainable, balancing human development, security of supply, and concerns about climate change and air pollution?
+|BelongsToComponent=Energy supply and demand
+|EnergyThemeItem=Energy demand (Energy); Energy emissions (Energy); Energy system (Energy); Other energy (Energy)
+}}</text>
+      <sha1>4q4zajz80wj34pmqcwm954qnl2m7vjg</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ2 (ESD)</title>
+    <ns>0</ns>
+    <id>1046</id>
+    <revision>
+      <id>23463</id>
+      <parentid>18688</parentid>
+      <timestamp>2014-05-23T10:52:03Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23463</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="251" sha1="47cvnhm0ckld36eo8cod6ha8i5pb9j0" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=What transitions in the energy system would meet long-term climate goals?
+|BelongsToComponent=Energy supply and demand
+|EnergyThemeItem=Other energy (Energy)
+|ClimateThemeItem=Climate mitigation (Climate)
+}}</text>
+      <sha1>47cvnhm0ckld36eo8cod6ha8i5pb9j0</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ3 (ESD)</title>
+    <ns>0</ns>
+    <id>1052</id>
+    <revision>
+      <id>23462</id>
+      <parentid>18687</parentid>
+      <timestamp>2014-05-23T10:52:03Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23462</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="203" sha1="slogvwfmv97ydkp3ler4899i2u9iigb" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=How are these strategies affected by uncertainties in the energy system?
+|BelongsToComponent=Energy supply and demand
+|EnergyThemeItem=Other energy (Energy)
+}}</text>
+      <sha1>slogvwfmv97ydkp3ler4899i2u9iigb</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ1 (ED)</title>
+    <ns>0</ns>
+    <id>1053</id>
+    <revision>
+      <id>23482</id>
+      <parentid>19292</parentid>
+      <timestamp>2014-05-23T10:52:06Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23482</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="213" sha1="gg1a9i8wczqn8bee419s4qhdotj1pzm" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=How will energy demand evolve particularly in emerging and medium- and low-income economies?
+|BelongsToComponent=Energy demand
+|EnergyThemeItem=Energy demand (Energy)
+}}</text>
+      <sha1>gg1a9i8wczqn8bee419s4qhdotj1pzm</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ2 (ED)</title>
+    <ns>0</ns>
+    <id>1054</id>
+    <revision>
+      <id>23509</id>
+      <parentid>21392</parentid>
+      <timestamp>2014-05-23T10:52:08Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23509</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="193" sha1="754xxpll4mrkrnjvpqsdmjvzbatznvv" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=What is the mix of end-use energy carriers to meet future energy demand?
+|BelongsToComponent=Energy demand
+|EnergyThemeItem=Energy demand (Energy)
+}}</text>
+      <sha1>754xxpll4mrkrnjvpqsdmjvzbatznvv</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ3 (ED)</title>
+    <ns>0</ns>
+    <id>1055</id>
+    <revision>
+      <id>23480</id>
+      <parentid>21393</parentid>
+      <timestamp>2014-05-23T10:52:06Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23480</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="303" sha1="6frxtrdw8jcsa0zmql2fdsotujy3pzc" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=How can energy efficiency contribute to reducing the growth rate of energy demand and mitigate pressures on the global environment?
+|BelongsToComponent=Energy demand
+|EnergyThemeItem=Energy demand (Energy); Energy emissions (Energy); Energy system (Energy)
+}}</text>
+      <sha1>6frxtrdw8jcsa0zmql2fdsotujy3pzc</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ1 (EC)</title>
+    <ns>0</ns>
+    <id>1056</id>
+    <revision>
+      <id>23494</id>
+      <parentid>18653</parentid>
+      <timestamp>2014-05-23T10:52:07Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23494</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="260" sha1="pxcsne649r48yv1v97swhn22ojrslrt" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=What is the potential role of energy conversion sector, particularly in power production, in achieving a more sustainable energy system?
+|BelongsToComponent=Energy conversion
+|EnergyThemeItem=Other energy (Energy)
+}}</text>
+      <sha1>pxcsne649r48yv1v97swhn22ojrslrt</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ2 (EC)</title>
+    <ns>0</ns>
+    <id>1057</id>
+    <revision>
+      <id>23484</id>
+      <parentid>18654</parentid>
+      <timestamp>2014-05-23T10:52:06Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23484</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="315" sha1="54ux7mu77cgy7pegk1xf1vaeaoz9kl8" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=What are the potential roles of individual technologies, such as carbon capture and storage (CCS), nuclear power, hydrogen and renewable energy?
+|BelongsToComponent=Energy conversion
+|EnergyThemeItem=Other energy (Energy)
+|ClimateThemeItem=Climate mitigation (Climate)
+}}</text>
+      <sha1>54ux7mu77cgy7pegk1xf1vaeaoz9kl8</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ1 (ES)</title>
+    <ns>0</ns>
+    <id>1058</id>
+    <revision>
+      <id>23493</id>
+      <parentid>18685</parentid>
+      <timestamp>2014-05-23T10:52:07Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23493</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="196" sha1="kcw16hzkhm60whoou3oud4ecubt5b32" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=How can energy resources be exploited to meet future primary energy demand?
+|BelongsToComponent=Energy supply
+|EnergyThemeItem=Energy system (Energy)
+}}</text>
+      <sha1>kcw16hzkhm60whoou3oud4ecubt5b32</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ2 (ES)</title>
+    <ns>0</ns>
+    <id>1059</id>
+    <revision>
+      <id>23486</id>
+      <parentid>18684</parentid>
+      <timestamp>2014-05-23T10:52:06Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23486</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="233" sha1="icpzs94knwhg594hqclhbeu54qf1357" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=How can energy supply and demand be balanced between world regions, and how will this effect security of supply?
+|BelongsToComponent=Energy supply
+|EnergyThemeItem=Energy demand (Energy)
+}}</text>
+      <sha1>icpzs94knwhg594hqclhbeu54qf1357</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ3 (ES)</title>
+    <ns>0</ns>
+    <id>1060</id>
+    <revision>
+      <id>23473</id>
+      <parentid>18683</parentid>
+      <timestamp>2014-05-23T10:52:05Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23473</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="194" sha1="gbx52shm9w89c856w0smy23lad2p3xi" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=How rapidly can the transition to more sustainable energy supply be made?
+|BelongsToComponent=Energy supply
+|EnergyThemeItem=Energy system (Energy)
+}}</text>
+      <sha1>gbx52shm9w89c856w0smy23lad2p3xi</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ1 (FM)</title>
+    <ns>0</ns>
+    <id>1064</id>
+    <revision>
+      <id>23504</id>
+      <parentid>18697</parentid>
+      <timestamp>2014-05-23T10:52:08Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23504</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="273" sha1="580o0cac789x8dzx5yekqvo1vvxh1i1" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=How can management influence forest capacity to meet future demand for wood and other ecosystem services?
+|BelongsToComponent=Forest management
+|LanduseThemeItem=Forestry (Land use)
+|NatureThemeItem=Eco goods and services (NB)
+}}</text>
+      <sha1>580o0cac789x8dzx5yekqvo1vvxh1i1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ2 (FM)</title>
+    <ns>0</ns>
+    <id>1065</id>
+    <revision>
+      <id>23507</id>
+      <parentid>18692</parentid>
+      <timestamp>2014-05-23T10:52:08Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23507</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="327" sha1="5323lr1mn1o2bdx5890irmfg7ioytug" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=What are the implications of forest management for pristine and managed forest areas, and on biomass and carbon stocks and fluxes of relevance for climate policy?
+|BelongsToComponent=Forest management
+|LanduseThemeItem=Forestry (Land use)
+|ClimateThemeItem=GHG emissions (Climate)
+}}</text>
+      <sha1>5323lr1mn1o2bdx5890irmfg7ioytug</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ3 (FM)</title>
+    <ns>0</ns>
+    <id>1066</id>
+    <revision>
+      <id>23496</id>
+      <parentid>18696</parentid>
+      <timestamp>2014-05-23T10:52:07Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23496</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="244" sha1="43kk7x9w5lsg6zi30nib5cljvwjmmqc" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=What are the prospects for more sustainable forest management and the role of production in dedicated forest plantations?
+|BelongsToComponent=Forest management
+|LanduseThemeItem=Forestry (Land use)
+}}</text>
+      <sha1>43kk7x9w5lsg6zi30nib5cljvwjmmqc</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ1 (LS)</title>
+    <ns>0</ns>
+    <id>1068</id>
+    <revision>
+      <id>23503</id>
+      <parentid>22460</parentid>
+      <timestamp>2014-05-23T10:52:08Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23503</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="403" sha1="7hf53bwukg743twt5oqg3xya54x06ct" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=What are the impacts of increasing livestock production on land use, greenhouse gases and other emissions to air and surface water?
+|BelongsToComponent=Livestock systems
+|FoodThemeItem=Animal husbandry (Food); Nutrition and diet (Food)
+|AirThemeItem=Air quality (Air pollution); Other air pollution (Air pollution)
+|ClimateThemeItem=GHG emissions (Climate)
+}}</text>
+      <sha1>7hf53bwukg743twt5oqg3xya54x06ct</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ2 (LS)</title>
+    <ns>0</ns>
+    <id>1069</id>
+    <revision>
+      <id>23485</id>
+      <parentid>22461</parentid>
+      <timestamp>2014-05-23T10:52:06Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23485</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="311" sha1="fwydrt4mq3ti45q85trgxzwce8xnbff" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=How does the use of marginal lands for grazing increase the risk of degradation and loss of productivity, inducing more forest clearing?
+|BelongsToComponent=Livestock systems
+|LanduseThemeItem=Agricultural land use (Land use)
+|FoodThemeItem=Animal husbandry (Food)
+}}</text>
+      <sha1>fwydrt4mq3ti45q85trgxzwce8xnbff</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ1 (E)</title>
+    <ns>0</ns>
+    <id>1070</id>
+    <revision>
+      <id>23461</id>
+      <parentid>18652</parentid>
+      <timestamp>2014-05-23T10:52:03Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23461</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="428" sha1="h5f8fkqy8wz9qmcg24u1w9w4vznebrk" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=How will emissions of greenhouse gases and air pollutants develop in scenarios with and without policy interventions, such as climate policy and air pollution control?
+|BelongsToComponent=Emissions
+|AirThemeItem=Air quality (Air pollution); BC-OC emissions (Air pollution); Other air pollution (Air pollution)
+|ClimateThemeItem=Climate mitigation (Climate); GHG emissions (Climate)
+}}</text>
+      <sha1>h5f8fkqy8wz9qmcg24u1w9w4vznebrk</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ2 (E)</title>
+    <ns>0</ns>
+    <id>1072</id>
+    <revision>
+      <id>18649</id>
+      <parentid>18642</parentid>
+      <timestamp>2014-03-12T11:51:13Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <origin>18649</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="273" sha1="e8fuydxpd6azh1qc4xd05dtpcg3ckhb" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=What synergies between climate policy and air pollution control can be identified?
+|BelongsToComponent=Emissions
+|AirThemeItem=Air quality (Air pollution)
+|ClimateThemeItem=Climate mitigation (Climate); GHG emissions (Climate)
+}}</text>
+      <sha1>e8fuydxpd6azh1qc4xd05dtpcg3ckhb</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ2 (VHA)</title>
+    <ns>0</ns>
+    <id>1077</id>
+    <revision>
+      <id>23468</id>
+      <parentid>22646</parentid>
+      <timestamp>2014-05-23T10:52:04Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23468</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="388" sha1="c3gc9uyagr58seetde7jmxn6jaqoo5v" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=How do climate change and land-use management affect the land productivity of current and future agricultural land?
+|BelongsToComponent=Carbon, vegetation, agriculture and water
+|LanduseThemeItem=Agricultural land use (Land use)
+|FoodThemeItem=Crop production (Food)
+|ClimateThemeItem=Climate change (Climate)
+|BelongsToTheme=Multiple themes
+}}</text>
+      <sha1>c3gc9uyagr58seetde7jmxn6jaqoo5v</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ1 (NVCC)</title>
+    <ns>0</ns>
+    <id>1079</id>
+    <revision>
+      <id>23469</id>
+      <parentid>22506</parentid>
+      <timestamp>2014-05-23T10:52:04Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23469</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="340" sha1="e0mldvmc55xclsqiunbrail3gljpeqy" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=What is the role of the terrestrial biosphere in the global carbon cycle, how will it change in time as a result of climate and land-use change?
+|BelongsToComponent=Carbon cycle and natural vegetation
+|LanduseThemeItem=Agricultural land use (Land use)
+|ClimateThemeItem=GHG emissions (Climate)
+}}</text>
+      <sha1>e0mldvmc55xclsqiunbrail3gljpeqy</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ2 (NVCC)</title>
+    <ns>0</ns>
+    <id>1080</id>
+    <revision>
+      <id>25149</id>
+      <parentid>25065</parentid>
+      <timestamp>2014-07-01T08:30:22Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <minor/>
+      <comment>Text replace - "CO&lt;sub&gt;2&lt;/sub&gt;" to "CO&lt;sub&gt;2&lt;/sub&gt; "</comment>
+      <origin>25149</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="297" sha1="t5c8979y5m234qtrrpwy6mp093l4gnf" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=To what extent can the terrestrial biosphere contribute to reducing the accumulation of CO&lt;sub&gt;2&lt;/sub&gt; in the atmosphere and what are viable mechanisms?
+|BelongsToComponent=Carbon cycle and natural vegetation
+|ClimateThemeItem=GHG emissions (Climate)
+}}</text>
+      <sha1>t5c8979y5m234qtrrpwy6mp093l4gnf</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ3 (NVCC)</title>
+    <ns>0</ns>
+    <id>1083</id>
+    <revision>
+      <id>22520</id>
+      <parentid>18728</parentid>
+      <timestamp>2014-05-17T07:05:11Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <minor/>
+      <comment>Text replace - "Natural vegetation and carbon cycle" to "Carbon cycle and natural vegetation"</comment>
+      <origin>22520</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="343" sha1="b1u2tpcu7ryyrmuyuyti2y294e021s6" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=What opportunities exist to reduce land-use related carbon emissions (e.g. REDD) and even enhance the carbon uptake through the establishment of new forests.
+|BelongsToComponent=Carbon cycle and natural vegetation
+|LanduseThemeItem=Degradation (Land use)
+|ClimateThemeItem=GHG emissions (Climate)
+}}</text>
+      <sha1>b1u2tpcu7ryyrmuyuyti2y294e021s6</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ1 (CG)</title>
+    <ns>0</ns>
+    <id>1086</id>
+    <revision>
+      <id>23499</id>
+      <parentid>22536</parentid>
+      <timestamp>2014-05-23T10:52:08Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23499</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="254" sha1="3jdd3upc15ngr3i7fjg43zoui4k618e" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=How will climate change affect the productivity of current and future agricultural areas?
+|BelongsToComponent=Crops and grass
+|FoodThemeItem=Crop production (Food)
+|ClimateThemeItem=Climate impacts (Climate)
+}}</text>
+      <sha1>3jdd3upc15ngr3i7fjg43zoui4k618e</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ2 (CG)</title>
+    <ns>0</ns>
+    <id>1087</id>
+    <revision>
+      <id>23513</id>
+      <parentid>22545</parentid>
+      <timestamp>2014-05-23T10:52:09Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23513</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="248" sha1="fiyo8gvauu3xwqw8o3yhx5aubj6upnx" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=How could management improve agricultural productivity under current and future water constraints?
+|BelongsToComponent=Crops and grass
+|ClimateThemeItem=GHG emissions (Climate); Other climate (Climate)
+}}</text>
+      <sha1>fiyo8gvauu3xwqw8o3yhx5aubj6upnx</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ3 (CG)</title>
+    <ns>0</ns>
+    <id>1088</id>
+    <revision>
+      <id>23497</id>
+      <parentid>22546</parentid>
+      <timestamp>2014-05-23T10:52:07Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23497</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="327" sha1="6px6z1x3lr1pmz21wokxmn173dp9gyc" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=How will agriculture affect the Earth system with respect to carbon emissions, freshwater availability and nutrient cycles?
+|BelongsToComponent=Crops and grass
+|WaterThemeItem=Water stress (Water)
+|LanduseThemeItem=Agricultural land use (Land use)
+|NatureThemeItem=Land cover (NB)
+}}</text>
+      <sha1>6px6z1x3lr1pmz21wokxmn173dp9gyc</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ1 (H)</title>
+    <ns>0</ns>
+    <id>1089</id>
+    <revision>
+      <id>23456</id>
+      <parentid>21467</parentid>
+      <timestamp>2014-05-23T10:52:03Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23456</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="321" sha1="5tls0lrj73vqv4tyahtn690t04ktn32" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=What is the combined effect of climate change and socio-economic development on water demand and availability, and on associated agricultural production?
+|BelongsToComponent=Water
+|WaterThemeItem=Irrigation (Water); Water stress (Water)
+|FoodThemeItem=Crop production (Food)
+}}</text>
+      <sha1>5tls0lrj73vqv4tyahtn690t04ktn32</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ2 (H)</title>
+    <ns>0</ns>
+    <id>1090</id>
+    <revision>
+      <id>23481</id>
+      <parentid>21456</parentid>
+      <timestamp>2014-05-23T10:52:06Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23481</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="239" sha1="6ygteuuk7g20qm0y3prhwmgr0l579pq" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=What is the potential of adaptation measures to reduce water stress and water-related crop production losses?
+|BelongsToComponent=Water
+|WaterThemeItem=Irrigation (Water); Water stress (Water)
+}}</text>
+      <sha1>6ygteuuk7g20qm0y3prhwmgr0l579pq</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ1 (N)</title>
+    <ns>0</ns>
+    <id>1092</id>
+    <revision>
+      <id>23458</id>
+      <parentid>22582</parentid>
+      <timestamp>2014-05-23T10:52:03Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23458</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="243" sha1="kt4w6wy9u5tsmegyg54u8yo24nxbpf9" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=How will the increasing use of fertilisers affect terrestrial and marine ecosystems, with possible consequences for human health?
+|BelongsToComponent=Nutrients
+|WaterThemeItem=Water stress (Water)
+}}</text>
+      <sha1>kt4w6wy9u5tsmegyg54u8yo24nxbpf9</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ2 (N)</title>
+    <ns>0</ns>
+    <id>1093</id>
+    <revision>
+      <id>23488</id>
+      <parentid>22575</parentid>
+      <timestamp>2014-05-23T10:52:06Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23488</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="308" sha1="lgqhz3o2b3hjkoygz0scvpyy0nzq3qa" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=To what extent can the negative impacts be reduced by more efficient nutrient management and wastewater treatment, while retaining the positive effects on food production and land productivity?
+|BelongsToComponent=Nutrients
+|WaterThemeItem=Water quality (Water)
+}}</text>
+      <sha1>lgqhz3o2b3hjkoygz0scvpyy0nzq3qa</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ1 (ACC)</title>
+    <ns>0</ns>
+    <id>1094</id>
+    <revision>
+      <id>23477</id>
+      <parentid>18612</parentid>
+      <timestamp>2014-05-23T10:52:05Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23477</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="264" sha1="nnees6tkik9x83qcu65l2o4xs2q0rk5" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=What would be the impact of global climate change in this century without additional mitigation policies and measures?
+|BelongsToComponent=Atmospheric composition and climate
+|ClimateThemeItem=Climate change (Climate)
+}}</text>
+      <sha1>nnees6tkik9x83qcu65l2o4xs2q0rk5</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ2 (ACC)</title>
+    <ns>0</ns>
+    <id>1095</id>
+    <revision>
+      <id>23487</id>
+      <parentid>18616</parentid>
+      <timestamp>2014-05-23T10:52:06Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23487</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="335" sha1="9ov9eqos3w3thtxiigcvm0e7azlfnz2" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=To what extent would the various scenarios to significantly reduce net greenhouse gas emissions lead to a reduction in climate change?
+|BelongsToComponent=Atmospheric composition and climate
+|ClimateThemeItem=Climate change (Climate); Climate mitigation (Climate); GHG emissions (Climate)
+}}</text>
+      <sha1>9ov9eqos3w3thtxiigcvm0e7azlfnz2</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ3 (ACC)</title>
+    <ns>0</ns>
+    <id>1096</id>
+    <revision>
+      <id>23492</id>
+      <parentid>18614</parentid>
+      <timestamp>2014-05-23T10:52:07Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23492</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="304" sha1="is1t0zezk4jskpaml5h83nisr66zmlr" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=To what extent does the uncertainty of geographical patterns in temperature and precipitation change influence future climate impacts and response strategies?
+|BelongsToComponent=Atmospheric composition and climate
+|ClimateThemeItem=Climate change (Climate)
+}}</text>
+      <sha1>is1t0zezk4jskpaml5h83nisr66zmlr</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ1 (TB)</title>
+    <ns>0</ns>
+    <id>1097</id>
+    <revision>
+      <id>23451</id>
+      <parentid>18731</parentid>
+      <timestamp>2014-05-23T10:52:02Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23451</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="247" sha1="stdaqe8z8byook5k39pluypqcngrk67" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=What is the future rate of terrestrial biodiversity loss in the absence of additional policies and measures?
+|BelongsToComponent=Terrestrial biodiversity
+|NatureThemeItem=Terrestrial biodiversity (NB)
+}}</text>
+      <sha1>stdaqe8z8byook5k39pluypqcngrk67</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ3 (TB)</title>
+    <ns>0</ns>
+    <id>1099</id>
+    <revision>
+      <id>23506</id>
+      <parentid>18732</parentid>
+      <timestamp>2014-05-23T10:52:08Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23506</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="358" sha1="6gm4t21ar35xeyqgrupa9vlc879yj22" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=How will nature conservation policies and measures to reduce the key pressure factors of biodiversity loss contribute to meeting the targets of the UN Convention on Biological Diversity (CBD)?
+|BelongsToComponent=Terrestrial biodiversity
+|NatureThemeItem=Aquatic biodiversity (NB); Terrestrial biodiversity (NB)
+}}</text>
+      <sha1>6gm4t21ar35xeyqgrupa9vlc879yj22</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ1 (AB)</title>
+    <ns>0</ns>
+    <id>1102</id>
+    <revision>
+      <id>23483</id>
+      <parentid>18575</parentid>
+      <timestamp>2014-05-23T10:52:06Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23483</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="292" sha1="mzopnwxikzzxxrgboa32e1q0xz8ne41" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=How will the biodiversity in freshwater bodies develop in the absence of additional policies and measures?
+|BelongsToComponent=Aquatic biodiversity
+|WaterThemeItem=Water quality (Water)
+|NatureThemeItem=Aquatic biodiversity (NB); Land cover (NB)
+}}</text>
+      <sha1>mzopnwxikzzxxrgboa32e1q0xz8ne41</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ2 (AB)</title>
+    <ns>0</ns>
+    <id>1103</id>
+    <revision>
+      <id>23516</id>
+      <parentid>23452</parentid>
+      <timestamp>2014-05-23T10:58:50Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <origin>23516</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="240" sha1="nkz5sf5s9z7ouw94zu8xuw1mlxubq87" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=What are the key pressure factors causing loss of aquatic biodiversity?
+|BelongsToComponent=Aquatic biodiversity
+|WaterThemeItem=Water quality (Water)
+|NatureThemeItem=Aquatic biodiversity (NB)
+}}</text>
+      <sha1>nkz5sf5s9z7ouw94zu8xuw1mlxubq87</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ3 (AB)</title>
+    <ns>0</ns>
+    <id>1104</id>
+    <revision>
+      <id>23457</id>
+      <parentid>18607</parentid>
+      <timestamp>2014-05-23T10:52:03Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23457</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="365" sha1="j4fudpm97aoiq46hr39kzhi5bh5x22b" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=How will policies and measures to reduce the key pressure factors contribute to meeting the internationally agreed targets of the UN Convention on Biological Diversity (CBD)?
+|BelongsToComponent=Aquatic biodiversity
+|WaterThemeItem=Water quality (Water); Water stress (Water)
+|NatureThemeItem=Aquatic biodiversity (NB)
+}}</text>
+      <sha1>j4fudpm97aoiq46hr39kzhi5bh5x22b</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ1 (FR)</title>
+    <ns>0</ns>
+    <id>1105</id>
+    <revision>
+      <id>23467</id>
+      <parentid>18690</parentid>
+      <timestamp>2014-05-23T10:52:04Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23467</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="206" sha1="h8b7ss0vekota9k5fqbt9o69lyutoqb" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=How will future flood risk change as a result of socio-economic changes and climate change?
+|BelongsToComponent=Flood risks
+|WaterThemeItem=Other water (Water)
+}}</text>
+      <sha1>h8b7ss0vekota9k5fqbt9o69lyutoqb</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ2 (FR)</title>
+    <ns>0</ns>
+    <id>1106</id>
+    <revision>
+      <id>23512</id>
+      <parentid>18691</parentid>
+      <timestamp>2014-05-23T10:52:09Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23512</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="211" sha1="bls6bj18uucu45sr0t1fv5d95ibcyyy" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=What would be the impact of floods, in terms of damage and victims, and where are the hot spots?
+|BelongsToComponent=Flood risks
+|WaterThemeItem=Other water (Water)
+}}</text>
+      <sha1>bls6bj18uucu45sr0t1fv5d95ibcyyy</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ3 (FR)</title>
+    <ns>0</ns>
+    <id>1107</id>
+    <revision>
+      <id>24583</id>
+      <parentid>23446</parentid>
+      <timestamp>2014-06-23T07:15:03Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>24583</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="205" sha1="9mq35s4iju0ybb071wzsznxrvy88hb0" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=What would be suitable adaptation strategies and investment options related to flood risk?
+|BelongsToComponent=Flood risks
+|WaterThemeItem=Other water (Water)
+}}</text>
+      <sha1>9mq35s4iju0ybb071wzsznxrvy88hb0</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ1 (LD)</title>
+    <ns>0</ns>
+    <id>1108</id>
+    <revision>
+      <id>23524</id>
+      <parentid>23476</parentid>
+      <timestamp>2014-05-23T11:08:55Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <origin>23524</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="263" sha1="d2ife42y0j8fb7ydl4ncczqvi07c0g1" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=In what parts of the world have human-induced changes in land and soil conditions occurred?
+|BelongsToComponent=Land degradation
+|LanduseThemeItem=Degradation (Land use)
+|NatureThemeItem=Terrestrial biodiversity (NB)
+}}</text>
+      <sha1>d2ife42y0j8fb7ydl4ncczqvi07c0g1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ2 (LD)</title>
+    <ns>0</ns>
+    <id>1109</id>
+    <revision>
+      <id>23472</id>
+      <parentid>18721</parentid>
+      <timestamp>2014-05-23T10:52:05Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23472</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="171" sha1="p4ifi4vc7cnshfcyi515z7gtg42btgz" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=What are the future risks of soil degradation?
+|BelongsToComponent=Land degradation
+|LanduseThemeItem=Degradation (Land use)
+}}</text>
+      <sha1>p4ifi4vc7cnshfcyi515z7gtg42btgz</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ3 (LD)</title>
+    <ns>0</ns>
+    <id>1110</id>
+    <revision>
+      <id>23523</id>
+      <parentid>23455</parentid>
+      <timestamp>2014-05-23T11:08:07Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <origin>23523</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="327" sha1="rmxczmatzbnetwju0s4lgcqz8r5nkdd" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=To what extent are ecosystem functions lost by soil degradation, adding to local and global concerns about food security, biodiversity loss and climate change?
+|BelongsToComponent=Land degradation
+|LanduseThemeItem=Degradation (Land use)
+|ClimateThemeItem=Climate change (Climate)
+}}</text>
+      <sha1>rmxczmatzbnetwju0s4lgcqz8r5nkdd</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ1 (EGS)</title>
+    <ns>0</ns>
+    <id>1112</id>
+    <revision>
+      <id>23510</id>
+      <parentid>22608</parentid>
+      <timestamp>2014-05-23T10:52:09Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23510</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="250" sha1="njkvu8rcv39zkw9uc3qdy8zc1mpej1f" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=How would ecosystem services and the benefits from the natural environment develop in the absence of specific policies?
+|BelongsToComponent=Ecosystem services
+|NatureThemeItem=Eco goods and services (NB)
+}}</text>
+      <sha1>njkvu8rcv39zkw9uc3qdy8zc1mpej1f</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ2 (EGS)</title>
+    <ns>0</ns>
+    <id>1113</id>
+    <revision>
+      <id>23449</id>
+      <parentid>22609</parentid>
+      <timestamp>2014-05-23T10:52:02Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23449</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="212" sha1="27sn19r60pvauuauq6oawfwn9vz9pua" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=How could policy interventions contribute to improving future ecosystem services?
+|BelongsToComponent=Ecosystem services
+|NatureThemeItem=Eco goods and services (NB)
+}}</text>
+      <sha1>27sn19r60pvauuauq6oawfwn9vz9pua</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ1 (HD)</title>
+    <ns>0</ns>
+    <id>1114</id>
+    <revision>
+      <id>23459</id>
+      <parentid>18698</parentid>
+      <timestamp>2014-05-23T10:52:03Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23459</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="254" sha1="jtaaj1pn81p18eg1mud8yczbdrbnghm" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=What are the key future trends in human development, such as those targeted by the Millennium Development Goals (MDGs)?
+|BelongsToComponent=Human development
+|HumanDevelopmentThemeItem=Human development (HD)
+}}</text>
+      <sha1>jtaaj1pn81p18eg1mud8yczbdrbnghm</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ2 (HD)</title>
+    <ns>0</ns>
+    <id>1115</id>
+    <revision>
+      <id>23450</id>
+      <parentid>18702</parentid>
+      <timestamp>2014-05-23T10:52:02Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23450</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="212" sha1="4e0tuqd5fjgkntyodmcwczffg4x5luh" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=How are changes in the global environment likely to affect human development?
+|BelongsToComponent=Human development
+|HumanDevelopmentThemeItem=Human development (HD)
+}}</text>
+      <sha1>4e0tuqd5fjgkntyodmcwczffg4x5luh</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ3 (HD)</title>
+    <ns>0</ns>
+    <id>1116</id>
+    <revision>
+      <id>18701</id>
+      <parentid>18699</parentid>
+      <timestamp>2014-03-12T12:30:17Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <origin>18701</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="226" sha1="l9rwl2781h69n2z16s268qwa9ven3bs" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=How is improved access to food, water and energy likely to contribute to human development?
+|BelongsToComponent=Human development
+|HumanDevelopmentThemeItem=Human development (HD)
+}}</text>
+      <sha1>l9rwl2781h69n2z16s268qwa9ven3bs</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ1 (CP)</title>
+    <ns>0</ns>
+    <id>1118</id>
+    <revision>
+      <id>31665</id>
+      <parentid>23528</parentid>
+      <timestamp>2017-07-14T10:33:38Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>31665</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="269" sha1="e6829qdg129fht7gi8p2y1plja8z6a1" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=What global greenhouse gas emissions pathways would meet the well below 2 °C climate target? 
+|BelongsToComponent=Climate policy
+|ClimateThemeItem=Climate change (Climate); GHG emissions (Climate); Other climate (Climate)
+}}</text>
+      <sha1>e6829qdg129fht7gi8p2y1plja8z6a1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ2 (CP)</title>
+    <ns>0</ns>
+    <id>1119</id>
+    <revision>
+      <id>23500</id>
+      <parentid>18622</parentid>
+      <timestamp>2014-05-23T10:52:08Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23500</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="285" sha1="q7ravkvi10nbxo492trlsbqscy9n5zj" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=What is the effect of effort-sharing approaches on regional and national emission reduction targets and on the cost of climate policies?
+|BelongsToComponent=Climate policy
+|ClimateThemeItem=GHG emissions (Climate); Other climate (Climate)
+}}</text>
+      <sha1>q7ravkvi10nbxo492trlsbqscy9n5zj</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ4 (CP)</title>
+    <ns>0</ns>
+    <id>1121</id>
+    <revision>
+      <id>23464</id>
+      <parentid>18626</parentid>
+      <timestamp>2014-05-23T10:52:04Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23464</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="305" sha1="3ff6v2nb272muwrs8euaxxjuvknp2hy" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=What are the trade-offs between mitigation costs, adaptation costs, and climate change damage?
+|BelongsToComponent=Climate policy
+|ClimateThemeItem=Climate adaptation (Climate); Climate impacts (Climate); Climate mitigation (Climate); Other climate (Climate)
+}}</text>
+      <sha1>3ff6v2nb272muwrs8euaxxjuvknp2hy</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ1 (APEP)</title>
+    <ns>0</ns>
+    <id>1123</id>
+    <revision>
+      <id>23460</id>
+      <parentid>18589</parentid>
+      <timestamp>2014-05-23T10:52:03Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23460</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="360" sha1="homgtgox668p02bu5z06w6jkt9a9ood" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=How do energy policies contribute to economic and social development, and how do they support or hamper a more sustainable future?
+|BelongsToComponent=Air pollution and energy policies
+|EnergyThemeItem=Energy demand (Energy)
+|AirThemeItem=Air quality (Air pollution)
+|ClimateThemeItem=Climate mitigation (Climate)
+}}</text>
+      <sha1>homgtgox668p02bu5z06w6jkt9a9ood</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ2 (APEP)</title>
+    <ns>0</ns>
+    <id>1124</id>
+    <revision>
+      <id>23474</id>
+      <parentid>18587</parentid>
+      <timestamp>2014-05-23T10:52:05Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23474</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="309" sha1="9gz5ygwrs39b7y27txnhh8ihu4wwn0v" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=How can the goals for affordable, clean and reliable energy be achieved taking into account possible synergies and trade-offs?
+|BelongsToComponent=Air pollution and energy policies
+|EnergyThemeItem=Energy demand (Energy)
+|AirThemeItem=Air quality (Air pollution)
+}}</text>
+      <sha1>9gz5ygwrs39b7y27txnhh8ihu4wwn0v</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ1 (LBP)</title>
+    <ns>0</ns>
+    <id>1126</id>
+    <revision>
+      <id>23521</id>
+      <parentid>23478</parentid>
+      <timestamp>2014-05-23T11:04:31Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <origin>23521</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="306" sha1="ijm5qzln4fya6tay36jr9m6mp2tv2is" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=How can land-use policies contribute to strategies for halting biodiversity loss and reducing greenhouse gas emissions?
+|BelongsToComponent=Land and biodiversity policies
+|NatureThemeItem=Terrestrial biodiversity (NB)
+|ClimateThemeItem=GHG emissions (Climate)
+}}</text>
+      <sha1>ijm5qzln4fya6tay36jr9m6mp2tv2is</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ2 (LBP)</title>
+    <ns>0</ns>
+    <id>1127</id>
+    <revision>
+      <id>23448</id>
+      <parentid>19199</parentid>
+      <timestamp>2014-05-23T10:52:02Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23448</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="284" sha1="88r8oqsloms0ev9s4gveeqvms07wnpl" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=How can changes in consumption patterns contribute to achieving sustainability goals through changes in land use?
+|BelongsToComponent=Land and biodiversity policies
+|FoodThemeItem=Nutrition and diet (Food)
+|BelongsToTheme=Multiple themes
+}}</text>
+      <sha1>88r8oqsloms0ev9s4gveeqvms07wnpl</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ3 (LBP)</title>
+    <ns>0</ns>
+    <id>1128</id>
+    <revision>
+      <id>23522</id>
+      <parentid>23489</parentid>
+      <timestamp>2014-05-23T11:07:02Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <origin>23522</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="358" sha1="5k25a7m8mi1tt874ywxjrvtpzukyuu3" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=What are the synergies and trade-offs between halting biodiversity loss, food security, reducing nutrient emissions, and reducing water stress?
+|BelongsToComponent=Land and biodiversity policies
+|WaterThemeItem=Water stress (Water)
+|NatureThemeItem=Terrestrial biodiversity (NB)
+|FoodThemeItem=Other food (Food)
+}}</text>
+      <sha1>5k25a7m8mi1tt874ywxjrvtpzukyuu3</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ1 (IF)</title>
+    <ns>0</ns>
+    <id>1129</id>
+    <revision>
+      <id>23502</id>
+      <parentid>18736</parentid>
+      <timestamp>2014-05-23T10:52:08Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23502</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="355" sha1="pyonr9wvvt83eneu7pf4pn6uazzl8ar" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=How could global environmental issues such as climate change, biodiversity loss and air pollution evolve?
+|BelongsToComponent=IMAGE framework summary
+|NatureThemeItem=Aquatic biodiversity (NB); Terrestrial biodiversity (NB)
+|AirThemeItem=Air quality (Air pollution)
+|ClimateThemeItem=Climate change (Climate)
+}}</text>
+      <sha1>pyonr9wvvt83eneu7pf4pn6uazzl8ar</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ2 (IF)</title>
+    <ns>0</ns>
+    <id>1130</id>
+    <revision>
+      <id>23479</id>
+      <parentid>18717</parentid>
+      <timestamp>2014-05-23T10:52:06Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23479</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="499" sha1="0y9ieuy1bqgddmc2vfzg4v2cgwx6zey" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=What are the consequences of these changes for international targets for biodiversity protection (addressed by the CBD), climate change (UNFCCC) and human development (addressed by the Millennium Development Goals and Sustainable Development Goals)?
+|BelongsToComponent=IMAGE framework summary
+|NatureThemeItem=Aquatic biodiversity (NB); Terrestrial biodiversity (NB)
+|AirThemeItem=Air quality (Air pollution)
+|ClimateThemeItem=Climate change (Climate)
+}}</text>
+      <sha1>0y9ieuy1bqgddmc2vfzg4v2cgwx6zey</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ3 (IF)</title>
+    <ns>0</ns>
+    <id>1131</id>
+    <revision>
+      <id>23519</id>
+      <parentid>18102</parentid>
+      <timestamp>2014-05-23T11:03:16Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <origin>23519</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="241" sha1="djwyg8shm57m15kywzqkhsz9kcoymq7" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=How could response strategies limit environmental pressures and foster more sustainable development?
+|BelongsToComponent=IMAGE framework summary
+|HumanDevelopmentThemeItem=Human development (HD)
+}}</text>
+      <sha1>djwyg8shm57m15kywzqkhsz9kcoymq7</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ4 (IF)</title>
+    <ns>0</ns>
+    <id>1132</id>
+    <revision>
+      <id>23520</id>
+      <parentid>23495</parentid>
+      <timestamp>2014-05-23T11:03:26Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <origin>23520</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="256" sha1="kzinsej8541sdee0qff7zu5n4jxmbkk" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=What are the linkages between components of environmental change and human development? What are key uncertainties?
+|BelongsToComponent=IMAGE framework summary
+|HumanDevelopmentThemeItem=Human development (HD)
+}}</text>
+      <sha1>kzinsej8541sdee0qff7zu5n4jxmbkk</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ1 (AEF)</title>
+    <ns>0</ns>
+    <id>1303</id>
+    <revision>
+      <id>23466</id>
+      <parentid>22372</parentid>
+      <timestamp>2014-05-23T10:52:04Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23466</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="249" sha1="c8rd45wh1g76ifspoxz3nz3k5gnx18g" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=What is the area of cropland and grassland required to support future food demand?
+|BelongsToComponent=Agricultural economy
+|LanduseThemeItem=Agricultural land use (Land use); Land use system (Land use)
+}}</text>
+      <sha1>c8rd45wh1g76ifspoxz3nz3k5gnx18g</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ2 (AEF)</title>
+    <ns>0</ns>
+    <id>1304</id>
+    <revision>
+      <id>23491</id>
+      <parentid>22389</parentid>
+      <timestamp>2014-05-23T10:52:07Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23491</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="347" sha1="49xbiriwhj384fx06va5eh8lke0gwiq" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=What are the policy options to reduce agricultural land use and to safeguard global biodiversity, while ensuring food security?
+|BelongsToComponent=Agricultural economy
+|LanduseThemeItem=Agricultural land use (Land use)
+|NatureThemeItem=Terrestrial biodiversity (NB)
+|FoodThemeItem=Food demand (Food)
+}}</text>
+      <sha1>49xbiriwhj384fx06va5eh8lke0gwiq</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ3 (AEF)</title>
+    <ns>0</ns>
+    <id>1305</id>
+    <revision>
+      <id>23511</id>
+      <parentid>22367</parentid>
+      <timestamp>2014-05-23T10:52:09Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23511</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="268" sha1="fzqh6oxmivsdsz50dnottb632oze7h6" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=How can the implications of biofuels for land use and greenhouse gases be managed sustainably?
+|BelongsToComponent=Agricultural economy
+|LanduseThemeItem=Other land use (Land use)
+|ClimateThemeItem=GHG emissions (Climate)
+}}</text>
+      <sha1>fzqh6oxmivsdsz50dnottb632oze7h6</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ3 (H)</title>
+    <ns>0</ns>
+    <id>3427</id>
+    <revision>
+      <id>23454</id>
+      <parentid>21459</parentid>
+      <timestamp>2014-05-23T10:52:02Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23454</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="227" sha1="9piavzxbsst2bcn01nz2nb1o9i2y0f6" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=How can water demand be reduced and still provide the adequate service levels to the sectors with the highest demand?
+|BelongsToComponent=Water
+|WaterThemeItem=Water stress (Water)
+}}</text>
+      <sha1>9piavzxbsst2bcn01nz2nb1o9i2y0f6</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ2 (TB)</title>
+    <ns>0</ns>
+    <id>3428</id>
+    <revision>
+      <id>23527</id>
+      <parentid>23453</parentid>
+      <timestamp>2014-05-23T11:13:55Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <origin>23527</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="226" sha1="gixyzzbby5ujkm5ihiewfha1psq7eos" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=What are the key pressure factors causing biodiversity loss?
+|BelongsToComponent=Terrestrial biodiversity
+|NatureThemeItem=Aquatic biodiversity (NB); Terrestrial biodiversity (NB)
+}}</text>
+      <sha1>gixyzzbby5ujkm5ihiewfha1psq7eos</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ4 (VHA)</title>
+    <ns>0</ns>
+    <id>3433</id>
+    <revision>
+      <id>23490</id>
+      <parentid>22643</parentid>
+      <timestamp>2014-05-23T10:52:07Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23490</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="354" sha1="ousl057mg7xcrpjsxk7m09uiwh7be5g" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=What is the combined effect of climate change and socio-economic development on water demand and availability, and associated agricultural production?
+|BelongsToComponent=Carbon, vegetation, agriculture and water
+|WaterThemeItem=Irrigation (Water); Water stress (Water)
+|FoodThemeItem=Crop production (Food)
+}}</text>
+      <sha1>ousl057mg7xcrpjsxk7m09uiwh7be5g</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ3 (VHA)</title>
+    <ns>0</ns>
+    <id>3435</id>
+    <revision>
+      <id>23505</id>
+      <parentid>22641</parentid>
+      <timestamp>2014-05-23T10:52:08Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>CSV import</comment>
+      <origin>23505</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="346" sha1="pxeulfabmqlupo8h92mkooft25l3ba9" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=What is the role of the terrestrial biosphere in the global carbon cycle, how will it change in time as a result of climate and land-use change?
+|BelongsToComponent=Carbon, vegetation, agriculture and water
+|LanduseThemeItem=Agricultural land use (Land use)
+|ClimateThemeItem=GHG emissions (Climate)
+}}</text>
+      <sha1>pxeulfabmqlupo8h92mkooft25l3ba9</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ3(NVCC)</title>
+    <ns>0</ns>
+    <id>3562</id>
+    <revision>
+      <id>25108</id>
+      <parentid>25054</parentid>
+      <timestamp>2014-07-01T08:30:08Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <minor/>
+      <comment>Text replace - "CO&lt;sub&gt;2&lt;/sub&gt;" to "CO&lt;sub&gt;2&lt;/sub&gt; "</comment>
+      <origin>25108</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="364" sha1="c80ho0z57z55xzsbm1heghq7ibz0wsv" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=What are the contributions of land-use change, climate change and CO&lt;sub&gt;2&lt;/sub&gt; fertilization on the future carbon cycle and how can these be considered in climate policies?
+|BelongsToComponent=Carbon cycle and natural vegetation
+|LanduseThemeItem=Other land use (Land use)
+|ClimateThemeItem=Climate change (Climate)
+}}</text>
+      <sha1>c80ho0z57z55xzsbm1heghq7ibz0wsv</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ3 (EGS)</title>
+    <ns>0</ns>
+    <id>3563</id>
+    <revision>
+      <id>23518</id>
+      <parentid>23447</parentid>
+      <timestamp>2014-05-23T11:01:25Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <origin>23518</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="287" sha1="4xvll5aax19jp7ylgoh7i4f6r5pjeww" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=How could policy interventions influence the interaction between ecosystem services and other goals and ambitions, such as the millennium development goals?
+|BelongsToComponent=Ecosystem services
+|NatureThemeItem=Eco goods and services (NB)
+}}</text>
+      <sha1>4xvll5aax19jp7ylgoh7i4f6r5pjeww</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ1 (AS)</title>
+    <ns>0</ns>
+    <id>3564</id>
+    <revision>
+      <id>23525</id>
+      <parentid>23465</parentid>
+      <timestamp>2014-05-23T11:10:41Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <origin>23525</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="224" sha1="lf7m8yjgw9dwqkq41qn5xg8jgbzy1nj" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=How will changes in agricultural demand and trade affect future land-use patterns?
+|BelongsToComponent=Land-use allocation
+|FoodThemeItem=Nutrition and diet (Food); Trade (Food)
+}}</text>
+      <sha1>lf7m8yjgw9dwqkq41qn5xg8jgbzy1nj</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ3 (AS)</title>
+    <ns>0</ns>
+    <id>3565</id>
+    <revision>
+      <id>23529</id>
+      <parentid>23470</parentid>
+      <timestamp>2014-05-23T11:17:48Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <origin>23529</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="262" sha1="61b92f1tzfqze6gwc8nbp4ey2lw9q9z" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=How can agricultural intensification increase global food production, and what policies will contribute to this?
+|BelongsToComponent=Land-use allocation
+|FoodThemeItem=Animal husbandry (Food); Crop production (Food)
+}}</text>
+      <sha1>61b92f1tzfqze6gwc8nbp4ey2lw9q9z</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ2 (AS)</title>
+    <ns>0</ns>
+    <id>3566</id>
+    <revision>
+      <id>23526</id>
+      <parentid>23475</parentid>
+      <timestamp>2014-05-23T11:11:46Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <origin>23526</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="283" sha1="j7vbs0uhbeha3uupajmrivnrkck1qhz" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=How will land-use regulation, such as protected areas and REDD schemes, affect future land use and the impacts of land-use change?
+|BelongsToComponent=Land-use allocation
+|LanduseThemeItem=Forestry (Land use); Land use system (Land use)
+}}</text>
+      <sha1>j7vbs0uhbeha3uupajmrivnrkck1qhz</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>PQ3 (CP)</title>
+    <ns>0</ns>
+    <id>5650</id>
+    <revision>
+      <id>31696</id>
+      <timestamp>2017-07-14T12:41:59Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <comment>Created page with "{{KeyPolicyQuestionTemplate |HasDescription=What is the effect of the NDCs on achieving the long term 2 ºC target? |BelongsToComponent=Climate policy; |ClimateThemeItem=Clima..."</comment>
+      <origin>31696</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="201" sha1="3ah341r8kcglymuo3kibtct0krsx5r7" xml:space="preserve">{{KeyPolicyQuestionTemplate
+|HasDescription=What is the effect of the NDCs on achieving the long term 2 ºC target?
+|BelongsToComponent=Climate policy;
+|ClimateThemeItem=Climate mitigation (Climate)
+}}</text>
+      <sha1>3ah341r8kcglymuo3kibtct0krsx5r7</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:KeyPolicyQuestionTemplate</title>
+    <ns>10</ns>
+    <id>1041</id>
+    <revision>
+      <id>21283</id>
+      <parentid>19198</parentid>
+      <timestamp>2014-05-07T12:27:21Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <origin>21283</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1397" sha1="5qwimfypt4x45svqfsmzyztgfsylmuy" xml:space="preserve">&lt;noinclude&gt;
+This is the "KeyPolicyQuestionTemplate" template.
+It should be called in the following format:
+&lt;pre&gt;
+{{KeyPolicyQuestionTemplate
+|HasDescription=
+|PQBelongsToComponent=
+|BelongsToTheme=
+|ThemeItem=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;table class="PageWidthTableTemplate"&gt;
+{{#ifeq:{{{HasDescription|}}}|||&lt;tr&gt;
+&lt;td class="PageWidthTableFirstCell"&gt;'''Description:'''&lt;/td&gt;
+&lt;td class="PageWidthTableRemainderCell"&gt;
+[[HasDescription::{{{HasDescription|}}}]]&lt;/td&gt;&lt;/tr&gt;}}
+{{#ifeq:{{{BelongsToComponent|}}}|||&lt;tr&gt;
+&lt;td class="PageWidthTableFirstCell"&gt;'''Belongs to component:'''&lt;/td&gt;
+&lt;td class="PageWidthTableRemainderCell"&gt;
+{{#arraymap:{{{BelongsToComponent|}}}|;|x|[[PQBelongsToComponent::x]]}}&lt;/td&gt;&lt;/tr&gt;}}
+{{#ifeq:{{{HumanDevelopmentThemeItem|}}}{{{WaterThemeItem|}}}{{{EnergyThemeItem|}}}{{{LanduseThemeItem|}}}{{{NatureThemeItem|}}}{{{FoodThemeItem|}}}{{{AirThemeItem|}}}{{{ClimateThemeItem|}}}|||&lt;tr&gt;
+&lt;td class="PageWidthTableFirstCell"&gt;'''Associated theme items:'''&lt;/td&gt;
+&lt;td class="PageWidthTableRemainderCell"&gt;{{#arraymap:{{{HumanDevelopmentThemeItem|}}};{{{WaterThemeItem|}}};{{{EnergyThemeItem|}}};{{{LanduseThemeItem|}}};{{{NatureThemeItem|}}};{{{FoodThemeItem|}}};{{{AirThemeItem|}}};{{{ClimateThemeItem|}}}|;|x|[[HasThemeItem::x]]|, }}&lt;/td&gt;&lt;/tr&gt;}}
+&lt;/table&gt;
+&lt;br/&gt;
+[[Category:KeyPolicyQuestion]] 
+[[HasPageName::{{PAGENAME}}| ]]
+&lt;/includeonly&gt;</text>
+      <sha1>5qwimfypt4x45svqfsmzyztgfsylmuy</sha1>
+    </revision>
+  </page>
+</mediawiki>

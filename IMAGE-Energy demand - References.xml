@@ -1,0 +1,110 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>IMAGE</sitename>
+    <dbname>imagedb</dbname>
+    <base>https://models.pbl.nl/image/Home_IMAGE</base>
+    <generator>MediaWiki 1.39.7</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">IMAGE-3</namespace>
+      <namespace key="5" case="first-letter">IMAGE-3 talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="102" case="first-letter">Property</namespace>
+      <namespace key="103" case="first-letter">Property talk</namespace>
+      <namespace key="106" case="first-letter">Form</namespace>
+      <namespace key="107" case="first-letter">Form talk</namespace>
+      <namespace key="108" case="first-letter">Concept</namespace>
+      <namespace key="109" case="first-letter">Concept talk</namespace>
+      <namespace key="112" case="first-letter">smw/schema</namespace>
+      <namespace key="113" case="first-letter">smw/schema talk</namespace>
+      <namespace key="114" case="first-letter">Rule</namespace>
+      <namespace key="115" case="first-letter">Rule talk</namespace>
+      <namespace key="2300" case="case-sensitive">Gadget</namespace>
+      <namespace key="2301" case="case-sensitive">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Energy demand/References</title>
+    <ns>0</ns>
+    <id>241</id>
+    <revision>
+      <id>26214</id>
+      <parentid>4610</parentid>
+      <timestamp>2016-05-04T08:22:05Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision: TIMER version 3.0 to namespace</comment>
+      <origin>26214</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="25" sha1="9pdtvtx2923yucijfhrj14ajdibhrmy" xml:space="preserve">{{AllReferencesTemplate}}</text>
+      <sha1>9pdtvtx2923yucijfhrj14ajdibhrmy</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:AllReferencesTemplate</title>
+    <ns>10</ns>
+    <id>1247</id>
+    <revision>
+      <id>36203</id>
+      <parentid>26637</parentid>
+      <timestamp>2020-03-11T07:34:50Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>36203</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="878" sha1="ecvoykqmfuthv2ys0ogz07ak0nffpv2" xml:space="preserve">&lt;noinclude&gt;Queries all pages and subpages for references&lt;/noinclude&gt;
+&lt;includeonly&gt;&lt;h2&gt;Key publications&lt;/h2&gt;
+{{#ask: [[Category:Reference]]
+[[-HasKeyReference::{{#titleparts: {{FULLPAGENAME}}|1}}]]
+|mainlabel=1
+|?HasFormattedReference
+|format=template
+|template=ReferencesOverviewTemplate
+|limit=2000
+|default=''No key publications cited.''
+}}
+&lt;h2&gt;All cited references&lt;/h2&gt;
+{{#ask: [[Category:Reference]][[-HasReference::{{#titleparts: {{FULLPAGENAME}}|1}}]] OR
+              [[Category:Reference]][[-HasReference::&lt;q&gt;[[BelongsToPage::{{#titleparts: {{FULLPAGENAME}}|1}}]]&lt;/q&gt;]]
+|mainlabel=1
+|?HasFormattedReference
+|format=template
+|template=ReferencesOverviewTemplate
+|limit=2000
+|default=''No references cited.''
+}}
+
+[[Category:AllReferencesPages]]
+{{#set:HasPageLabel=Overview of references
+|BelongsToPage={{#titleparts: {{FULLPAGENAME}}|1}}
+|HasSequence=10
+}}
+&lt;/includeonly&gt;</text>
+      <sha1>ecvoykqmfuthv2ys0ogz07ak0nffpv2</sha1>
+    </revision>
+  </page>
+</mediawiki>

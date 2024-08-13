@@ -1,0 +1,800 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>IMAGE</sitename>
+    <dbname>imagedb</dbname>
+    <base>https://models.pbl.nl/image/Home_IMAGE</base>
+    <generator>MediaWiki 1.39.7</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">IMAGE-3</namespace>
+      <namespace key="5" case="first-letter">IMAGE-3 talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="102" case="first-letter">Property</namespace>
+      <namespace key="103" case="first-letter">Property talk</namespace>
+      <namespace key="106" case="first-letter">Form</namespace>
+      <namespace key="107" case="first-letter">Form talk</namespace>
+      <namespace key="108" case="first-letter">Concept</namespace>
+      <namespace key="109" case="first-letter">Concept talk</namespace>
+      <namespace key="112" case="first-letter">smw/schema</namespace>
+      <namespace key="113" case="first-letter">smw/schema talk</namespace>
+      <namespace key="114" case="first-letter">Rule</namespace>
+      <namespace key="115" case="first-letter">Rule talk</namespace>
+      <namespace key="2300" case="case-sensitive">Gadget</namespace>
+      <namespace key="2301" case="case-sensitive">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Energy conversion</title>
+    <ns>0</ns>
+    <id>18</id>
+    <revision>
+      <id>36501</id>
+      <parentid>33531</parentid>
+      <timestamp>2020-04-01T13:24:43Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <minor/>
+      <comment>Text replacement - "==Introduction==" to ""</comment>
+      <origin>36501</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1974" sha1="ht01mnwt2mevuw1d8bxoxlsif48e0bv" xml:space="preserve">{{ComponentTemplate2
+|Application=ADVANCE project; Roads from Rio+20 (2012) project; Energy Modelling Forum - EMF;
+|IMAGEComponent=Land-use allocation; Climate policy; Drivers;
+|Model-Database=Enerdata Global Energy &amp; CO2 Data; IEA database; WEC-Uranium;
+|KeyReference=Hoogwijk et al., 2007; Hendriks et al., 2004a; De Boer and Van Vuuren, 2017;
+|InputVar=Energy policy; Air pollution policy; Demand for electricity, heat and hydrogen; Primary energy price; Carbon storage price; Carbon price; Technology development of energy conversion;
+|Parameter=Initial technology cost; Rules on use of technology;
+|OutputVar=Electricity price; Demand for primary energy; CO2 stored; Energy and industry activity level; Secondary energy price
+|ComponentCode=EC
+|AggregatedComponent=Energy supply and demand
+|FrameworkElementType=pressure component
+}}
+&lt;div class="page_standard"&gt;
+
+Energy from primary sources often has to be converted into secondary energy carriers that are more easily accessible for final consumption, for example the production of electricity and hydrogen, oil products from crude oil in refineries, and fuels from biomass. Studies on transitions to more sustainable energy systems also show the importance of these conversions for the future.
+
+The energy conversion module of TIMER simulates the choices of input energy carriers in two steps. In the first step, investment decisions are made on the future generation mix in terms of newly added capital. In the second step, the actual use of the capacity in place depends on a set of model rules that determine how frequently the different types of power plants are used. The discussion focuses on the production of electricity and hydrogen. Other conversion processes have only been implemented in the model by simple multipliers, as they mostly convert energy from a single primary source to one secondary energy carrier. These processes are discussed in [[Energy supply]].
+
+{{InputOutputParameterTemplate}}
+&lt;/div&gt;</text>
+      <sha1>ht01mnwt2mevuw1d8bxoxlsif48e0bv</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:AddInfoPartsTemplate</title>
+    <ns>10</ns>
+    <id>3500</id>
+    <revision>
+      <id>36145</id>
+      <parentid>26182</parentid>
+      <timestamp>2020-03-10T14:49:43Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>36145</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="398" sha1="h2k1ehd04h4ncmao10u8rklzj0q9k9a" xml:space="preserve">&lt;noinclude&gt;display additional info in the parts content table&lt;/noinclude&gt;&lt;includeonly&gt;
+{{#ifexpr:{{PropertyTestTemplate
+    |prop=AIBelongsToPage
+    |page={{FULLPAGENAME}}
+    |reverse=1}} &gt;0
+|
+''Additional info''
+    {{#ask:[[AIBelongsToPage::{{FULLPAGENAME}}]]
+     |mainlabel=
+     |? HasPageLabel=
+     |link=none
+     |format=Plainlist
+     |template=PagePartTemplate
+    }}
+|}}&lt;/includeonly&gt;</text>
+      <sha1>h2k1ehd04h4ncmao10u8rklzj0q9k9a</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:DisplayFlowchartTemplate</title>
+    <ns>10</ns>
+    <id>2696</id>
+    <revision>
+      <id>36176</id>
+      <parentid>13842</parentid>
+      <timestamp>2020-03-10T16:12:33Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>36176</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="296" sha1="9u8pus57dy684y5equx2wznfhyiuiwc" xml:space="preserve">&lt;noinclude&gt;
+1=filename
+&lt;/noinclude&gt;
+&lt;includeonly&gt;{{#ask:[[Category:Figure]][[HasFigureType::Flowchart]][[BelongsToComponent::{{{1|}}}]]
+ |mainlabel=page
+ |?HasPageName=figure
+ |?HasAltTitle=alt
+ |?HasCaption=caption
+ |format=Plainlist
+ |link=none
+ |template=ViewFlowchartTemplate
+}}&lt;/includeonly&gt;</text>
+      <sha1>9u8pus57dy684y5equx2wznfhyiuiwc</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:IconTemplate</title>
+    <ns>10</ns>
+    <id>2205</id>
+    <revision>
+      <id>36143</id>
+      <parentid>8901</parentid>
+      <timestamp>2020-03-10T14:48:19Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>36143</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="336" sha1="c72w036rv26g8yumqead77x2lsy78ag" xml:space="preserve">&lt;noinclude&gt;template for asking and positioning the icon of a page&lt;/noinclude&gt;
+&lt;includeonly&gt;{{#ask:[[Category:Figure]][[HasFigureType::Icon]][[BelongsToComponent::{{{1|}}}]]
+  |mainlabel=page
+  |?HasPageName=figure
+  |?HasCaption=caption
+  |?HasAltTitle=alt
+  |format=Plainlist
+  |link=none
+  |template=ViewIconTemplate
+}} &lt;/includeonly&gt;</text>
+      <sha1>c72w036rv26g8yumqead77x2lsy78ag</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:InfoBoxTemplate</title>
+    <ns>10</ns>
+    <id>1484</id>
+    <revision>
+      <id>36432</id>
+      <parentid>36227</parentid>
+      <timestamp>2020-03-24T14:41:53Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>36432</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2870" sha1="8iph7xfip9l7gcymr7tmqb4wj8tfr4n" xml:space="preserve">&lt;noinclude&gt;
+It should be called in the following format:
+&lt;pre&gt;
+{{InfoBoxtemplate}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;&lt;!--
+check the need for an infobox on this page (most recent version is the norm)
+--&gt;{{#ifeq:{{InfoboxTestTemplate|basepage={{ROOTPAGENAME}}|subpage={{SUBPAGENAME}} }}|0|| &lt;!--
+existing data for infobox
+--&gt;&lt;div class="InfoBoxTemplateClear"&gt;&lt;table class="InfoBoxStyle"&gt; &lt;!--
+--&gt;{{#ifeq:{{PropertyTestTemplate|prop=IsImplementationOf|page={{ROOTPAGENAME}}|reverse=1 }}|0||
+&lt;tr&gt;&lt;td class="InfoBoxCellStyleTemplate"&gt;Component is implemented in:&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;{{#arraymap:
+  {{#ask:[[IsImplementationOf::{{ROOTPAGENAME}}]]|link=none|sep=;}}
+  |;|yy
+  |{{#arraymap: {{#ask:[[Category:ModelVersion]][[IsVersionOf::yy]]|link=none|sep=;}}
+    |;|xx
+    |{{#ifeq:{{#ask:[[IsCurrentVersion::true]][[IsVersionOf::yy]]|link=none}}|xx
+      |&lt;ul&gt;&lt;li&gt;[[yy]] (version {{#ask:[[xx]]|format=Plainlist}})&lt;/li&gt;&lt;/ul&gt;
+      {{#ask:[[Category:AggregatedComponent]][[-IsImplementationOf::yy]]
+        |intro=Aggregated component:|format=ul
+      }}{{#ask:[[Category:Component]][[-IsImplementationOf::yy]]
+           |intro=Components:|format=ul}}
+    |}}    
+  |}}
+| and }}
+&lt;/td&gt;&lt;/tr&gt;&lt;!--
+--&gt;{{#ifeq:{{PropertyTestTemplate|prop=HasIMAGEComponent|page={{#titleparts: {{FULLPAGENAME}}|1}} }}|0||
+&lt;tr&gt;&lt;td class="InfoBoxCellStyleTemplate"&gt;Related IMAGE components&lt;/td&gt;&lt;/tr&gt;
+&lt;tr &gt;&lt;td&gt;{{#ask:[[-HasIMAGEComponent::{{#titleparts: {{FULLPAGENAME}}|1}}]]|format=ul}}
+&lt;/td&gt;&lt;/tr&gt;}}
+}}&lt;!--
+--&gt;{{#ifeq:{{PropertyTestTemplate|prop=HasApplication|page={{#titleparts: {{FULLPAGENAME}}|1}} }}|0||
+&lt;tr&gt;&lt;td class="InfoBoxCellStyleTemplate"&gt;Projects/Applications&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;{{#ask:[[-HasApplication::{{#titleparts: {{FULLPAGENAME}}|1}}]]|format=ul}}
+&lt;/td&gt;&lt;/tr&gt;}}&lt;!--
+--&gt;{{#ifeq:{{PropertyTestTemplate|prop=HasModelDatabase|page={{#titleparts: {{FULLPAGENAME}}|1}} }}|0||
+&lt;tr&gt;&lt;td class="InfoBoxCellStyleTemplate"&gt;Models/Databases&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;{{#ask:[[-HasModelDatabase::{{#titleparts: {{FULLPAGENAME}}|1}}]]|format=ul}}
+&lt;/td&gt;&lt;/tr&gt;}}&lt;!--
+--&gt;{{#ifeq:{{PropertyTestTemplate|prop=HasOverview|page={{#titleparts: {{FULLPAGENAME}}|1}} }}|0||
+&lt;tr&gt;&lt;td class="InfoBoxCellStyleTemplate"&gt;Relevant  overviews&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;{{#ask:[[-HasOverview::{{#titleparts: {{FULLPAGENAME}}|1}}]]|format=ul}}
+&lt;/td&gt;&lt;/tr&gt;}}&lt;!--
+--&gt;{{#ifeq:{{PropertyTestTemplate|prop=HasKeyReference|page={{#titleparts: {{FULLPAGENAME}}|1}} }}|0||
+&lt;tr&gt;&lt;td class="InfoBoxCellStyleTemplate"&gt;Key publications&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;tr&gt;&lt;td&gt;{{#ask:[[-HasKeyReference::{{#titleparts: {{FULLPAGENAME}}|1}}]]|format=ul}}
+&lt;/td&gt;&lt;/tr&gt;}}&lt;!--
+--&gt;{{#ifeq:{{PropertyTestTemplate|prop=HasReference|page={{FULLPAGENAME}} }}|0||
+&lt;tr&gt;&lt;td class="InfoBoxCellStyleTemplate"&gt;References&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class="mw-collapsible mw-collapsed"&gt;
+{{#ask:[[-HasReference::{{FULLPAGENAME}}]]|format=ul}}
+&lt;/td&gt;&lt;/tr&gt;
+}}
+&lt;/table&gt;
+&lt;/div&gt;
+}}&lt;!--
+--&gt;&lt;/includeonly&gt;</text>
+      <sha1>8iph7xfip9l7gcymr7tmqb4wj8tfr4n</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:InfoboxTestTemplate</title>
+    <ns>10</ns>
+    <id>291</id>
+    <revision>
+      <id>26666</id>
+      <parentid>23993</parentid>
+      <timestamp>2016-05-11T10:00:11Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>26666</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="901" sha1="aoh0zz8jrnyisq6249z2e7kl8bq7sp7" xml:space="preserve">&lt;noinclude&gt;
+This is the "InfoboxTestTemplate" template. it returns 1 (true) if an infobox should be displayed, 0 (false) otherwise
+It should be called in the following format; subpage is optional
+&lt;pre&gt;
+{{InfoboxTestTemplate
+|basepage=
+|subpage=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;&lt;!--
+--&gt;{{#ifexpr:
+{{PropertyTestTemplate|prop=HasReference|page={{{basepage|}}} }} or 
+{{PropertyTestTemplate|prop=HasIMAGEComponent|page={{{basepage|}}} }} or
+{{PropertyTestTemplate|prop=HasApplication|page={{{basepage|}}} }} or
+{{PropertyTestTemplate|prop=HasModelDatabase|page={{{basepage|}}} }} or
+{{PropertyTestTemplate|prop=HasKeyReference|page={{{basepage|}}} }} or
+{{#ifeq:{{{subpage|}}}|
+  |{{PropertyTestTemplate|prop=HasReference|page={{{basepage|}}} }}
+  |{{PropertyTestTemplate|prop=HasReference|page={{{basepage|}}}/{{{subpage|}}} }} 
+}}
+|1|0}}&lt;!--
+--&gt;&lt;/includeonly&gt;</text>
+      <sha1>aoh0zz8jrnyisq6249z2e7kl8bq7sp7</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:LinkToExpertpageTemplate</title>
+    <ns>10</ns>
+    <id>7273</id>
+    <revision>
+      <id>35883</id>
+      <parentid>35875</parentid>
+      <timestamp>2019-03-06T14:41:45Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>35883</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="622" sha1="ck2nloxza9igooepwxyv10jvvs3nquk" xml:space="preserve">&lt;noinclude&gt;
+This is the "LinkToExpertpageTemplate" template.
+It should be called in the following format:
+&lt;pre&gt;
+{{LinkToExpertpageTemplate
+1 page from category Component
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;&lt;!--
+--&gt;{{#ifeq:{{#show:{{FULLPAGENAME}}|? -ExpertPageBelongsTo}}||
+     |&lt;div class="toc"&gt;'''More detailed (Expert) descriptions:'''&lt;!--
+   --&gt;&lt;ul&gt;{{#arraymap:
+            {{#ask:[[ExpertPageBelongsTo::{{FULLPAGENAME}}]]|link=none|sep=;}}
+            |;|mainpage
+            |&lt;li&gt;[[mainpage|{{#show:mainpage|?HasLabel}}]]&lt;/li&gt;&lt;!--
+   --&gt;|}}&lt;/ul&gt;&lt;/div&gt;&lt;!--
+--&gt;}} &lt;/includeonly&gt;</text>
+      <sha1>ck2nloxza9igooepwxyv10jvvs3nquk</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:PropertyTestTemplate</title>
+    <ns>10</ns>
+    <id>288</id>
+    <revision>
+      <id>26668</id>
+      <parentid>26667</parentid>
+      <timestamp>2016-05-11T10:05:25Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>26668</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="511" sha1="a152syqakewty1idk3wnhz6230w48wg" xml:space="preserve">&lt;noinclude&gt;
+This is the "testPropertyTemplate" template. returns true (&lt;&gt; 0) if page has property . reverse is optional and should be used as reverse=1 for reversed properties
+It should be called in the following format:
+&lt;pre&gt;
+{{PropertyTestTemplate
+|prop=
+|page=
+|reverse=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;&lt;!--
+--&gt;{{#ifeq:{{{reverse|}}}|1
+|{{#ask:[[{{{prop|}}}::{{{page|}}}]]|format=count}}
+|{{#ask:[[-{{{prop|}}}::{{{page|}}}]]|format=count}} }}&lt;!--
+--&gt;&lt;/includeonly&gt;</text>
+      <sha1>a152syqakewty1idk3wnhz6230w48wg</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:ViewIconTemplate</title>
+    <ns>10</ns>
+    <id>1034</id>
+    <revision>
+      <id>15363</id>
+      <parentid>15362</parentid>
+      <timestamp>2014-01-29T15:08:48Z</timestamp>
+      <contributor>
+        <username>LiselotteHeukelom</username>
+        <id>45</id>
+      </contributor>
+      <origin>15363</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="114" sha1="tppm3bro57o2zsqb4fhjjsoqbgld6uk" xml:space="preserve">[[{{{2|}}}|plain|255px|right|link=Framework overview|{{{3|}}}. Figure links to "Framework overview"|alt={{{4|}}}]]</text>
+      <sha1>tppm3bro57o2zsqb4fhjjsoqbgld6uk</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:ComponentInputTemplate</title>
+    <ns>10</ns>
+    <id>3160</id>
+    <revision>
+      <id>36334</id>
+      <parentid>26831</parentid>
+      <timestamp>2020-03-20T07:36:46Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>36334</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="761" sha1="sqm76ioaxw1w156c9t5fm6uqj9k8z1k" xml:space="preserve">&lt;noinclude&gt; 
+* Template used in InputOutputParametertemplate to display drivers and model input variables. 
+1= Variable
+2= description
+3= variable type
+&lt;/noinclude&gt;
+&lt;includeonly&gt;&lt;tr class="StandardTableRow"&gt;
+{{#ifeq:{{{3|}}} 
+ |historical data
+ |&lt;td class="StandardTableCell"&gt;[[{{{1|}}}]] (historical data)&lt;/td&gt;
+  &lt;td class="StandardTableCell"&gt;{{{2|}}}&lt;/td&gt;
+  &lt;td class="StandardTableCell"&gt;{{#show:{{{1|}}}| ?HasSource}} &lt;/td&gt;	           
+ |&lt;td class="StandardTableCell"&gt;[[{{{1|}}}]]&lt;/td&gt;
+  &lt;td class="StandardTableCell"&gt;{{{2|}}}&lt;/td&gt;
+  &lt;td class="StandardTableCell"&gt;{{#ifeq:{{{3|}}}
+    |driver
+    |{{#ask:[[Category:Component]][[FrameworkElementType::driver component]]}}
+    |{{#ask:[[HasOutputVar::{{{1|}}}]]}}
+   }}&lt;/td&gt;	           
+}}&lt;/tr&gt;
+&lt;/includeonly&gt;</text>
+      <sha1>sqm76ioaxw1w156c9t5fm6uqj9k8z1k</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:ComponentOutputTemplate</title>
+    <ns>10</ns>
+    <id>3161</id>
+    <revision>
+      <id>36335</id>
+      <parentid>26824</parentid>
+      <timestamp>2020-03-20T07:39:51Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>36335</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="524" sha1="amxthilu7ros9d4m5iin5ebkx3t4apy" xml:space="preserve">&lt;noinclude&gt; 
+* Template used in InputOutputParametertemplate to display  model output variables. 
+1= Variable
+2= description
+3= use
+4= variable type
+&lt;/noinclude&gt;
+&lt;includeonly&gt;
+&lt;tr class="StandardTableRow"&gt;                           
+&lt;td class="StandardTableCell"&gt;[[{{{1|}}}]]&lt;/td&gt;
+&lt;td class="StandardTableCell"&gt;{{{2|}}}&lt;/td&gt;
+&lt;td class="StandardTableCell"&gt;{{#ifeq:{{{3|}}}
+    |model (end-indicator) 
+    |Final output
+    |{{#ask:[[HasInputVar::{{{1|}}}]]
+       |format=ul
+      }}
+|}}&lt;/td&gt;	           
+&lt;/tr&gt;
+&lt;/includeonly&gt;</text>
+      <sha1>amxthilu7ros9d4m5iin5ebkx3t4apy</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:ComponentParameterTemplate</title>
+    <ns>10</ns>
+    <id>3162</id>
+    <revision>
+      <id>23711</id>
+      <parentid>23675</parentid>
+      <timestamp>2014-05-23T17:56:12Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>Undo revision 23675 by [[Special:Contributions/RinekeOostenrijk|RinekeOostenrijk]] ([[User talk:RinekeOostenrijk|talk]])</comment>
+      <origin>23711</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="447" sha1="s445zoehdki0j51hyjzmoslcto18zbz" xml:space="preserve">&lt;noinclude&gt;
+Used by inputOotputParameterTemplate. Puts the parameters in a row and merges source and basedon
+
+1=parameter
+2=desription
+3=source
+4 =basedon
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;tr class="StandardTableRow"&gt;
+&lt;td class="StandardTableCell"&gt;{{{1|}}}&lt;/td&gt;
+&lt;td class="StandardTableCell"&gt;{{{2|}}}&lt;/td&gt;
+&lt;td class="StandardTableCell"&gt;{{#ifeq:{{{4|}}}|
+ |{{{3|}}}
+ |{{#ifeq:{{{3|}}}|
+   |{{{4|}}}
+   |{{{3|}}}, {{{4|}}} 
+  }}
+}}&lt;/td&gt;
+&lt;/tr&gt;&lt;/includeonly&gt;</text>
+      <sha1>s445zoehdki0j51hyjzmoslcto18zbz</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:InputOutputParameterTemplate</title>
+    <ns>10</ns>
+    <id>55</id>
+    <revision>
+      <id>36341</id>
+      <parentid>26830</parentid>
+      <timestamp>2020-03-20T08:18:00Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>36341</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1692" sha1="frknvhe8sje2l0nqpg6ohyy0eckupgt" xml:space="preserve">&lt;includeonly&gt;__NOEDITSECTION__{{#ifexpr:
+{{PropertyTestTemplate|prop=HasInputVar|page={{FULLPAGENAME}} }}+
+{{PropertyTestTemplate|prop=HasParameter|page={{FULLPAGENAME}} }}+
+{{PropertyTestTemplate|prop=HasOutputVar|page={{FULLPAGENAME}} }}&gt; 0
+|&lt;h2&gt;Input/Output Table&lt;/h2&gt;&lt;p&gt;Input {{FULLPAGENAME}} component &lt;/p&gt;
+|}}
+{{#ifexpr: {{PropertyTestTemplate|prop=HasInputVar|page={{FULLPAGENAME}} }}&gt;0
+|{{#ask:[[Category:Variable]][[-HasInputVar::{{FULLPAGENAME}}]]
+  |mainlabel=
+  |?HasDescription=Description
+  |?HasVariableType=Type
+  |link=none
+  |sort=HasVariableType 
+  |format=Plainlist
+  |template=ComponentInputTemplate
+  |intro={{TableIntroTemplate|20%|IMAGE model drivers and variables|60%|Description|20%|Source}}
+  |outro=&lt;/table&gt;
+  }}
+|}}{{#ifexpr:{{PropertyTestTemplate|prop=HasParameter|page={{FULLPAGENAME}} }}&gt;0
+|{{#ask:[[Category:Variable]][[HasVariableType::external parameter]][[-HasParameter::{{FULLPAGENAME}}]]
+  |mainlabel= Parameter
+  |?HasDescription=Description
+  |?HasSource=Source
+  |?HasValuesBasedOn = basedon
+  |format=Plainlist
+  |template=ComponentParameterTemplate
+  |intro={{TableIntroTemplate|20%|External datasets|60%|Description|20%|Source}}
+  |outro=&lt;/table&gt;
+  }}
+|}}{{#ifexpr:{{PropertyTestTemplate|prop=HasOutputVar|page={{FULLPAGENAME}} }}&gt;0
+|&lt;p&gt;Output {{FULLPAGENAME}} component&lt;/p&gt;
+{{#ask:[[Category:Variable]][[-HasOutputVar::{{FULLPAGENAME}}]]
+  |mainlabel= Variabele
+  |?HasDescription=Description
+  |?HasVariableType=Type
+  |link=none
+  |sort=HasVariableType
+  |order=desc
+  |format=Plainlist
+  |template=ComponentOutputTemplate
+  |intro={{TableIntroTemplate|20%|IMAGE model variables|60%|Description|20%|Use}}
+  |outro=&lt;/table&gt;
+  }}
+|}}&lt;/includeonly&gt;</text>
+      <sha1>frknvhe8sje2l0nqpg6ohyy0eckupgt</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:PagePartTemplate</title>
+    <ns>10</ns>
+    <id>1978</id>
+    <revision>
+      <id>36330</id>
+      <parentid>23670</parentid>
+      <timestamp>2020-03-19T16:12:19Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>36330</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="49" sha1="lb4cjbzdtwhwo9f9qe2bmv55fh1c84o" xml:space="preserve">&lt;li class="toclevel-1"&gt;[[{{{1|}}}|{{{2|}}}]]&lt;/li&gt;</text>
+      <sha1>lb4cjbzdtwhwo9f9qe2bmv55fh1c84o</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:TableIntroTemplate</title>
+    <ns>10</ns>
+    <id>2417</id>
+    <revision>
+      <id>32894</id>
+      <parentid>32888</parentid>
+      <timestamp>2017-08-01T10:18:30Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>32894</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1481" sha1="hbidrk6vq9u41sk88wyncasj95db361" xml:space="preserve">&lt;noinclude&gt;header styling for sortabel table with flexible nr of columns (current max=15)
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;table class="StandardTable  sortable smwtable jquery-tablesorter"&gt;
+&lt;tr class="StandardTableHeaderRow"&gt;
+&lt;th class="headerSort" style="width: {{{1|}}}"&gt;
+{{{2|}}}&lt;/th&gt;{{#ifeq:
+{{{3|}}}|||&lt;th class="headerSort" style="width: {{{3|}}}"&gt;{{{4|}}}&lt;/th&gt;}}{{#ifeq:
+{{{5|}}}|||&lt;th class="headerSort" style="width: {{{5|}}}"&gt;{{{6|}}}&lt;/th&gt;}}{{#ifeq:
+{{{7|}}}|||&lt;th class="headerSort" style="width: {{{7|}}}"&gt;{{{8|}}}&lt;/th&gt;}}{{#ifeq:
+{{{9|}}}|||&lt;th class="headerSort" style="width: {{{9|}}}"&gt;{{{10|}}}&lt;/th&gt;}}{{#ifeq:
+{{{11|}}}|||&lt;th class="headerSort" style="width: {{{11|}}}"&gt;{{{12|}}}&lt;/th&gt;}}{{#ifeq:
+{{{13|}}}|||&lt;th class="headerSort" style="width: {{{13|}}}"&gt;{{{14|}}}&lt;/th&gt;}}{{#ifeq:
+{{{15|}}}|||&lt;th class="headerSort" style="width: {{{15|}}}"&gt;{{{16|}}}&lt;/th&gt;}}{{#ifeq:
+{{{17|}}}|||&lt;th class="headerSort" style="width: {{{17|}}}"&gt;{{{18|}}}&lt;/th&gt;}}{{#ifeq:
+{{{19|}}}|||&lt;th class="headerSort" style="width: {{{19|}}}"&gt;{{{20|}}}&lt;/th&gt;}}{{#ifeq:
+{{{21|}}}|||&lt;th class="headerSort" style="width: {{{21|}}}"&gt;{{{22|}}}&lt;/th&gt;}}{{#ifeq:
+{{{23|}}}|||&lt;th class="headerSort" style="width: {{{23|}}}"&gt;{{{24|}}}&lt;/th&gt;}}{{#ifeq:
+{{{25|}}}|||&lt;th class="headerSort" style="width: {{{25|}}}"&gt;{{{26|}}}&lt;/th&gt;}}{{#ifeq:
+{{{27|}}}|||&lt;th class="headerSort" style="width: {{{27|}}}"&gt;{{{28|}}}&lt;/th&gt;}}{{#ifeq:
+{{{29|}}}|||&lt;th class="headerSort" style="width: {{{29|}}}"&gt;{{{30|}}}&lt;/th&gt;}}
+&lt;/tr&gt;
+&lt;/includeonly&gt;</text>
+      <sha1>hbidrk6vq9u41sk88wyncasj95db361</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:ViewFlowchartTemplate</title>
+    <ns>10</ns>
+    <id>1002</id>
+    <revision>
+      <id>22184</id>
+      <parentid>7386</parentid>
+      <timestamp>2014-05-16T07:25:42Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <origin>22184</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="66" sha1="irv39ytf6pcf97u832j3tv1wkc6w4zz" xml:space="preserve">[[{{{2|}}}|thumb|right|240px|alt={{{3|}}}|{{{4|}}}|link={{{1|}}}]]</text>
+      <sha1>irv39ytf6pcf97u832j3tv1wkc6w4zz</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:ComponentFrameTemplate</title>
+    <ns>10</ns>
+    <id>6467</id>
+    <revision>
+      <id>36217</id>
+      <parentid>36216</parentid>
+      <timestamp>2020-03-11T08:30:42Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>36217</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="444" sha1="qtdmjcrjzd4yj5jykszsrfcgeged1zt" xml:space="preserve">&lt;noinclude&gt;
+this template displays and layouts the standard elements of a component
+&lt;/noinclude&gt;&lt;includeonly&gt;&lt;div class="top_container"&gt;{{IconTemplate|{{#titleparts: {{FULLPAGENAME}}|1}} }}
+{{ContentPartsTemplate|PagePartHeader=Parts of {{FULLPAGENAME}} }}{{LinkToExpertpageTemplate }}
+__TOC____NOEDITSECTION__ &lt;/div&gt;&lt;div class="container"&gt;{{InfoBoxTemplate}}{{DisplayFlowchartTemplate|{{#titleparts: {{FULLPAGENAME}}|1}} }}&lt;/div&gt;&lt;/includeonly&gt;</text>
+      <sha1>qtdmjcrjzd4yj5jykszsrfcgeged1zt</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:ComponentTemplate2</title>
+    <ns>10</ns>
+    <id>284</id>
+    <revision>
+      <id>36490</id>
+      <parentid>36489</parentid>
+      <timestamp>2020-04-01T12:40:22Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>36490</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1495" sha1="niv2ig404yb93mmh5dqkr9d5h25si4o" xml:space="preserve">&lt;noinclude&gt;
+This is the "ComponentTemplate2" template.
+It should be called in the following format:
+&lt;pre&gt;
+{{ComponentTemplate2
+|Application=
+|IMAGEComponent=
+|Model-Database=
+|KeyReference=
+|Reference=
+}}
+&lt;/pre&gt;
+Steps in this template:
+# Icon en De subpages van deze pagina ophalen en weergeven in toc  style plus de toc 
+# De InfoboxTemplate aanroep
+# De flowchart
+# We beginnen de Component-beschrijving met de KeyPolicyQuestions
+# description
+# De input and outputs
+&lt;/noinclude&gt;&lt;includeonly&gt;{{ComponentFrameTemplate}}
+&lt;div class="page_standard"&gt;
+{{DisplayKeyPolicyQuestionsTemplate|{{PAGENAME}} }}
+&lt;h2&gt;Introduction&lt;/h2&gt;&lt;/div&gt;
+[[Category:Component]]
+{{#set:
+   |FrameworkElementType={{{FrameworkElementType|}}}
+   |BelongsToAggregatedComponent={{{AggregatedComponent|}}}
+   |HasInputVar={{{InputVar|}}}|+sep=;
+   |HasOutputVar={{{OutputVar|}}}|+sep=;
+   |HasParameter={{{Parameter|}}}|+sep=;
+   |HasOverview={{{Overview|}}}|+sep=;
+   |HasIMAGEComponent={{{IMAGEComponent|}}}|+sep=;
+   |HasApplication={{{Application|}}}|+sep=;
+   |HasModelDatabase={{{Model-Database|}}}|+sep=;  
+   |HasKeyReference={{{KeyReference|}}}|+sep=;
+   |HasReference={{{Reference|}}}|+sep=;
+   |HasPageLabel=Introduction page
+   |HasDetailedDescription={{FULLPAGENAME}}/Description
+   |HasPolicyIntervention={{FULLPAGENAME}}/Policy issues
+   |HasDataLimitations={{FULLPAGENAME}}/Data_uncertainties_limitations
+   |HasAllReferences={{FULLPAGENAME}}/References
+   |HasComponentCode={{{ComponentCode|}}}
+}}&lt;/includeonly&gt;</text>
+      <sha1>niv2ig404yb93mmh5dqkr9d5h25si4o</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:ContentPartsTemplate</title>
+    <ns>10</ns>
+    <id>2012</id>
+    <revision>
+      <id>36146</id>
+      <parentid>33659</parentid>
+      <timestamp>2020-03-10T14:50:59Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>36146</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="786" sha1="qoik9fj53hlyi5wkvlzgwmgzvn38vn4" xml:space="preserve">&lt;noinclude&gt;
+Template to display main page and subpages of an 'object' 
+&lt;pre&gt;
+{{ContentPartsTemplate
+|PagePartHeader=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{{#ifexpr:{{PropertyTestTemplate
+  |prop=BelongsToPage
+  |page= {{#titleparts:{{FULLPAGENAME}}|1}}
+  |reverse=1}}&gt;0
+|
+  &lt;div class="toc"&gt;
+&lt;strong&gt;{{{PagePartHeader|}}}&lt;/strong&gt;
+  &lt;ol&gt;
+  {{#ask:[[ {{#titleparts:{{FULLPAGENAME}}|1}}]][[!AggregatedComponent]]
+   |mainlabel=
+   |? HasPageLabel=
+   |link=none
+   |format=Plainlist
+   |template=PagePartTemplate
+  }}
+  {{#ask:[[BelongsToPage::{{#titleparts: {{FULLPAGENAME}}|1}}]][[!AggregatedComponent]]
+   |mainlabel=
+   |? HasPageLabel=
+   |? HasSequence=
+   |sort=HasSequence
+   |link=none
+   |format=Plainlist
+   |template=PagePartTemplate
+  }}{{addInfoPartsTemplate}}&lt;/ol&gt;&lt;/div&gt;
+|}}</text>
+      <sha1>qoik9fj53hlyi5wkvlzgwmgzvn38vn4</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:DisplayKeyPolicyQuestionsTemplate</title>
+    <ns>10</ns>
+    <id>2700</id>
+    <revision>
+      <id>23719</id>
+      <parentid>13880</parentid>
+      <timestamp>2014-05-24T06:04:01Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <minor/>
+      <comment>Text replace - "Key policy questions" to "Key policy issues"</comment>
+      <origin>23719</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="239" sha1="5w3yljq101z09og9b2b476rtqgge8l0" xml:space="preserve">&lt;noinclude&gt;
+1=filename
+&lt;/noinclude&gt;
+&lt;includeonly&gt;{{#ask:[[Category:KeyPolicyQuestion]][[PQBelongsToComponent::{{{1|}}}]]
+   |mainlabel=-
+   |?HasDescription=
+   |link=none
+   |format=ul
+   |intro=&lt;h2&gt;Key policy issues&lt;/h2&gt;
+}}&lt;/includeonly&gt;</text>
+      <sha1>5w3yljq101z09og9b2b476rtqgge8l0</sha1>
+    </revision>
+  </page>
+</mediawiki>

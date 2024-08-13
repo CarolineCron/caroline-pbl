@@ -1,0 +1,1898 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>IMAGE</sitename>
+    <dbname>imagedb</dbname>
+    <base>https://models.pbl.nl/image/Home_IMAGE</base>
+    <generator>MediaWiki 1.39.7</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">IMAGE-3</namespace>
+      <namespace key="5" case="first-letter">IMAGE-3 talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="102" case="first-letter">Property</namespace>
+      <namespace key="103" case="first-letter">Property talk</namespace>
+      <namespace key="106" case="first-letter">Form</namespace>
+      <namespace key="107" case="first-letter">Form talk</namespace>
+      <namespace key="108" case="first-letter">Concept</namespace>
+      <namespace key="109" case="first-letter">Concept talk</namespace>
+      <namespace key="112" case="first-letter">smw/schema</namespace>
+      <namespace key="113" case="first-letter">smw/schema talk</namespace>
+      <namespace key="114" case="first-letter">Rule</namespace>
+      <namespace key="115" case="first-letter">Rule talk</namespace>
+      <namespace key="2300" case="case-sensitive">Gadget</namespace>
+      <namespace key="2301" case="case-sensitive">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Forest management</title>
+    <ns>0</ns>
+    <id>13</id>
+    <revision>
+      <id>36931</id>
+      <parentid>36930</parentid>
+      <timestamp>2021-11-22T17:14:11Z</timestamp>
+      <contributor>
+        <username>Dafnomilii</username>
+        <id>102</id>
+      </contributor>
+      <origin>36931</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="4751" sha1="t0w7eka1f6nd3videfsw632z6ulca7x" xml:space="preserve">{{ComponentTemplate2
+|Application=Rethinking Biodiversity Strategies (2010) project;Shared Socioeconomic Pathways - SSP (2014) project;EU Seventh Framework Programme - FP7;LUC4C
+|IMAGEComponent=Drivers;Land-use allocation;Carbon cycle and natural vegetation;Energy supply and demand
+|KeyReference=Arets et al., 2011
+|Reference=Carle and Holmgren, 2008;Putz et al., 2012;FAO, 2006b;Alkemade et al., 2009;Hartmann et al., 2010;FAO, 2015;Dagnachew et al., 2018;Dagnachew et al., 2020;Doelman et al., 2019;Doelman et al., 2020b;FAO, 2020
+|InputVar=Demand traditional biomass;Land cover, land use - grid;Forest plantation demand;Harvest efficiency;Timber demand;Carbon pools in vegetation - grid;Fraction of selective logging;Agricultural land use suitability - grid
+|Parameter=Traditional biomass from non-forest land;FAO deforestation rates
+|OutputVar=Timber use fraction;Forest residues;Forest management type - grid;Regrowth forest area - grid;Harvested wood;Degraded forest area
+|ComponentCode=FM
+|AggregatedComponent=Agriculture and land use
+|FrameworkElementType=pressure component
+}}
+&lt;div class="page_standard"&gt;
+The global forest area and wooded land area has been estimated for 2010 at just over 40 and 11 million km&lt;sup&gt;2&lt;/sup&gt;, respectively ([[FAO, 2020]]). Forest resources are used for multitude of purposes, including timber, fuel, food, water and other forest-related goods and services. In addition, (semi-) natural forests are home to many highly valued species of interest for nature conservation and biodiversity.
+
+The total global forest area is continuing to decline at difference rates in different world regions. Although the rate of global deforestation has decreased in the last decade, deforestation is still occurring on a significant scale in large parts of Latin America, Africa and Southeastern Asia. At the same time, the net forest area is expanding in some regions, such as in Europe and China ([[FAO, 2020]]). Sustainable management of global forest resources may contribute to preserving forests, slowing down or reversing degradation processes, and conserving forest biodiversity and carbon stocks ([[FAO, 2020]]). 
+
+Several types of forest management systems are employed in meeting the worldwide demand for timber, paper, fibreboard, traditional or modern bioenergy and other products. Management practices depend on forest type, conservation policies and regulation, economics, and other, often local, factors. Practices differ with respect to timber volume harvested per area, rotation cycle, and carbon content and state of biodiversity of the forested areas. 
+
+Modelling of forests and forest management is an integral part of the IMAGE 3.2 framework, with a simulated forest area in 2010 at about 47 million km&lt;sup&gt;2&lt;/sup&gt; , somewhat larger than observed by {{abbrTemplate|FAO}} as this area includes fractions of other wooded land (see Component [[Carbon cycle and natural vegetation]]). To manage these forests, three forest management systems are defined in IMAGE 3.2 in a simplification of the range of management systems implemented worldwide ([[Carle and Holmgren, 2008]]; [[Arets et al., 2011]]). 
+# The first forest management system is clear cutting or clear felling, in which all trees in an area are cut down followed by natural or ‘assisted’ regrowth, as widely applied in temperate regions. 
+# The second forest management system is selective logging of (semi)natural forests, in which only trees of the highest economic value are felled, commonly used in tropical forests with a high heterogeneity of tree species. An ecological variant of selective logging is reduced impact logging ({{abbrTemplate|RIL}}) directed to reducing harvest damage, stimulating regrowth and maintaining biodiversity levels ([[Putz et al., 2012]]). 
+# The third forest management system considered in IMAGE 3.2 is forest plantations, such as hardwood tree plantations in the tropics, and poplar plantations in temperate regions. Selected tree species, either endemic or exotic to the area, are planted and managed intensively, for example through pest control, irrigation and fertiliser use, to maximise production. Forest plantation growth is modelled in LPJmL and was recalibrated in IMAGE 3.2 to empirical data ([[Braakhekke et al., 2019]]) as forest plantations generally have a higher productivity level than natural forests ([[FAO, 2006b]]). By producing more wood products on less land, plantations may contribute to more sustainable forest management by reducing pressure on natural forests ([[Carle and Holmgren, 2008]]; [[Alkemade et al., 2009]]). However, the ecological value of biodiversity in many forest plantations is relatively low ([[Hartmann et al., 2010]]).
+
+{{InputOutputParameterTemplate}}
+&lt;/div&gt;</text>
+      <sha1>t0w7eka1f6nd3videfsw632z6ulca7x</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Land-use allocation</title>
+    <ns>0</ns>
+    <id>14</id>
+    <revision>
+      <id>36959</id>
+      <parentid>36772</parentid>
+      <timestamp>2021-11-24T20:39:26Z</timestamp>
+      <contributor>
+        <username>Dafnomilii</username>
+        <id>102</id>
+      </contributor>
+      <origin>36959</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3430" sha1="nmsjazplajvofobdpgb29xgygyv0pi5" xml:space="preserve">{{ComponentTemplate2
+|Application=Roads from Rio+20 (2012) project;Global Land Outlook 1;Global Land Outlook 2
+|IMAGEComponent=Drivers;Agricultural economy;Crops and grass
+|KeyReference=Doelman et al., 2018;Van Asselen and Verburg, 2012
+|Reference=Cengic et al., 2020;ESA, 2017;Van Vuuren et al., 2021;Goldewijk et al., 2017;Hurtt et al., 2020;IUCN, 2015;Alexandratos and Bruinsma, 2012;Doelman et al., 2018;Hansen et al., 2013;IIASA and FAO, 2011
+|InputVar=Management intensity crops;Increase in irrigated area - grid;Grass requirement;Bioenergy production;River discharge - grid;Protected area - grid;Land cover, land use - grid;Population - grid;Potential crop and grass yield - grid;Crop production
+|Parameter=Agricultural land use suitability - grid
+|OutputVar=Crop fraction in agricultural area - grid;Bioenergy area;Extensive grassland area - grid;Agricultural area - grid;Intensive grassland area
+|ComponentCode=AS
+|AggregatedComponent=Agriculture and land use
+|FrameworkElementType=pressure component
+}}
+&lt;div class="page_standard"&gt;
+About one third of the Earth’s land area is under cropland and pasture. The proportion of areas suitable for agriculture that is already in use is even larger. Humans strongly depend on agricultural production, as supported by soils and climatic circumstances, and thus need to rely on a continued functioning of these systems. On the other hand, major environmental problems arise from the size and intensity of agricultural land use, for example greenhouse gas emissions, distortions of the nutrient and water cycles, and biodiversity loss. Total agricultural area, globally or in a region, may be sufficient to assess the first order effects of production potential and environmental impacts. However, the location of agricultural land in a region or landscape is extremely important because yields of crops and grass depend on soil and climate, and also on spatially heterogeneous socio-economic factors, and because many impacts are location dependent.
+
+The location of new agricultural area determines the vegetation type removed, and thus the amount of carbon emitted, and the biodiversity impacts related to a loss of the vegetation type. Extreme examples of location-specific impacts are conversion of carbon- and species-rich peatland and wetlands. Other factors include the impact of agriculture on nutrient and water cycles, and location characteristics such as soil properties and slope. As well as the location, the composition of landscapes is a determining factor because how land uses are connected determines to some extent the environmental impact and the production potential. For environmental impacts, the most prominent examples of landscape composition are biodiversity effects, wind and water erosion, hydrology, and ecosystem services. Some crops benefit from nearby forests for pollination and pest control, while others suffer additional pest pressure. Consequently, accurate and high resolution modelling of agricultural land use is essential in global integrated assessment.
+
+In IMAGE, the spatial allocation of crops, pasture and bioenergy is driven by regional crop and grassland production and their respective intensity levels, as calculated by the the IMAGE agro-economic model ([[Agricultural economy]]), by the potential crop and grass yields ([[Crops and grass]]), and spatial allocation suitability factors.
+
+{{InputOutputParameterTemplate}}
+&lt;/div&gt;</text>
+      <sha1>nmsjazplajvofobdpgb29xgygyv0pi5</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Livestock systems</title>
+    <ns>0</ns>
+    <id>15</id>
+    <revision>
+      <id>36960</id>
+      <parentid>36953</parentid>
+      <timestamp>2021-11-24T20:41:54Z</timestamp>
+      <contributor>
+        <username>Dafnomilii</username>
+        <id>102</id>
+      </contributor>
+      <origin>36960</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3969" sha1="a52ljljdv4ughg4apbigu82jpoojhcg" xml:space="preserve">{{ComponentTemplate2
+|Application=Roads from Rio+20 (2012) project;Global Environmental Outlook - GEO4 (2007) project;Millennium Ecosystem Assessment - MA (2005) project;OECD Environmental Outlook to 2030 (2008) project;OECD Environmental Outlook to 2050 (2012) project;Global Environmental Outlook - GEO3 (2002) project;EU Resource efficiency (2011) project
+|IMAGEComponent=Drivers;Agricultural economy;Land-use allocation;Agriculture and land use;Atmospheric composition and climate;Crops and grass
+|Model-Database=MAGNET model
+|KeyReference=Bouwman et al., 2005
+|Reference=Bruinsma, 2003;Bouwman et al., 2006;Bouwman et al., 2005;Delgado et al., 1999;Seré and Steinfeld, 1996;FAO, 2012a
+|InputVar=Production system mix;Feed conversion;Livestock rations;Livestock production;Management intensity livestock;Animal productivity
+|OutputVar=Animal stocks;Feed crop requirement;Grass requirement
+}}
+&lt;div class="page_standard"&gt;
+
+Food production will have to increase in order to feed the world’s growing population. However, with increasing prosperity and falling production costs, dietary patterns are shifting to include a higher proportion of meat and milk. In the last few decades, traditional mixed farming systems have not been able to raise production levels sufficiently to meet increasing demand. Consequently, modern livestock production systems are expanding rapidly particularly for poultry and pork, creating growing demand for feed crops. This trend started in high-income countries and is now observed in emerging and developing countries ([[Alexandratos and Bruinsma, 2012]]; [[FAO, 2018]]).
+
+Interactions between crop and livestock production are described in the livestock systems module of IMAGE, and also the consequences of changing practices in livestock farming for production of food crops and grass. For this purpose, IMAGE distinguishes pastoral livestock systems, and mixed and landless (industrial) production systems. Pastoral systems are based on grazing ruminants, while mixed and landless systems integrate crop and livestock production in which livestock are fed a mix of crops, crop by-products, grass, fodder and crop residues ([[Bouwman et al., 2005]]; [[Bouwman et al., 2006]]).
+
+In IMAGE 3.2 new modules were added describing the pigs and poultry sectors ([[Lassaletta et al., 2019]]). In both sectors, three systems are distinguished. For pigs these are backyard, intermediate and intensive systems, and for poultry these are backyard, broiler and laying hens systems.
+
+Livestock production is related to a wide range of the environmental issues, and the consequences of changes in the livestock system can be studied in the IMAGE framework: 
+#Expansion of grazing land and particularly arable land for feed crop production, is required to support increasing livestock numbers. According to Bouwman et al. (2005) most arable land expansion is to increase feed production; 
+#Large amounts of methane (CH&lt;sub&gt;4&lt;/sub&gt;) emitted by ruminants during enteric fermentation are the second major source of greenhouse gas emissions after CO&lt;sub&gt;2&lt;/sub&gt;;
+#Excreta from all livestock categories is a source of ammonia, methane, nitrous oxide and nitric oxide; 
+#Odour nuisance and nitrate leaching to groundwater are major local-scale problems; 
+#A significant amount of land used for ruminants grazing is marginal, low productive grassland with low carrying capacity and high risk of degradation due to overgrazing, especially in arid and semi-arid regions ([[Seré and Steinfeld, 1996]]; [[Delgado et al., 1999]]). To compensate for productivity losses in these areas, forests may be cleared to expand agricultural land areas.
+#What are the impacts on land-use, greenhouse gases and other emissions to air, land and surface water of increasing livestock production? And how may use of marginal lands for grazing increase the risk of degradation and loss of productivity, inducing more forest clearing.
+
+{{InputOutputParameterTemplate}}
+&lt;/div&gt;</text>
+      <sha1>a52ljljdv4ughg4apbigu82jpoojhcg</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Energy supply</title>
+    <ns>0</ns>
+    <id>17</id>
+    <revision>
+      <id>36621</id>
+      <parentid>36620</parentid>
+      <timestamp>2021-10-21T08:19:16Z</timestamp>
+      <contributor>
+        <username>Boerdhs</username>
+        <id>75</id>
+      </contributor>
+      <comment>Text edits</comment>
+      <origin>36621</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1909" sha1="s1r4mw23qqbfl6wpi11evzyjseqrj09" xml:space="preserve">{{ComponentTemplate2
+|Application=Roads from Rio+20 (2012) project; ADVANCE project;
+|IMAGEComponent=Drivers; Land cover and land use; Crops and grass; Climate policy; Atmospheric composition and climate;
+|KeyReference=De Vries et al., 2007; Van Vuuren et al., 2008; Van Vuuren et al., 2009;
+|InputVar=Technology development of energy supply; Energy resources; Trade restriction; Demand for primary energy; Potential bioenergy yield - grid; Land supply for bioenergy - grid; Learning rate;
+|Parameter=Initial production costs;
+|OutputVar=Primary energy price; Carbon storage price;  Energy security indicators; Total primary energy supply; Marginal abatement cost; Energy and industry activity level; Bioenergy production;
+|ComponentCode=ES
+|AggregatedComponent=Energy supply and demand
+|FrameworkElementType=pressure component
+}}
+&lt;div class="page_standard"&gt;
+
+The energy supply model simulates long-term trends in energy supply. This model describes the investments in, and the use of, different types of energy carriers by technology development and resource depletion. Technological development is implemented in form of learning curves for most fuels and renewable energy options. Costs decrease endogenously as a function of the cumulative energy capacity. On the other hand, resource costs increase as they get depleted which is based on cost-supply curves. 
+
+Energy supply is assumed to always meet energy demand. In order to do so, not only domestic resources can be used, but energy carriers, such as coal, oil and gas, can also be traded. The impact of depletion and technology development lead to changes in primary fuel prices, which influence investment decisions in the end-use and energy-conversion modules. Linkages to other parts of IMAGE framework include available land for bio-energy production and emissions of greenhouse gases and air pollutants. 
+
+{{InputOutputParameterTemplate}}
+&lt;/div&gt;</text>
+      <sha1>s1r4mw23qqbfl6wpi11evzyjseqrj09</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Energy conversion</title>
+    <ns>0</ns>
+    <id>18</id>
+    <revision>
+      <id>36501</id>
+      <parentid>33531</parentid>
+      <timestamp>2020-04-01T13:24:43Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <minor/>
+      <comment>Text replacement - "==Introduction==" to ""</comment>
+      <origin>36501</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1974" sha1="ht01mnwt2mevuw1d8bxoxlsif48e0bv" xml:space="preserve">{{ComponentTemplate2
+|Application=ADVANCE project; Roads from Rio+20 (2012) project; Energy Modelling Forum - EMF;
+|IMAGEComponent=Land-use allocation; Climate policy; Drivers;
+|Model-Database=Enerdata Global Energy &amp; CO2 Data; IEA database; WEC-Uranium;
+|KeyReference=Hoogwijk et al., 2007; Hendriks et al., 2004a; De Boer and Van Vuuren, 2017;
+|InputVar=Energy policy; Air pollution policy; Demand for electricity, heat and hydrogen; Primary energy price; Carbon storage price; Carbon price; Technology development of energy conversion;
+|Parameter=Initial technology cost; Rules on use of technology;
+|OutputVar=Electricity price; Demand for primary energy; CO2 stored; Energy and industry activity level; Secondary energy price
+|ComponentCode=EC
+|AggregatedComponent=Energy supply and demand
+|FrameworkElementType=pressure component
+}}
+&lt;div class="page_standard"&gt;
+
+Energy from primary sources often has to be converted into secondary energy carriers that are more easily accessible for final consumption, for example the production of electricity and hydrogen, oil products from crude oil in refineries, and fuels from biomass. Studies on transitions to more sustainable energy systems also show the importance of these conversions for the future.
+
+The energy conversion module of TIMER simulates the choices of input energy carriers in two steps. In the first step, investment decisions are made on the future generation mix in terms of newly added capital. In the second step, the actual use of the capacity in place depends on a set of model rules that determine how frequently the different types of power plants are used. The discussion focuses on the production of electricity and hydrogen. Other conversion processes have only been implemented in the model by simple multipliers, as they mostly convert energy from a single primary source to one secondary energy carrier. These processes are discussed in [[Energy supply]].
+
+{{InputOutputParameterTemplate}}
+&lt;/div&gt;</text>
+      <sha1>ht01mnwt2mevuw1d8bxoxlsif48e0bv</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Atmospheric composition and climate</title>
+    <ns>0</ns>
+    <id>296</id>
+    <revision>
+      <id>36506</id>
+      <parentid>33507</parentid>
+      <timestamp>2020-04-01T13:25:26Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <minor/>
+      <comment>Text replacement - "==Introduction==" to ""</comment>
+      <origin>36506</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="4034" sha1="30dmxt38lio9ikd7lqohvaowm6c52k4" xml:space="preserve">{{ComponentTemplate2
+|Application=Representative Concentration Pathways - RCP (2009);
+|IMAGEComponent=Crops and grass; Carbon cycle and natural vegetation; Emissions; Climate policy; Air pollution and energy policies; Land and biodiversity policies; Nutrients; Water; Human development;
+|Model-Database=LPJmL model; AR4 (IPCC) database;
+|KeyReference=Van Vuuren and Stehfest, 2013; Meinshausen et al., 2011b; Müller et al., 2016b;
+|Reference=IPCC, 2007a; IPCC, 2013; Meinshausen et al., 2011a;
+|InputVar=BC, OC and NOx emissions; SO2 emissions; CO and NMVOC emissions; Non-CO2 GHG emissions (CH4, N2O and Halocarbons); CO2 emission from energy and industry; Land-use CO2 emissions - grid; NEP (net ecosystem production) - grid; Number of wet days - grid; Cloudiness - grid;
+|Parameter=MAGICC parameter settings; Radiative forcing factors; GCM pattern (temperature, precipitation) - grid; Sulphate pattern - grid;
+|OutputVar=CO2 concentration; Non-CO2 GHG concentrations; CO2 concentration; Radiative forcing; Global mean temperature; Temperature - grid; Precipitation - grid; Ocean carbon uptake; Number of wet days - grid; Cloudiness - grid;
+|ComponentCode=ACC
+|AggregatedComponent=Earth System
+|FrameworkElementType=state component
+}}
+&lt;div class="page_standard"&gt;
+
+Climate change is considered to be one of the most important effects of human activities on the environment. Emissions from fossil fuels, industry, land use and land-use change have increased greenhouse gas concentrations and led to almost 1 °C rise in global mean temperature on pre-industrial levels ([[IPCC, 2007a]]; [[IPCC, 2013]]). The impacts are already visible and are expected to increase in the coming century. Without further action, mean global temperature could increase by 2.6 – 4.8 °C (5-95 percentile, RCP8.5) by the end of this century ([[IPCC, 2013]]). Climate change impacts manifest themselves in all world regions, and affect almost all aspects of human activity.
+
+Modelling climate change (changes in temperature and precipitation) is central in global integrated assessments of baseline developments in climate change and of climate policy options. IMAGE uses the simple climate model [[MAGICC model|MAGICC 6.0]] ([[Meinshausen et al., 2011a]]; [[Meinshausen et al., 2011b]]) to simulate the effects of changing greenhouse gas emissions on atmospheric composition, radiative forcing and global mean temperature. MAGICC was used extensively in the Third, Fourth, and Fifth assessment reports of {{abbrTemplate|IPCC}} (Intergovernmental Panel on Climate Change) in assessing a range of greenhouse gas concentration scenarios. Since publication of these reports, MAGICC has been updated in line with results from Atmosphere-Ocean General Circulation Models ({{abbrTemplate|AOGCM}}s).
+
+There is still considerable uncertainty in climate change simulations, as illustrated by differences in results from various AOGCMs, in terms of mean global temperature, and even more so in geographical patterns of surface temperature and precipitation. By adjusting the values of a few of the model parameters, MAGICC6.0 can reproduce time-dependent responses of AOGCMs ([[Meinshausen et al., 2011a]]; [[Meinshausen et al., 2011b]]). This allows IMAGE to reflect the uncertainty in {{abbrTemplate|AOGCM}} results, and to provide plausible projections of future climate-change feedbacks and impacts. 
+
+The analysis of climate impacts and feedbacks requires only location-specific temperature and precipitation changes. Thus, a pattern scaling technique is applied in IMAGE by combining MAGICC results with maps on climate change from the same AOGCMs assessed in {{abbrTemplate|AR}}4 ([[IPCC, 2007a]]) and used for calibrating MAGICC. The consistent combination of AOGCM-specific parameter settings for MAGICC and matching geographical patterns of climate change make the dynamic results from IMAGE physically more consistent, and extend the range of uncertainties that can be covered to include future climate change.
+
+{{InputOutputParameterTemplate}}
+&lt;/div&gt;</text>
+      <sha1>30dmxt38lio9ikd7lqohvaowm6c52k4</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Crops and grass</title>
+    <ns>0</ns>
+    <id>300</id>
+    <revision>
+      <id>36748</id>
+      <parentid>36739</parentid>
+      <timestamp>2021-11-05T10:03:08Z</timestamp>
+      <contributor>
+        <username>Dafnomilii</username>
+        <id>102</id>
+      </contributor>
+      <origin>36748</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="4418" sha1="89kjjuxulccfn30v2mbk2t1deq3pv6w" xml:space="preserve">{{ComponentTemplate2
+|Application=AgMIP and ISI-MIP project
+|IMAGEComponent=Carbon, vegetation, agriculture and water;Land-use allocation;Agriculture and land use;Water;Carbon cycle and natural vegetation;Atmospheric composition and climate
+|KeyReference=Bondeau et al., 2007;Waha et al., 2012
+|Reference=Pitman et al., 2009;Strengers et al., 2010;Müller et al., 2009;Rosenzweig et al., 2013;Fader et al., 2010;Rolinski et al., 2018;IPCC, 2019;Schaphoff et al., 2018a
+|InputVar=Temperature - grid;Precipitation - grid;Number of wet days - grid;Cloudiness - grid;CO2 concentration;Land cover, land use - grid;Change in soil properties - grid;Management intensity crops;Number of wet days - grid;Cloudiness - grid;Irrigation water supply - grid
+|Parameter=Residue management;Soil properties - grid
+|OutputVar=Potential crop and grass yield - grid;Crop irrigation water demand - grid;Potential bioenergy yield - grid;Actual crop and grass production - grid;Rainwater consumption - grid;Irrigation water consumption - grid
+|ComponentCode=CG
+|AggregatedComponent=Carbon, vegetation, agriculture and water
+|FrameworkElementType=state component
+}}
+&lt;div class="page_standard"&gt;
+
+World population and per capita consumption of agricultural products are projected to increase substantially, which will require a significant increase in agricultural production. Currently, over one third of the Earth’s land area is under agricultural production, which is already about half the area suitable for agriculture. Pasture covers 68% of the global agricultural area, and cropland covers 32%. Agricultural production can be increased by expanding the agricultural area (more hectares) and by intensification (higher output per hectare). 
+
+However, the extent and distribution of agricultural land affects the Earth system, because agricultural systems are closely linked with natural ecosystems, human societies and the climate system. Agricultural land differs significantly from natural ecosystems in biogeochemical (e.g., carbon, water, nutrients) and bio-geophysical (e.g., albedo, energy balance) properties. Current land-use patterns have a significant impact on climate ([[Pitman et al., 2009]]; [[Strengers et al., 2010]]), and climate directly affects agricultural productivity ([[Müller et al., 2009]]; [[Rosenzweig et al., 2013]]). A large proportion of anthropogenic greenhouse gas emissions is caused by agricultural production, mediated by management and associated land-use dynamics ([[IPCC, 2019]]).
+
+Crop growth models are used to assess future area requirements, spatial patterns of agricultural production, and available areas for biomass-based energy (bioenergy). IMAGE 3.2 uses the [[Carbon, vegetation, agriculture and water|LPJmL model]] on dynamic global vegetation, agriculture and hydrology ([[Bondeau et al., 2007]]; [[Fader et al., 2010]]; [[Waha et al., 2012]]; [[Schaphoff et al., 2018b]]). This model dynamically simulates plant growth, agricultural productivity, and the carbon and water dynamics of agricultural land with detailed processes of photosynthesis, respiration, growth and phenology. In the model’s current form, management intensity can be approximated per crop type on national scale ([[Fader et al., 2010]]). Irrigation patterns are obtained from the Land-use allocation model of IMAGE (Component [[Land-use allocation]]), and other management options are calculated internally, such as sowing dates, selection of crop varieties and the demand for irrigation water.
+
+LPJmL simulates yields per crop under optimal management intensities for each grid cell and irrigation system as well as irrigation water requirements, which is input to the IMAGE Land-use allocation model (Component [[Land-use allocation]]) for simulations of land-use change dynamics. Climate change calculated by the IMAGE climate model (Component [[Atmospheric composition and climate]]) directly affects future agricultural productivity because these components are dynamically linked in annual time-steps.
+
+''Remark on Input/Output Table below'': The LPJmL module on crop growth directly interacts with the modules on [[Carbon cycle and natural vegetation|terrestrial carbon]] and [[Water|water cycles]]; as they are all an integral part of the LPJmL model, sharing the same soil and water balance processes, the distinction in different modules is somewhat artificial.
+
+{{InputOutputParameterTemplate}}
+&lt;/div&gt;</text>
+      <sha1>89kjjuxulccfn30v2mbk2t1deq3pv6w</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Water</title>
+    <ns>0</ns>
+    <id>301</id>
+    <revision>
+      <id>36862</id>
+      <parentid>36814</parentid>
+      <timestamp>2021-11-19T16:02:05Z</timestamp>
+      <contributor>
+        <username>Doelmanj</username>
+        <id>80</id>
+      </contributor>
+      <comment>minor textual corrections</comment>
+      <origin>36862</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="4180" sha1="niauqjqrgsuc5nu0qx6sm8wt9zns6xx" xml:space="preserve">{{ComponentTemplate2
+|Application=OECD Environmental Outlook to 2050 (2012) project
+|IMAGEComponent=Drivers;Agriculture and land use;Carbon, vegetation, agriculture and water;Carbon cycle and natural vegetation;Crops and grass;Human development;Energy demand;Land cover and land use;Land-use allocation;Livestock systems
+|KeyReference=Gerten et al., 2004;Biemans et al., 2011;Biemans, 2012;Schaphoff et al., 2018a;Bijl et al., 2016;Bijl et al., 2018a;Jägermeyr et al., 2015;De Vos et al., 2021
+|Reference=OECD, 2012;Portmann et al., 2010;Fischer et al., 2005;Molden, 2007;FAO, 2011a;OECD, 2012
+|InputVar=Land cover, land use - grid;Temperature - grid;Precipitation - grid;Crop irrigation water demand - grid;Crop irrigation water demand - grid;Irrigation system
+|Parameter=Soil properties - grid;Digital water network - grid;LOD (location of dams and reservoirs);Water demand other sectors - grid
+|OutputVar=River discharge - grid;Water withdrawal other sectors - grid;Irrigation water withdrawal - grid;Irrigation water consumption - grid;Water stress - basin;Number of people at risk of severe water stress - grid;Water consumption other sectors - grid;Environmental flow requirements - grid;Transgression of environmental flows - grid
+|ComponentCode=H
+|AggregatedComponent=Carbon, vegetation, agriculture and water
+|FrameworkElementType=state component
+}}
+&lt;div class="page_standard"&gt;
+
+Water availability is essential for natural vegetation and agricultural production, human settlements and industry. Around one third of the world’s population lives in countries suffering from medium to high water stress ([[OECD, 2012]]). This number is expected to increase as the water demand will increase due to the population growth, and as water availability may decrease due to global warming.
+
+Today, agriculture accounts for 70% of the total global water withdrawals. Around one third of the total global crop production is irrigated, occupying 17% of croplands (e.g. [[Portmann et al., 2010]]). Irrigated agriculture is expected to increase further to meet the growing demand for food ([[Fischer et al., 2005]]; [[Molden, 2007]]; [[FAO, 2011a]]). Moreover, water demand in other sectors (domestic, electricity, manufacturing) is projected to increase substantially in the coming decades ([[OECD, 2012]]). As a result, competition between water users will increase and the resulting water shortages may affect future food production ([[Pastor et al., 2019]]; [[De Vos et al., 2021]]).
+
+Although the global quantity of freshwater is more than sufficient to meet all human needs, uneven distribution makes water a scarce resource in some regions and watersheds. Furthermore, climate change will lead to changes in precipitation patterns, thus altering future water availability and adding to water stress in areas where precipitation levels are expected to decline.
+
+To identify current and future areas of water stress, IMAGE includes a hydrology model that calculates water availability and demand. The hydrological module of LPJmL is fully integrated with the terrestrial carbon and land-use dynamics of LPJmL and the rest of IMAGE and dynamically calculates agricultural water demand as well as water availability and withdrawals. Availability of renewable water is the net result of precipitation, interception loss and evapotranspiration by plants and soils. In the model, the surplus in each grid cell flows to neighbouring grid cells in a watershed by means of a river routing scheme. River flows are modified by dams and reservoirs used for irrigation and hydropower production. 
+
+The effects of water stress on crop production can be quantified, and by including the feedback of water-limited crop production on land allocation, IMAGE can produce more realistic scenarios for cropland expansion and agricultural intensification. IMAGE and LPJmL are dynamically linked (see [[Carbon, vegetation, agriculture and water]]), and thus IMAGE scenarios include an integrated assessment of the water cycle and can be used to assess water availability and demand at high spatial (0.5x0.5 degree grid cells) and temporal (daily) resolutions.
+
+{{InputOutputParameterTemplate}}
+&lt;/div&gt;</text>
+      <sha1>niauqjqrgsuc5nu0qx6sm8wt9zns6xx</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Flood risks</title>
+    <ns>0</ns>
+    <id>305</id>
+    <revision>
+      <id>36511</id>
+      <parentid>33546</parentid>
+      <timestamp>2020-04-01T13:27:05Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <minor/>
+      <comment>Text replacement - "==Introduction==" to ""</comment>
+      <origin>36511</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3284" sha1="otuzu6o5v0nmg8zhuvzehzypbon8gti" xml:space="preserve">{{ComponentTemplate2
+|IMAGEComponent=Drivers; Human development; Land cover and land use;
+|Model-Database=PCR-GLOBWB model; DIVA model;
+|KeyReference=Ward et al., 2013; Winsemius et al., 2012;
+|Reference=UNISDR, 2011;
+IPCC, 2012;
+Bouwer et al., 2010;
+Barredo et al., 2012;
+UNISDR, 2005;
+Bierkens and Van Beek, 2009;
+Hinkel and Klein, 2009;
+|InputVar=Land cover, land use - grid; Population - grid; GDP per capita - grid; Land cover, land use - grid; Temperature - grid; Precipitation - grid;
+|Parameter=Coastal storm surges; Flood statistics - grid; Daily climate dataset - grid; Topography, elevation - grid
+|OutputVar=Expected nr of affected people - grid; Expected value of affected GDP - grid; Statistics on inundation depth - grid; Statistics of inundation extent - grid; Statistics on river discharge - grid;
+|ComponentCode=FR
+|AggregatedComponent=Impacts
+|FrameworkElementType=impact component
+}}
+&lt;div class="page_standard"&gt;
+
+Flooding is the most frequent and costly natural hazard that regularly affects many countries ([[UNISDR, 2011]]; [[IPCC, 2012]]). In the last few decades, economic damage as a result of flooding has increased in most regions, primarily due to growth in population and wealth in flood-prone areas ([[Bouwer et al., 2010]]; [[UNISDR, 2011]]; [[Barredo et al., 2012]]). In relative terms, economic loss and mortality from flooding are highest in developing countries, but lack of reliable and complete data remains an important issue for damage estimates.
+
+To evaluate current flood risk and how the risks may change under future global change scenarios, rapid cost-effective assessments based on available global data are required. Such assessments are required, for instance, by international financing institutes to assess investment in risk reduction of natural disasters and by national institutes to monitor progress in risk reduction, such as under the Hyogo Framework for Action ([[UNISDR, 2005]]), by companies to justify insurance coverage and to assess risks to regional investments.
+GLObal Flood Risks with IMAGE Scenarios ([[GLOFRIS model|GLOFRIS]]) was developed for IMAGE 3.0 jointly by Deltares; PBL Netherlands Environmental Assessment Agency; Utrecht University; and the Institute for Environmental Studies, VU University Amsterdam. GLOFRIS estimates river and coastal flood risks by integrating the global hydrological model [[PCR-GLOBWB model|PCR-GLOBWB]] ([[Bierkens and Van Beek, 2009]]) and the global sea-level rise impacts model [[DIVA model|DIVA]] ([[Hinkel and Klein, 2009]]), using climate scenario data from complex climate models and downscaled socio-economic scenarios from IMAGE. 
+
+GLOFRIS is used to assess current and future flood risks related to climate, changing land-cover patterns and changing socio-economic conditions in all world regions. This can be done globally at a resolution of 0.5x0.5 degrees and regionally at a higher resolution (1x1 km&lt;sup&gt;2&lt;/sup&gt;). The higher resolution is achieved using a specially developed downscaling algorithm and more detailed regional impact models. Impacts for various safety levels can be analysed. Possible applications include the preparation of IPCC scenarios for flood risk changes at 0.5 degree and 1 km&lt;sup&gt;2&lt;/sup&gt; resolutions.
+
+{{InputOutputParameterTemplate}}
+&lt;/div&gt;</text>
+      <sha1>otuzu6o5v0nmg8zhuvzehzypbon8gti</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Human development</title>
+    <ns>0</ns>
+    <id>307</id>
+    <revision>
+      <id>36502</id>
+      <parentid>33556</parentid>
+      <timestamp>2020-04-01T13:24:45Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <minor/>
+      <comment>Text replacement - "==Introduction==" to ""</comment>
+      <origin>36502</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2642" sha1="faxh5o622a8nv7tt16eogxgije3es7k" xml:space="preserve">{{ComponentTemplate2
+|Application=OECD Environmental Outlook to 2050 (2012) project; Roads from Rio+20 (2012) project; Beyond 2015 (2009) project;
+|IMAGEComponent=Drivers; Energy demand; Agricultural economy; Emissions; Water
+|Model-Database=GUAM model; World Bank database; FAOSTAT database; WHO database;
+|KeyReference=Hilderink and Lucas, 2008; PBL, 2012; PBL, 2009;
+|InputVar=Temperature - grid; Precipitation - grid;  Food availability per capita; GINI coefficient; GDP per capita; People dependent on solid fuel; BC, OC and NOx emissions; SO2 emissions;  Population - grid; Urban population fraction;
+|OutputVar=Child mortality; Life expectancy; DALYs (disability-adjusted life years); Access to drinking water and sanitation; HDI (human development index); Child underweight; Prevalence of undernourishment; People living on less then USD 1.25 per day;
+|ComponentCode=HD
+|AggregatedComponent=Impacts
+|FrameworkElementType=impact component
+}}
+&lt;div class="page_standard"&gt;
+
+The quantity and quality of accessible environmental resources determine the viability of livelihoods. Unequal access to, and diminished quality of resources have a significant effect on livelihoods and on human health, particularly in developing countries. Increasing world population accompanied by rising demand for food, water and energy will put even more pressure on scarce natural resources, such as fertile land, potable water and forest resources. The pressure will be even greater in areas where natural resources are not well managed and or where degraded as a result of global environmental change. 
+
+On all scales from global UN processes to local initiatives, decision makers are concerned with improving the standard of living and human development. The IMAGE framework provides valuable insights into key environmental factors that affect human development, and how these impacts may be reduced by improving the natural environment.
+
+In the IMAGE framework, the Global Integrated Sustainability Model ([[GISMO model|GISMO]]) quantifies changes in human development, including access to food, water and energy, and the impact of economic, social and environmental changes (Hilderink and Lucas, 2008). The model includes the Human Development Index (HDI), population health measures (e.g. child mortality and life expectancy), and many indicators for the Millennium Development Goals ({{abbrTemplate|MDGs}}).
+
+Those parts of GISMO directly linked to other parts of IMAGE, are namely climate-related health risks, health problems related to urban and indoor air pollution, and the effects of malnutrition. 
+
+{{InputOutputParameterTemplate}}
+&lt;/div&gt;
+ </text>
+      <sha1>faxh5o622a8nv7tt16eogxgije3es7k</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Emissions</title>
+    <ns>0</ns>
+    <id>1071</id>
+    <revision>
+      <id>36507</id>
+      <parentid>36434</parentid>
+      <timestamp>2020-04-01T13:25:56Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <minor/>
+      <comment>Text replacement - "==Introduction==" to ""</comment>
+      <origin>36507</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1516" sha1="7ww5mstx2q77yk8gmvazgo5jiz1at4l" xml:space="preserve">{{ComponentTemplate2
+|Application=Roads from Rio+20 (2012) project;LIMITS (2014);Shared Socioeconomic Pathways - SSP (2014) project;EMF30
+|Model-Database=EDGAR database;GAINS database;CEDS database
+|KeyReference=Van Vuuren et al., 2006;Van Vuuren et al., 2011b;Braspenning Radu et al., 2016;Rao et al., 2016;Rao et al., 2017;Harmsen et al., 2019c;Lucas et al., 2007
+|InputVar=Energy and industry activity level;Feed crop requirement;Animal stocks;Land cover, land use - grid;Emission abatement;GDP per capita
+|Parameter=Emission factors;Relationship income and emission factor
+|OutputVar=CO2 emission from energy and industry;CO and NMVOC emissions;BC, OC and NOx emissions;SO2 emissions;Nitrogen deposition - grid;Non-CO2 GHG emissions (CH4, N2O and Halocarbons)
+|ComponentCode=E
+|FrameworkElementType=interaction component
+}}
+&lt;div class="page_standard"&gt;
+
+Emissions of greenhouse gases and air pollutants are major contributors to environmental impacts, such as climate change, acidification, eutrophication, urban air pollution and water pollution. These emissions stem from anthropogenic and natural sources. Anthropogenic sources include energy production and consumption, industrial processes, agriculture and land-use change, while natural sources include wetlands, oceans and unmanaged land. Better understanding the drivers of these emissions and the impact of abatement measures is needed in developing policy interventions to reduce long-term environmental impacts.
+
+{{InputOutputParameterTemplate}}
+&lt;/div&gt;</text>
+      <sha1>7ww5mstx2q77yk8gmvazgo5jiz1at4l</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Ecosystem services</title>
+    <ns>0</ns>
+    <id>1111</id>
+    <revision>
+      <id>36508</id>
+      <parentid>33511</parentid>
+      <timestamp>2020-04-01T13:25:58Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <minor/>
+      <comment>Text replacement - "==Introduction==" to ""</comment>
+      <origin>36508</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="4773" sha1="6gspcx6ouma1iilsubsj6718ydnjsed" xml:space="preserve">{{ComponentTemplate2
+|Application=Millennium Ecosystem Assessment - MA (2005) project
+|IMAGEComponent=Drivers; Nutrients; Agriculture and land use; Water; Land degradation; Terrestrial biodiversity; Flood risks;
+|KeyReference=Schulp et al., 2012;
+|Reference=Burkhard et al., 2012; MA, 2005; TEEB, 2010a; De Groot et al., 2012; Haines-Young and Potschin, 2013; TEEB, 2010b; Van Jaarsveld et al., 2005; Egoh et al., 2012; Bagstad et al., 2013; Garcia-Nieto et al., 2013; Foley et al., 2011; EC, 2012;
+|InputVar=Temperature - grid; Precipitation - grid; Crop production; Livestock production; Erosion risk - grid; Protected area - grid;  Ocean carbon uptake; NEP (net ecosystem production) - grid; Statistics on inundation depth - grid; River discharge - grid; Land use and land-use intensity - grid; GDP per capita - grid; Number of wet days - grid; Cloudiness - grid;
+|Parameter=Topography - grid; Distance to water - grid; Fish landing - grid; Accessibility - grid; No-go areas - grid;  Ecosystem services effect values
+|OutputVar=Suitability for nature-based tourism - grid; Presence of natural pest control - grid; Reduced erosion risk - grid; Food availability, including fish and wild food; Flood protection - grid; pollination - grid; Carbon sequestration - grid; Water availability - grid;
+|ComponentCode=EGS
+|AggregatedComponent=Impacts
+|FrameworkElementType=impact component
+}}
+&lt;div class="page_standard"&gt;
+
+Ecosystem services contribute to human well-being often in combination with other inputs ([[Burkhard et al., 2012]]). The identification and classification of the wide range of ecosystem services is still debated, but consensus is moving to the list of services published in the [[Millennium Ecosystem Assessment - MA (2005) project|Millennium Ecosystem Assessment]] (MA), and further elaborated in the TEEB study and the CICES project ([[MA, 2005]]; [[TEEB, 2010b]]; [[De Groot et al., 2012]]; [[Haines-Young and Potschin, 2013]]):
+* ''Provisioning services'': goods and products obtained directly from the ecosystem, such as food, water and wood; 
+
+* ''Regulating services'': benefits associated with physical processes influenced by the ecosystem, such as climate regulation and erosion control;
+
+* ''Cultural services'': non-material benefits to humans such as recreation;
+ 
+* ''Supporting services'': Processes assisting the supply of other ecosystem services, such as soil nutrient cycling supporting the provisioning of agricultural production though often not identified as a separate category.
+
+Since the Millennium Ecosystem Assessment, the concept of ecosystems services has drawn increasing attention with many studies determining the influence on human well-being ([[Van Jaarsveld et al., 2005]]; [[TEEB, 2010b]]; [[TEEB, 2010a]]; [[Burkhard et al., 2012]]). For example, the TEEB study focused on the economic implications of the losses of a variety of ecosystem services , and other studies have tried to unravel the less tangible benefits of ecosystems to illustrate the importance of ecosystem conservation ([[Egoh et al., 2012]]; [[Bagstad et al., 2013]]; [[Garcia-Nieto et al., 2013]]).
+
+Understanding of ecosystem services is needed because pressures on ecosystems tend to increase as the world population grows and consumption patterns change. Unsustainable use and degradation of ecosystems may diminish delivery of services and may eventually impact human well-being ([[MA, 2005]]; [[TEEB, 2010a]]; [[OECD, 2012]]). While food production, an ecosystem service itself, is increasing, it also puts pressure on other services, for instance by forest conversion to agricultural land may result in decreasing supply of clean water, ecotourism, and flood and drought control ([[MA, 2005]]; [[Foley et al., 2011]]).
+
+Growing concern about the unsustainable use has led to ecosystem services being incorporated in international and national policies. For example, the CBD Aichi targets endorsed by the EU biodiversity strategy address ecosystem services and the sustainable use of ecosystems ([[EC, 2012]]).
+
+Ecosystem services are closely linked to the core focus of the IMAGE 3.0 framework to analyse interactions between human and natural systems (see [[IMAGE framework]]). The ecosystems services module quantifies the supply of services, defined as functioning of ecosystems to produce services in a given time period. To quantify ecosystem services, a range of indicators is used from other IMAGE components , together with additional relationships developed to establish supply of services ([[Schulp et al., 2012]]). To identify deficiencies and surpluses in ecosystem services, the calculated supply is compared with the potential requirement for these services at an appropriate spatial scale.
+
+{{InputOutputParameterTemplate}}
+&lt;/div&gt;</text>
+      <sha1>6gspcx6ouma1iilsubsj6718ydnjsed</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Air pollution and energy policies</title>
+    <ns>0</ns>
+    <id>1122</id>
+    <revision>
+      <id>36505</id>
+      <parentid>33845</parentid>
+      <timestamp>2020-04-01T13:25:03Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <minor/>
+      <comment>Text replacement - "==Introduction==" to ""</comment>
+      <origin>36505</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2586" sha1="j0got0mzug4ml0pzl9snp0u6eeneu3d" xml:space="preserve">{{PolicyResponseComponentTemplate
+|Application=Roads from Rio+20 (2012) project;
+|KeyReference=Kruyt et al., 2009; Van Ruijven et al., 2012;
+|Reference=EC, 2010; AGECC, 2010; Jewell et al., 2016; 
+|IMAGEComponent=Land and biodiversity policies; Climate policy;
+|ComponentCode=APEP
+|FrameworkElementType=response component
+|AggregatedComponent=Policy responses
+}}{{#default_form:PolicyResponseComponentForm}}&lt;div class="page_standard"&gt; 
+
+Many countries have formulated explicit policies to address the role of the energy system in achieving their development ambitions. These policies are clustered under goals for affordable energy, clean energy, and reliable energy. The EU Energy Strategy, for instance, aims for a competitive, sustainable and secure energy system ([[EC, 2010]]). Similarly, the UN Secretary-General Advisory Group on Energy and Climate Change ({{abbrTemplate|AGECC}}) states as goal ensuring reliable, affordable, and sustainable access to modern energy services ([[AGECC, 2010]]). 
+
+Other energy policies are also pursued. Energy exporting countries, for instance, aim to maximise returns on national fossil-fuel reserves. Many countries have formulated policies to support specific energy uses (e.g. irrigation) or user groups by offering energy at reduced costs, by subsidies or energy taxes exemptions , or by providing free grid connectivity. While inspired by other policy considerations, some of these measures rank as harmful subsidies from an environmental perspective. 
+
+The three energy goals represent trade-offs, but also opportunities for synergy, and model studies can help to identify and explore these. An important interaction is also with the climate policies discussed in Component [[Climate policy]].
+
+Here, we focus on access to modern energy sources (affordable), and air pollution reduction (clean) and energy security (reliable). Energy security concerns may limit use of foreign supplies, with possible implications for domestic energy prices and environmental impacts. Access to modern energy generates additional demands for fuel and electricity with benefits for economic development, but may also lead to more energy imports. Outside air pollution from burning fossil fuels may increase, but phasing out traditional bioenergy will substantially reduce indoor air pollution, resulting in net health improvements. Currently, in some regions and cities burning fossil fuels and biomass contributes to severe and increasing levels of air pollution and associated health impacts, see also Component [[Land and biodiversity policies]].
+&lt;/div&gt;</text>
+      <sha1>j0got0mzug4ml0pzl9snp0u6eeneu3d</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Drivers</title>
+    <ns>0</ns>
+    <id>314</id>
+    <revision>
+      <id>36607</id>
+      <parentid>33678</parentid>
+      <timestamp>2021-10-08T09:46:03Z</timestamp>
+      <contributor>
+        <username>Dafnomilii</username>
+        <id>102</id>
+      </contributor>
+      <comment>Edits based on Detlef's input</comment>
+      <origin>36607</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2257" sha1="ojeqqizm76ykm2gs7k5rvhfu1rpzaf0" xml:space="preserve">{{DriverComponentTemplate
+|Application=Millennium Ecosystem Assessment - MA (2005) project; OECD Environmental Outlook to 2050 (2012) project; IPCC SRES (2000) project; Shared Socioeconomic Pathways - SSP (2014) project
+|Overview=Framework overview; Variable overview; Policy interventions and components overview;
+|Model-Database=ENV-Growth model; MAGNET model;
+|KeyReference=IPCC, 2000; OECD, 2012; MA, 2005;
+|ComponentCode=D
+|FrameworkElementType=driver component
+}}{{#default_form:DriverComponentForm}}&lt;div class="page_standard"&gt;
+==Description of {{ROOTPAGENAME}}==
+Several trends play a critical role in the future development of critical model variables and results, such as population size and economic development. For several of these, exogenous assumptions are made. These exogenous assumptions drive the outcome of model calculations, together with the endogenous functional relationships and model parameters in the model. These critical factors are referred to as drivers. In IMAGE, six groups of assumptions are distinguished that make up the scenario drivers. 
+
+These six groups are the basis for all scenarios. The assumptions for the drivers are based on scenario narratives or storylines. The advantage of these narratives that consistent assumptions can be made. The narratives include cases where current trends and dynamics are assumed to continue, commonly referred to as a reference or ‘business-as-usual’ scenarios. The narratives can also describe a set of contrasting future futures for the drivers to explore the relevant range of uncertain yet plausible developments.
+
+As a rule, scenario drivers are not numerical model inputs but, in qualitative or semi-quantitative terms, govern a detailed set of exogenous assumptions in terms of model input to the various components of the model framework. Numerical model drivers for a specific scenario are established based on the six generic scenario drivers. The model drivers for the various IMAGE models and modules (called components on the site) are explained in the component pages (see [[Framework overview]]). The scenario drivers and underlying narrative, together with the quantitative model drivers, form a scenario inextricably linked with an IMAGE scenario run.
+&lt;/div&gt;</text>
+      <sha1>ojeqqizm76ykm2gs7k5rvhfu1rpzaf0</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Land cover and land use</title>
+    <ns>0</ns>
+    <id>1395</id>
+    <revision>
+      <id>37053</id>
+      <parentid>37051</parentid>
+      <timestamp>2022-11-18T11:15:18Z</timestamp>
+      <contributor>
+        <username>Dafnomilii</username>
+        <id>102</id>
+      </contributor>
+      <origin>37053</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3972" sha1="6zu59d95ls2xr3owd7mdi8axio0ep64" xml:space="preserve">{{ComponentTemplate2
+|Application=Roads from Rio+20 (2012) project;Global Land Outlook 1;Global Land Outlook 2;Shared Socioeconomic Pathways - SSP (2014) project
+|KeyReference=Mandryk et al., 2015
+|Reference=Schipper et al., 2020;Van der Esch et al., 2017
+|InputVar=Crop fraction in agricultural area - grid;Potential natural vegetation - grid;Built-up area - grid;Bioenergy area;Extensive grassland area - grid;Potential natural vegetation - grid;Animal stock;Intensive grassland area;Management intensity crops;Management intensity livestock;Irrigation water withdrawal - grid;Water withdrawal other sectors - grid;Forest management type - grid;Change in soil properties - grid;Carbon pools in soil and timber - grid;Carbon pools in vegetation - grid;NPP (net primary production) - grid;MSA (mean species abundance) - grid;Regrowth forest area - grid;Agricultural area - grid;Protected area - grid;Degraded forest area;Harvested wood;Biodiversity Intactness Index (BII) – grid
+|OutputVar=Land cover, land use - grid;Land supply for bioenergy - grid;Land supply
+|ComponentCode=LCU
+|FrameworkElementType=interaction component
+}}
+&lt;div class="page_standard"&gt;
+In addition to emissions, land cover and land use are key linkages between the Human system and the Earth system. Land cover and use are changed by humans for a variety of purposes, such as to produce food, fibres, timber and energy, to raise animals, for shelter and housing, transport infrastructure, tourism, and recreation. These human activities have affected most areas in the world, transforming natural areas to human-dominated landscapes, changing ecosystem structure and species distribution, and water, nutrient and carbon cycles. Natural landscape characteristics and land cover also affect humans, determining suitable areas for settlement and agriculture, and delivering a wide range of ecosystem services. As such, land cover and land use can be understood as the complex description of the state and processes in a land system in a certain location. It results from the interplay of natural and human processes, such as crop cultivation, fertilizer input, livestock density, type of natural vegetation, forest management history, and built-up areas. 
+
+In IMAGE, elements of land cover and land use are calculated in several components, namely in land use allocation, forest management, livestock systems, carbon cycle and natural vegetation. The output from these components forms a description of gridded global land cover and land use that is used in these and other components of IMAGE. In addition, this description of gridded land cover and land use per time step can be provided as IMAGE scenario information to partners and other models for their specific assessments.
+
+==Model description==
+Land cover and land use described in an IMAGE scenario is a compilation of output from various IMAGE components. This compilation provides insight into key processes in land-use change described in the model and an overview of all gridded land cover and land use information available in IMAGE (Input/Output Table below).
+
+Land cover and land use is also the basis for the land availability assessment, which provides information on regional land supply to the [[Agricultural economy|agro-economic model]], based on potential crop yields, protected areas, and external datasets such as slope, soil properties, and wetlands ([[Mandryk et al., 2015]]; [[Van der Esch et al., 2017]]).
+
+==Impacts on Terrestrial Biodiversity==
+Changes in land cover and land use, as well as other drivers, impact biodiversity. The impacts on terrestrial biodiversity are generally calculated by the GLOBIO Model ([[Schipper et al., 2020]]). However, IMAGE-Land can directly provide two biodiversity indicators, the Mean Species Abundance (MSA) and the Biodiversity Intactness Index (BII), see section [[Terrestrial biodiversity/Description|Terrestrial biodiversity]] for details.
+{{InputOutputParameterTemplate}}
+&lt;/div&gt;</text>
+      <sha1>6zu59d95ls2xr3owd7mdi8axio0ep64</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Energy demand</title>
+    <ns>0</ns>
+    <id>3155</id>
+    <revision>
+      <id>36886</id>
+      <parentid>36509</parentid>
+      <timestamp>2021-11-22T10:58:36Z</timestamp>
+      <contributor>
+        <username>Dafnomilii</username>
+        <id>102</id>
+      </contributor>
+      <origin>36886</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2844" sha1="qyy6pm4ce0xlh5clepue0v4dg2kc9zr" xml:space="preserve">{{ComponentTemplate2
+|Application=Roads from Rio+20 (2012) project; EU Resource efficiency (2011) project; ADVANCE project;
+|IMAGEComponent=Drivers; Human development; Forest management;
+|KeyReference=Daioglou et al., 2012; Girod et al., 2012; Van Ruijven et al., 2012;
+|InputVar=GDP per capita; Sector value added; Private consumption; Population; Energy intensity parameters; Energy efficiency technology;  Primary energy price; Electricity price; Lifestyle parameters; Taxes and other additional costs; Preferences;  Secondary energy price
+|Parameter=Exogenously set market shares;
+|OutputVar=Demand for electricity, heat and hydrogen; Demand traditional biomass; People dependent on solid fuel; Energy and industry activity level; Demand for fossil fuels and bioenergy;
+|HasPageLabel=Introduction page
+|ComponentCode=ED
+|AggregatedComponent=Energy supply and demand
+|FrameworkElementType=pressure component
+}}
+&lt;div class="page_standard"&gt;
+
+Global energy use has increased rapidly since the industrial revolution. From a historical perspective, most increases have occurred in high-income regions but more recently, the largest increase is in emerging economies. With the aspirations for income growth in medium- and low-income countries, energy demand is expected to grow in the coming decades, with major implications for sustainability goals. 
+
+&lt;h3&gt;Energy demand sectors and processes&lt;/h3&gt;
+In the TIMER energy demand module, final energy demand is simulated as a function of changes in population, economic activity and energy intensity (see flowchart). Five economic sectors are considered: industry; transport; residential; public and private services; and other sectors mainly agriculture. In each sector, final energy use is driven by the demand for energy services, such as motor drive, mass displacement, chemical conversions, lighting, heating and cooling. Energy demand is considered as a function of three groups of parameters and processes: 
+*activity data, for example on population and income, and more explicit activity indicators, such as steel production; 
+*long-term trends that determine the intensity of use, for example, economic structural change ({{abbrTemplate|SC}}), autonomous energy efficiency improvement ({{abbrTemplate|AEEI}}) and price-induced energy efficiency improvement ({{abbrTemplate|PIEEI}});
+*price-based fuel substitution ( the choice of energy carrier on the basis of its relative costs).
+These factors are implemented in different ways in the various sectors. In some sectors, a detailed end-use service-oriented modelling approach is used while in other sectors, the description is more generic and aggregate. Energy prices link the demand module with other parts of the energy model, as they respond dynamically to changes in demand, supply and conversion.
+
+{{InputOutputParameterTemplate}}
+&lt;/div&gt;</text>
+      <sha1>qyy6pm4ce0xlh5clepue0v4dg2kc9zr</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Climate policy</title>
+    <ns>0</ns>
+    <id>310</id>
+    <revision>
+      <id>36582</id>
+      <parentid>36581</parentid>
+      <timestamp>2021-06-17T16:28:50Z</timestamp>
+      <contributor>
+        <username>Hofa</username>
+        <id>97</id>
+      </contributor>
+      <origin>36582</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3483" sha1="pp28pn2fs3q17vx9zdbobxbwuaaiw3b" xml:space="preserve">{{ComponentTemplate2
+|IMAGEComponent=Drivers;Emissions;Energy supply;Energy conversion;Energy supply and demand;Carbon, vegetation, agriculture and water;Atmospheric composition and climate
+|Model-Database=MAGICC model;AD RICE model;TIMER model;IIASA database
+|KeyReference=Den Elzen et al., 2016;Hof et al., 2017;Van den Berg et al., 2020
+|Reference=UNFCCC (2015);UNFCCC (2015b);UNEP (2016);Rogelj et al., 2016;Den Elzen et al., 2015a;Kuramochi et al., 2016;Hof et al., 2016;Hof et al., 2008
+|InputVar=Population;GDP per capita;CO2 emission from energy and industry;CO and NMVOC emissions;Non-CO2 GHG emissions (CH4, N2O and Halocarbons);Marginal abatement cost;Climate target;Domestic climate policy;Marginal abatement costs;BC, OC and NOx emissions;SO2 emissions;Land-use CO2 emissions - grid;Equity principles;Adaptation level
+|Parameter=Other energy and land-use models;Investment and Capital Stock
+|OutputVar=Carbon price;Emission abatement;Global emission pathways;Mitigation costs;Emission trading;Consumption loss;Adaptation costs;Residual damage
+|ComponentCode=CP
+|FrameworkElementType=response component
+|AggregatedComponent=Policy responses
+}}
+&lt;div class="page_standard"&gt;
+
+With the 2015 Paris Agreement, all Parties to the United Nations Framework Convention on Climate Change (UNFCCC) have agreed to limit global warming to 2 °C compared to pre-industrial levels and to pursue efforts to further limit this increase to a maximum of 1.5 °C [[UNFCCC (2015b)]].
+
+To achieve this goal, countries have proposed short- and long-term reduction targets in the {{abbrTemplate|UNFCCC}} climate negotiating process and in domestic policies. To support climate policymakers, the IMAGE model is used in conjunction with the climate policy model [[FAIR model|FAIR]]. FAIR is a decision support tool to analyse the costs, benefits, and climate effects of mitigation regimes, emission reduction commitments, and climate policies. 
+
+FAIR can work in stand-alone mode using exogenous data, but in recent applications it interacts with several IMAGE components. For instance, mitigation cost curves for the energy sector are derived from the [[Energy supply and demand|Energy Supply and Demand model TIMER]] and land-use mitigation options from [[Agriculture and land use|Agriculture and Land Use]], while non-CO&lt;sub&gt;2&lt;/sub&gt; {{abbrTemplate|MAC}} curves are based on [[Lucas et al., 2007|Lucas et al. (2007)]] and [[Harmsen et al., 2019c|Harmsen et al. (2019c)]]. Data from FAIR on marginal abatement costs and reduction efforts per sector and greenhouse gases are used as input for IMAGE to evaluate the impacts under different assumptions for climate mitigation. 
+
+FAIR in combination with IMAGE can analyse the interaction between long-term climate targets and short-term regional emission targets. Regional targets are based on effort-sharing approaches and/or national emission reduction proposals, taking into account decisions on accounting rules as agreed under the Paris Agreement. The central purposes of the model are the calculation of mitigation costs and trade in emission allowances, and the net mitigation costs of a region to achieve its mitigation target. FAIR enables evaluation of proposed effort-sharing regimes, including differentiated timing and participation of a limited number of parties to the climate convention. Furthermore, FAIR analyses the trade-offs between costs and benefits of mitigation and adaptation policy.
+
+{{InputOutputParameterTemplate}}
+&lt;/div&gt;</text>
+      <sha1>pp28pn2fs3q17vx9zdbobxbwuaaiw3b</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Land and biodiversity policies</title>
+    <ns>0</ns>
+    <id>3186</id>
+    <revision>
+      <id>36939</id>
+      <parentid>36538</parentid>
+      <timestamp>2021-11-23T20:20:55Z</timestamp>
+      <contributor>
+        <username>Vosdl</username>
+        <id>105</id>
+      </contributor>
+      <origin>36939</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="4964" sha1="m4czm3anxygkkacozofkaoo32qghmlv" xml:space="preserve">{{PolicyResponseComponentTemplate
+|Overview=Policy interventions overview
+|PITable=No
+|IMAGEComponent=Climate policy; Air pollution and energy policies; Forest management; Agricultural economy; Land-use allocation; Livestock systems; Energy demand; Energy supply; Nutrients; Water; Crops and grass;
+|ComponentCode=LBP
+|FrameworkElementType=response component
+|AggregatedComponent=Policy responses
+}}
+{{#default_form:PolicyResponseComponentForm}}&lt;div class="page_standard"&gt; 
+
+The increase in material wealth, population and economic growth have led to a large demand for agricultural products and transformation of large parts of the land surface. The wide range of environmental issues related to agriculture and forestry include distorted nutrient balances, biodiversity loss, greenhouse gas emissions from land use and land-use change, soil degradation, and water stress due to agricultural water demand. These issues can be addressed from a sector perspective focusing on the respective system (e.g., [[Nutrients|nutrients]], [[water]], see the respective components). However, these issues are linked by demand for land-based products, and by land management. 
+
+The IMAGE framework enables a systems approach to analyse policy interventions targeting the impacts of land use on biodiversity and climate change. To identify interventions that could reduce the impacts of agriculture and forestry on the environment, the system takes account of the chain linking demand for food, feed, wood, and bioenergy, to types of production systems and to landscape impacts. 
+
+Policy interventions can target demand for commodities (Figure A), the production system, for instance, with respect to efficiency of natural resource use (Figure B and C), or a more systemic approach to regulating land use for different purposes within a landscape (Figure D). Regulation of land use implies managing the land resource base by designating areas to specific purposes, such as excluding protected natural areas from agricultural use, or preventing deforestation. Alternatively, regulation could be in the form of financial incentives to create value for currently non-market ecosystem services, such as emission reduction from deforestation combined with biodiversity conservation (e.g., {{abbrTemplate|REDD+}} schemes) and other forms of payment for ecosystem services ({{abbrTemplate|PES}}).
+
+While this section focuses on the impacts on biodiversity, climate change, water and nutrient balances, some policy interventions also have implications for other policy domains, such as food security, human health and animal welfare.
+
+==Model description==
+The interventions described in this section are implemented in different parts of the IMAGE 3.2 framework, and are also addressed in the components in which the respective processes are described. 
+
+Policies that change demand for agricultural products ([[Land and biodiversity policies/Agricultural demand|Agricultural demand part]]) are implemented in the agricultural economic model, thus taking into account the impacts on trade and demand in other regions. In IMAGE 3.2, change in wood demand is addressed in the model via a simple relationship with GDP, or by using external input data on wood demand (see Component [[Agricultural economy]]). Demand for second-generation bioenergy crops is addressed in the [[Energy supply and demand|energy model]].
+
+Changes in production systems ([[Land and biodiversity policies/Agricultural production system|Agricultural production system part]]) are modelled in IMAGE using alternative input parameters. For the relevant inputs in e.g. the [[Land-use allocation|land-use allocation]], [[Livestock systems|livestock]], and [[Nutrients|nutrient]] modules, these changes are consistent with those in the [[Agricultural economy|agro-economic]] model, to ensure appropriate representation of the (cost) structure of production. Production system changes, for example those induced by taxes or scarcity of endowments, are implemented in the agro-economic model and adjusted in other modules, accordingly.
+
+Land-use regulation ([[Land and biodiversity policies/Forestry sector|Forestry sector]] and [[Land and biodiversity policies/Land-use regulation|Land-use regulation]] part), which is the regulation of land supply, is modelled as a consistent resource constraint in the [[Land-use allocation|land-use allocation]] model and the [[Agricultural economy|agro-economic model]]. This last model takes account of the economic effects of restricted land supply. For example, {{abbrTemplate|REDD+}} and {{abbrTemplate|PES}} are implemented not as additional productive functions, but by reducing the land supply in the agro-economic model. The spatial dimension of such land-use regulation, like the expansion of protected area, is taken into account in the [[Land-use allocation|agricultural systems]] module, and affects via the resulting land use pattern all down-stream processes.
+&lt;/div&gt;</text>
+      <sha1>m4czm3anxygkkacozofkaoo32qghmlv</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Terrestrial biodiversity</title>
+    <ns>0</ns>
+    <id>2657</id>
+    <revision>
+      <id>37054</id>
+      <parentid>36499</parentid>
+      <timestamp>2022-11-18T11:16:25Z</timestamp>
+      <contributor>
+        <username>Dafnomilii</username>
+        <id>102</id>
+      </contributor>
+      <origin>37054</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3428" sha1="scdwalou2wj4trjqkci3u2vc2fq38uh" xml:space="preserve">{{ComponentTemplate2
+|Application=Millennium Ecosystem Assessment - MA (2005) project;Rethinking Biodiversity Strategies (2010) project;Roads from Rio+20 (2012) project
+|KeyReference=Alkemade et al., 2009;PBL, 2010
+|Reference=MA, 2005;SCBD, 2010;Scholes and Biggs, 2005;Faith et al., 2008;Musters et al., submitted
+|InputVar=Management intensity crops;Management intensity livestock;Nitrogen deposition - grid;Global mean temperature;Protected area - grid;Land cover, land use - grid
+|Parameter=Species-area relationships;Road-map - grid;Nitrogen critical load;Biome and eco-region - grid;MSA effect values;High resolution land cover (GLC2000) - grid
+|OutputVar=Wilderness area - grid;MSA (mean species abundance) - grid;SRI (species richness index) - grid;Land use and land-use intensity - grid;Biodiversity Intactness Index (BII) – grid
+|ComponentCode=TB
+|AggregatedComponent=Impacts
+|FrameworkElementType=impact component
+}}
+&lt;div class="page_standard"&gt;
+
+Biodiversity is declining rapidly with consequences for human well-being and ultimately even for the existence of humankind ([[MA, 2005]]). The Conference of Parties to the Convention on Biological Diversity ({{abbrTemplate|CBD}}) formulated the long-term vision: ‘By 2050, biodiversity is valued, conserved, restored and wisely used, maintaining ecosystem services, sustaining a healthy planet and delivering benefits essential for all people’. For the period up to 2020, five strategic goals comprising 20 biodiversity targets have been adopted, referred to as the Aichi targets ([[sCBD, 2010]]). 
+
+IMAGE assesses the impacts of socio-economic drivers on the physical environment, such as climate change, land-use change and pollution, and these are input to the [[GLOBIO model]] to evaluate their impacts on biodiversity. GLOBIO was developed to provide information to policymakers at international level on current and future biodiversity, ([[Alkemade et al., 2009]]). The model delivers quantified results on the impact of environmental drivers and potential policy options on biodiversity. Potential trends in biodiversity are addressed in future scenarios, including the expected outcome in the absence of additional policies to prevent biodiversity loss. 
+
+GLOBIO builds on a series of cause–effect relationships between environmental drivers and biodiversity, based on state-of-the-art knowledge. 
+
+The key measure of biodiversity in GLOBIO is the mean abundance of original species relative to their abundance in undisturbed ecosystems. Referred to as the mean species abundance (MSA), this measure reflects the degree to which the ecosystem is intact and is similar to the Biodiversity Intactness Index ([[Scholes and Biggs, 2005]]). New methods combine {{abbrTemplate|MSA}} estimates and species area relationships to estimate species loss at different geographical levels ([[Faith et al., 2008]]; [[Musters et al., submitted]]). The resulting Species Richness Index (SRI) is calculated as one of the end points of GLOBIO. The current version of SRI only covers vertebrate species. In addition, natural areas with high MSA values, defined as wilderness areas, are identified by their extent, landcover type and regional spread. The drivers of biodiversity loss considered are land-cover change, land-use intensity, fragmentation, climate change, atmospheric nitrogen deposition and infrastructural development.
+
+{{InputOutputParameterTemplate}}
+&lt;/div&gt;</text>
+      <sha1>scdwalou2wj4trjqkci3u2vc2fq38uh</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Aquatic biodiversity</title>
+    <ns>0</ns>
+    <id>2658</id>
+    <revision>
+      <id>36510</id>
+      <parentid>33506</parentid>
+      <timestamp>2020-04-01T13:26:54Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <minor/>
+      <comment>Text replacement - "==Introduction==" to ""</comment>
+      <origin>36510</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2304" sha1="cyn8j2pnyc9n2x8uwcaslq1l45vegvm" xml:space="preserve">{{ComponentTemplate2
+|Application=Rethinking Biodiversity Strategies (2010) project; Roads from Rio+20 (2012) project;
+|Model-Database=GLWD database;
+|KeyReference=Alkemade et al., 2011b; Janse et al., submitted;
+|Reference=Lehner and Döll, 2004; Moser et al., 1998;
+|InputVar=Land cover, land use - grid;  N and P discharge to surface water - grid; River discharge - grid;
+|Parameter=GLWD (global lakes and wetlands database) - grid; Lake depth - grid; Digital water network - grid; Empirical MSA effect values; Water temperature - grid;
+|OutputVar=Aquatic MSA - grid; Algal blooms in lakes;
+|FrameworkElementType=impact component
+|ComponentCode=AB
+|AggregatedComponent=Impacts
+}}
+&lt;div class="page_standard"&gt;
+
+Inland aquatic ecosystems, including rivers, natural lakes, reservoirs, and wetlands, cover about 8 to 9% of the Earth’s continental surface ([[Lehner and Döll, 2004]]). The wetland area has declined considerably in the last century ([[Moser et al., 1998]]). Freshwater systems are dynamic and spatially interrelated , and the drivers of biodiversity loss partly differ from those of terrestrial ecosystems (see Section 7.2). Therefore, the effects of human-induced changes on the biodiversity of freshwater aquatic ecosystems is covered in a separate model in the IMAGE framework. 
+
+The [[GLOBIO model]] for aquatic ecosystems, GLOBIO aquatic, is based on a catchment approach to account for the composite effect of pressure factors on various parts of a catchment. The main drivers included are land use and nutrient loss within catchments, water flow deviations, and climate change. Changes in these drivers in future scenarios as calculated by the IMAGE model are used as input to GLOBIO aquatic.
+
+The biodiversity indicators are comparable with those in the GLOBIO model for terrestrial ecosystems: species richness and biodiversity intactness, which is the mean abundance of original species relative to their abundance in undisturbed ecosystems ({{abbrTemplate|MSA}}). Similar to its terrestrial counterpart, the driver-impact-relationships for aquatic biodiversity are based on meta-analyses of empirical data from the literature. In addition to biodiversity indicators, the model calculates the occurrence of harmful algal blooms in lakes.
+
+{{InputOutputParameterTemplate}}
+&lt;/div&gt;</text>
+      <sha1>cyn8j2pnyc9n2x8uwcaslq1l45vegvm</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Land degradation</title>
+    <ns>0</ns>
+    <id>297</id>
+    <revision>
+      <id>37064</id>
+      <parentid>36752</parentid>
+      <timestamp>2022-11-21T10:57:07Z</timestamp>
+      <contributor>
+        <username>Doelmanj</username>
+        <id>80</id>
+      </contributor>
+      <origin>37064</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="4382" sha1="8tm124de572tldsp2gkdtxs5bjd2c4h" xml:space="preserve">{{ComponentTemplate2
+|Application=Roads from Rio+20 (2012) project;Global Land Outlook 1;Global Land Outlook 2
+|IMAGEComponent=Atmospheric composition and climate;Land cover and land use
+|Model-Database=GlobCover database;WorldClim database;HWSD database;S-World database;WISE database
+|KeyReference=Hootsmans et al., 2001;Stoorvogel et al., 2017;Stoorvogel, 2014;Van Beek, 2012
+|Reference=FAO, 2011a;Wischmeier and Smith, 1978;Nkonya et al., 2011;Bindraban et al., 2012;UNCCD, 2012;Rozanov et al., 1990
+|InputVar=Precipitation - grid;Number of wet days - grid;Land cover, land use - grid;Temperature - grid
+|Parameter=Slope - grid;Land management;Initial land cover, land use;Initial temperature, precipitation;Soil types and profiles (S-World);Weighting factors for temperature, precipitation, land use and slope
+|OutputVar=Erosion risk - grid;Change in soil properties - grid
+|ComponentCode=LD
+|AggregatedComponent=Impacts
+|FrameworkElementType=impact component
+}}
+&lt;div class="page_standard"&gt;
+
+Land degradation is human-induced damage to ecosystems leading to a sustained loss of capacity. This is a serious and widespread problem leading ultimately to loss of arable land, and to demand for new arable land to compensate for decline in production on existing land. A key symptom of land degradation is loss of organic carbon from soils and vegetation, also contributing to global greenhouse gas emissions. The key mechanisms in land degradation are soil erosion (by water and wind), compaction, salinization, nutrient depletion, structural decay and contamination. The main causes are deforestation, land conversion, inadequate agricultural land use and management, and construction (urbanisation, road construction).
+
+In 2012, the UN Convention to Combat Desertification ({{abbrTemplate|UNCCD}}) formulated the goal to achieve zero net land degradation as a Sustainable Development Goal for [[Roads from Rio+20 (2012) project|Rio+20]] ''‘to secure the contribution of our planet’s land and soil to sustainable development, including food security and poverty eradication’'' ([[UNCCD, 2012]]). Land degradation is also relevant to the other Rio Conventions, with one of the Aichi targets of the Convention on Biological Diversity ({{abbrTemplate|CBD}}) aiming to restore at least 15% of degraded ecosystems. 
+
+While recognized as a global threat, the impacts of land degradation are poorly understood, and studies report differing results. For instance, productive soil loss equals 15 million km&lt;sup&gt;2&lt;/sup&gt; according to [[Rozanov et al., 1990]], while FAO reports about 43 million km&lt;sup&gt;2&lt;/sup&gt; moderately to severely degraded land because of soil quality loss, water resource depletion and biodiversity loss ([[FAO, 2011a]]). As a result, the impacts on productivity and economic losses with consequences for food security are also very uncertain. In the same way, the costs and benefits of investments to prevent land degradation and to restore degraded areas are also largely unknown ([[Nkonya et al., 2011]]). Many reasons for these discrepancies and knowledge gaps are identified ([[Bindraban et al., 2012]]), including uncertainty about data, ambiguous definitions of land degradation, and methodology weaknesses in attributing changes in ecosystems to land degradation or to other causes.
+
+Although a comprehensive model to capture the complex system interactions is not readily available, IMAGE 3.0 offers the following approaches to address soil degradation: 
+
+A.	Water Erosion Risk: Risk assessment of soil erosion caused by water based on the Universal Soil Loss Equation ({{abbrTemplate|USLE}}; Wischmeier and Smith[[Wischmeier and Smith, 1978|(1978)]]). 
+
+B.	Change in soil properties: Quantitative assessment of changes in soil properties, from a hypothetically undisturbed (pristine) situation to a new situation, accounting for changes in land cover and other changes caused by human activity. The effect of changes in soil properties on crop production, hydrology and water can be assessed in other components of IMAGE.
+
+C.	Including historically observed degradation trends derived from satellite-observed NDVI trends in land-use projections. Observed degradation is assumed to correlate with crop yield loss. By reducing or restoring yields the role of land degradation in the agricultural economy is assessed.
+
+{{InputOutputParameterTemplate}}
+&lt;/div&gt;</text>
+      <sha1>8tm124de572tldsp2gkdtxs5bjd2c4h</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Carbon cycle and natural vegetation</title>
+    <ns>0</ns>
+    <id>299</id>
+    <revision>
+      <id>36965</id>
+      <parentid>36964</parentid>
+      <timestamp>2021-11-26T15:35:27Z</timestamp>
+      <contributor>
+        <username>Dafnomilii</username>
+        <id>102</id>
+      </contributor>
+      <origin>36965</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3845" sha1="diklybp7ob4daqh9h80uw4mcftssy6i" xml:space="preserve">{{ComponentTemplate2
+|IMAGEComponent=Carbon, vegetation, agriculture and water;Agriculture and land use;Atmospheric composition and climate;Ecosystem services;Land cover and land use
+|Model-Database=HYDE database
+|KeyReference=Sitch et al., 2003;Müller et al., 2016a
+|Reference=Müller et al., 2007;Ballantyne et al., 2012;Gerten et al., 2004;Bondeau et al., 2007;Klein Goldewijk et al., 1994;Van Minnen et al., 2000;Doelman et al., 2019;Friedlingstein et al., 2019;Braakhekke et al., 2019;Von Bloh et al., 2018;Schaphoff et al., 2018a;Schaphoff et al., 2018b
+|InputVar=Temperature - grid;Precipitation - grid;Number of wet days - grid;Cloudiness - grid;CO2 concentration;Timber use fraction;Land cover, land use - grid;Irrigation water supply - grid;Forest management type - grid
+|Parameter=Soil properties - grid
+|OutputVar=Potential natural vegetation - grid;NEP (net ecosystem production) - grid;Land-use CO2 emissions - grid;Carbon pools in vegetation - grid;NPP (net primary production) - grid;Soil respiration - grid;Carbon pools in soil and timber - grid
+|ComponentCode=NVCC
+|AggregatedComponent=Carbon, vegetation, agriculture and water
+|FrameworkElementType=state component
+}}
+&lt;div class="page_standard"&gt;
+
+The terrestrial biosphere plays a key role in global and regional carbon cycles and thus in the climate system. Large amounts of carbon (between 2000 and 3000 PgC) are stored in the vegetation and soil components. Currently, the terrestrial biosphere absorbs about 30% of emitted CO&lt;sub&gt;2&lt;/sub&gt; ([[Ballantyne et al., 2012]]), and this carbon sink can be maintained and even enhanced by, for instance, protecting established forests and by establishing new forests ([[Doelman et al., 2019]]). However, deforestation and other land use changes in the last few centuries have contributed considerably to the build-up of atmospheric carbon dioxide ([[Friedlingstein et al., 2019]]) and this trend is projected to continue [[Müller et al., 2007|(Müller et al., 2007]]).
+ 
+Regardless of land cover and land use, the net carbon sink in the terrestrial biosphere is affected by a range of environmental conditions such as climate, atmospheric CO&lt;sub&gt;2&lt;/sub&gt; concentration and moisture. These conditions influence processes that take up and release CO&lt;sub&gt;2&lt;/sub&gt; from the terrestrial biosphere such as photosynthesis, plant and soil respiration, transpiration, carbon allocation and turnover, and disturbances such as fires. 
+
+In plant photosynthesis, CO&lt;sub&gt;2&lt;/sub&gt; is taken from the atmosphere and converted to organic carbon compounds. This CO&lt;sub&gt;2&lt;/sub&gt; conversion is referred to as gross primary production ({{abbrTemplate|GPP}}). The sequestered carbon is needed for plant maintenance and growth (autotrophic respiration), and for the development of new plant tissues, forming live biomass carbon pools. All plant parts (including leaf fall and mortality) are ultimately stored as carbon in carbon pools in the soil and atmosphere. 
+
+Terrestrial carbon cycle and vegetation models contribute to better understanding of the dynamics of the terrestrial biosphere in relation to these underlying processes and to the terrestrial water cycle (see Component [[Water]]) and land use (see Component [[Agriculture and land use]]). 
+
+The IMAGE-2 carbon cycle and biome model ([[Klein Goldewijk et al., 1994]]; [[Van Minnen et al., 2000]]) have been replaced by the Lund-Potsdam-Jena model with Managed Land ([[LPJmL model|LPJmL]]) model ([[Sitch et al., 2003]]; [[Gerten et al., 2004]]; [[Bondeau et al., 2007]]; [[Schaphoff et al., 2018a]]; [[Schaphoff et al., 2018b]]). An overview of the LPJmL model in the IMAGE context with regard to carbon and biome dynamics is presented here; the model and a sensitivity analysis is described in detail by Müller et al. ([[Müller et al., 2016a|2016]]).
+
+{{InputOutputParameterTemplate}}
+&lt;/div&gt;</text>
+      <sha1>diklybp7ob4daqh9h80uw4mcftssy6i</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Agricultural economy</title>
+    <ns>0</ns>
+    <id>12</id>
+    <revision>
+      <id>37013</id>
+      <parentid>37011</parentid>
+      <timestamp>2022-11-07T11:55:30Z</timestamp>
+      <contributor>
+        <username>Ambrosiog</username>
+        <id>111</id>
+      </contributor>
+      <origin>37013</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="4516" sha1="fsvuipuzf3iexa3at8iwy21uc09nbnm" xml:space="preserve">{{ComponentTemplate2
+|Application=AgMIP and ISI-MIP project;The Protein Puzzle (2011) project;Rethinking Biodiversity Strategies (2010) project;Roads from Rio+20 (2012) project;Global Land Outlook 1;Global Land Outlook 2;FOODSECURE;Sim4Nexus;LUC4C;Shared Socioeconomic Pathways - SSP (2014) project
+|IMAGEComponent=Drivers;Land-use allocation
+|KeyReference=Stehfest et al., 2013;Woltjer et al., 2014;Von Lampe et al., 2014;Bijl et al., 2017
+|Reference=Woltjer et al., 2011;Kallio et al., 2004;Carpenter et al., 2006;Van Vuuren et al., 2018
+|InputVar=Population;GDP per capita;Capital supply;Labour supply;Trade policy;Biofuel policy;Land supply;Potential crop and grass yield - grid;Technological change (crops and livestocks)
+|Parameter=Income and price elasticities
+|OutputVar=Management intensity crops;Management intensity livestock;Food availability per capita;Commodity price;Livestock production;Crop production;Demand (all commodities);Trade (all commodities)
+|ComponentCode=AEF
+|AggregatedComponent=Agriculture and land use
+|FrameworkElementType=pressure component
+}}
+&lt;div class="page_standard"&gt;
+As a result of the growing world population and higher per capita consumption, the production of food, feed, fibers, and other products, such as bioenergy and timber, will need to increase rapidly in the coming decades. Even with the expected improvements in agricultural yields and efficiency, there will be increasing demand for more agricultural land. However, the expansion of agricultural land will lead to deforestation and increases in greenhouse gas emissions, loss of biodiversity and ecosystem services, and nutrient imbalances. To reduce these environmental impacts, a further increase in agricultural yields is needed, together with other options such as reduced food losses, dietary changes, improved livestock systems, and better nutrient management. 
+
+In the IMAGE framework, the future development of the agricultural economy can be calculated using the agro-economic model [[MAGNET model|MAGNET]] ([[Woltjer et al., 2014]]). MAGNET is a computable general equilibrium ({{abbrTemplate|CGE}}) model that is connected via a soft link to the core model of IMAGE. Demographic changes and changes in income are the primary driving factors of the MAGNET model and lead to changing demand for all commodities, including agricultural commodities. In response to this change in demand, agricultural production is increasing, and the model also considers changing prices of production factors, resource availability, and technological progress. In MAGNET, agricultural production supplies domestic markets, and other countries and regions are supplied via international trade, depending on historical trade balances, competitiveness (relative price developments), transport costs, and trade policies. MAGNET uses information from IMAGE on land availability and suitability and changes in crop yields due to climate change and agricultural expansion on heterogeneous land areas. The results from MAGNET on agricultural production, grassland area, and endogenous yield efficiency (i.e. management factor) changes are used in IMAGE to calculate spatially explicit land-use change and the environmental impacts on carbon, nutrient and water cycles, biodiversity, and climate. 
+
+Although MAGNET is the standard agro-economic model used with IMAGE, other models can be linked with IMAGE. For example, the [[IMPACT model]] was used with IMAGE in the [[Millennium Ecosystem Assessment - MA (2005) project|Millennium Ecosystem Assessment]] ([[Carpenter et al., 2006]]), and in a [[The Protein Puzzle (2011) project|PBL study on protein supply]], both the [[MAGNET model|MAGNET]] and the [[IMPACT model|IMPACT]] model were used to study the same set of scenarios. This allowed a systematic comparison between IMPACT and MAGNET ([[Stehfest et al., 2013]]). In a more recent study [[van Vuuren et al., 2018]] the Food Demand Model ([[Bijl et al., 2017]]) was used for projections of food demand with various diets. This is a physically oriented, statistical model using based on historical relations between income, food consumption, and regional differences, which is also an integrated part of the IMAGE framework.
+
+Other land-use changes, such as infrastructure expansion, which do not require interregional links, are described in the [[Land-use allocation|land-use allocation]] model). Demand for timber is described on the [[Forest management|forest management]] page.
+
+
+
+{{InputOutputParameterTemplate}}
+&lt;/div&gt;</text>
+      <sha1>fsvuipuzf3iexa3at8iwy21uc09nbnm</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Nutrients</title>
+    <ns>0</ns>
+    <id>295</id>
+    <revision>
+      <id>36938</id>
+      <parentid>36504</parentid>
+      <timestamp>2021-11-23T19:58:23Z</timestamp>
+      <contributor>
+        <username>Vosdl</username>
+        <id>105</id>
+      </contributor>
+      <origin>36938</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3644" sha1="lpclc0j7w05myvfhukry2p2k4mizc48" xml:space="preserve">{{ComponentTemplate2
+|Application=Roads from Rio+20 (2012) project;Shared Socioeconomic Pathways - SSP (2014) project;The Protein Puzzle (2011) project
+|IMAGEComponent=Drivers;Agricultural economy;Land-use allocation;Agriculture and land use;Aquatic biodiversity;Emissions;Land cover and land use;Livestock systems
+|KeyReference=Beusen, 2014;Beusen et al., 2015;Beusen et al., 2016;Morée et al., 2013
+|Reference=Bouwman et al., 2013c;Galloway et al., 2004;Zhang et al., 2010;Diaz and Rosenberg, 2008;UNEP, 2002;Rabalais, 2002;Beusen et al., 2015;Beusen et al., 2016
+|InputVar=Population - grid;GDP per capita - grid;Land cover, land use - grid;Animal stocks;Livestock rations;Manure spreading fraction;Nitrogen deposition - grid;Actual crop and grass production - grid;Production system mix;Fertiliser use efficiency
+|OutputVar=NH3 emissions - grid;N and P discharge to surface water - grid;Soil N budget - grid;Soil P budget - grid;N and P in wastewater discharge - grid
+|ComponentCode=N
+|FrameworkElementType=state component
+}}
+&lt;div class="page_standard"&gt;
+
+Human activity has accelerated the Earth’s biogeochemical nitrogen (N) and phosphorus (P) cycles through increasing fertiliser use in agriculture ([[Bouwman et al., 2013c]]). Increased use of N and P fertilisers has raised food production to support the rapidly growing world population, and increasing per capita consumption particularly of meat and milk ([[Galloway et al., 2004]]). 
+
+The side effect is that significant proportions of the mobilised N are lost through ambient emissions of ammonia (NH&lt;sub&gt;3&lt;/sub&gt;), nitrous oxide (N&lt;sub&gt;2&lt;/sub&gt;O) and nitric oxide (NO). Ammonia contributes to eutrophication and acidification when deposited on land. Nitric oxide plays a role in tropospheric ozone chemistry, and nitrous oxide is a potent greenhouse gas. Moreover, large proportions of mobilised N and P in watersheds enter the groundwater through leaching, and are released to surface waters through groundwater transport and surface runoff. Subsequently, nutrients in streams and rivers are transported to coastal marine systems, reduced by retention but augmented by releases from point sources, such as sewerage systems and industrial facilities.
+
+This has resulted in negative impacts on human health and the environment, such as groundwater pollution, loss of habitat and biodiversity, an increases in the frequency and severity of harmful algal blooms, eutrophication, hypoxia and fish kills ([[Diaz and Rosenberg, 2008]]; [[Zhang et al., 2010]]). The harmful effects of eutrophication have spread rapidly around the world, with large-scale implications for biodiversity, water quality, fisheries and recreation, in both industrialised and developing regions ([[UNEP, 2002]]). Input of nutrients in freshwater and coastal marine ecosystems, also disturbs the stoichiometric balance of N, P and Si (silicon) ([[Rabalais, 2002]]) affecting total plant production and the species composition in ecosystems.
+
+To assess eutrophication as a consequence of increasing population, and economic and technological development, IMAGE 3.2 includes a nutrient model ([[Beusen, 2014]]; [[Beusen et al., 2015]]; [[Beusen et al., 2016]]), which comprises three sub-models:
+# Wastewater module calculating nutrient flows in wastewater discharges (Figure Flowchart, top);
+# Soil nutrient budget module describing all input and output of N and P in soil compartments (Figure Flowchart, middle);
+# Nutrient environmental fate describing the fate of soil nutrient surpluses and wastewater nutrients in the aquatic environment (Figure Flowchart, bottom).
+
+{{InputOutputParameterTemplate}}
+&lt;/div&gt;</text>
+      <sha1>lpclc0j7w05myvfhukry2p2k4mizc48</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:AddInfoPartsTemplate</title>
+    <ns>10</ns>
+    <id>3500</id>
+    <revision>
+      <id>36145</id>
+      <parentid>26182</parentid>
+      <timestamp>2020-03-10T14:49:43Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>36145</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="398" sha1="h2k1ehd04h4ncmao10u8rklzj0q9k9a" xml:space="preserve">&lt;noinclude&gt;display additional info in the parts content table&lt;/noinclude&gt;&lt;includeonly&gt;
+{{#ifexpr:{{PropertyTestTemplate
+    |prop=AIBelongsToPage
+    |page={{FULLPAGENAME}}
+    |reverse=1}} &gt;0
+|
+''Additional info''
+    {{#ask:[[AIBelongsToPage::{{FULLPAGENAME}}]]
+     |mainlabel=
+     |? HasPageLabel=
+     |link=none
+     |format=Plainlist
+     |template=PagePartTemplate
+    }}
+|}}&lt;/includeonly&gt;</text>
+      <sha1>h2k1ehd04h4ncmao10u8rklzj0q9k9a</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:DisplayFlowchartTemplate</title>
+    <ns>10</ns>
+    <id>2696</id>
+    <revision>
+      <id>36176</id>
+      <parentid>13842</parentid>
+      <timestamp>2020-03-10T16:12:33Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>36176</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="296" sha1="9u8pus57dy684y5equx2wznfhyiuiwc" xml:space="preserve">&lt;noinclude&gt;
+1=filename
+&lt;/noinclude&gt;
+&lt;includeonly&gt;{{#ask:[[Category:Figure]][[HasFigureType::Flowchart]][[BelongsToComponent::{{{1|}}}]]
+ |mainlabel=page
+ |?HasPageName=figure
+ |?HasAltTitle=alt
+ |?HasCaption=caption
+ |format=Plainlist
+ |link=none
+ |template=ViewFlowchartTemplate
+}}&lt;/includeonly&gt;</text>
+      <sha1>9u8pus57dy684y5equx2wznfhyiuiwc</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:IconTemplate</title>
+    <ns>10</ns>
+    <id>2205</id>
+    <revision>
+      <id>36143</id>
+      <parentid>8901</parentid>
+      <timestamp>2020-03-10T14:48:19Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>36143</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="336" sha1="c72w036rv26g8yumqead77x2lsy78ag" xml:space="preserve">&lt;noinclude&gt;template for asking and positioning the icon of a page&lt;/noinclude&gt;
+&lt;includeonly&gt;{{#ask:[[Category:Figure]][[HasFigureType::Icon]][[BelongsToComponent::{{{1|}}}]]
+  |mainlabel=page
+  |?HasPageName=figure
+  |?HasCaption=caption
+  |?HasAltTitle=alt
+  |format=Plainlist
+  |link=none
+  |template=ViewIconTemplate
+}} &lt;/includeonly&gt;</text>
+      <sha1>c72w036rv26g8yumqead77x2lsy78ag</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:InfoBoxTemplate</title>
+    <ns>10</ns>
+    <id>1484</id>
+    <revision>
+      <id>36432</id>
+      <parentid>36227</parentid>
+      <timestamp>2020-03-24T14:41:53Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>36432</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2870" sha1="8iph7xfip9l7gcymr7tmqb4wj8tfr4n" xml:space="preserve">&lt;noinclude&gt;
+It should be called in the following format:
+&lt;pre&gt;
+{{InfoBoxtemplate}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;&lt;!--
+check the need for an infobox on this page (most recent version is the norm)
+--&gt;{{#ifeq:{{InfoboxTestTemplate|basepage={{ROOTPAGENAME}}|subpage={{SUBPAGENAME}} }}|0|| &lt;!--
+existing data for infobox
+--&gt;&lt;div class="InfoBoxTemplateClear"&gt;&lt;table class="InfoBoxStyle"&gt; &lt;!--
+--&gt;{{#ifeq:{{PropertyTestTemplate|prop=IsImplementationOf|page={{ROOTPAGENAME}}|reverse=1 }}|0||
+&lt;tr&gt;&lt;td class="InfoBoxCellStyleTemplate"&gt;Component is implemented in:&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;{{#arraymap:
+  {{#ask:[[IsImplementationOf::{{ROOTPAGENAME}}]]|link=none|sep=;}}
+  |;|yy
+  |{{#arraymap: {{#ask:[[Category:ModelVersion]][[IsVersionOf::yy]]|link=none|sep=;}}
+    |;|xx
+    |{{#ifeq:{{#ask:[[IsCurrentVersion::true]][[IsVersionOf::yy]]|link=none}}|xx
+      |&lt;ul&gt;&lt;li&gt;[[yy]] (version {{#ask:[[xx]]|format=Plainlist}})&lt;/li&gt;&lt;/ul&gt;
+      {{#ask:[[Category:AggregatedComponent]][[-IsImplementationOf::yy]]
+        |intro=Aggregated component:|format=ul
+      }}{{#ask:[[Category:Component]][[-IsImplementationOf::yy]]
+           |intro=Components:|format=ul}}
+    |}}    
+  |}}
+| and }}
+&lt;/td&gt;&lt;/tr&gt;&lt;!--
+--&gt;{{#ifeq:{{PropertyTestTemplate|prop=HasIMAGEComponent|page={{#titleparts: {{FULLPAGENAME}}|1}} }}|0||
+&lt;tr&gt;&lt;td class="InfoBoxCellStyleTemplate"&gt;Related IMAGE components&lt;/td&gt;&lt;/tr&gt;
+&lt;tr &gt;&lt;td&gt;{{#ask:[[-HasIMAGEComponent::{{#titleparts: {{FULLPAGENAME}}|1}}]]|format=ul}}
+&lt;/td&gt;&lt;/tr&gt;}}
+}}&lt;!--
+--&gt;{{#ifeq:{{PropertyTestTemplate|prop=HasApplication|page={{#titleparts: {{FULLPAGENAME}}|1}} }}|0||
+&lt;tr&gt;&lt;td class="InfoBoxCellStyleTemplate"&gt;Projects/Applications&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;{{#ask:[[-HasApplication::{{#titleparts: {{FULLPAGENAME}}|1}}]]|format=ul}}
+&lt;/td&gt;&lt;/tr&gt;}}&lt;!--
+--&gt;{{#ifeq:{{PropertyTestTemplate|prop=HasModelDatabase|page={{#titleparts: {{FULLPAGENAME}}|1}} }}|0||
+&lt;tr&gt;&lt;td class="InfoBoxCellStyleTemplate"&gt;Models/Databases&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;{{#ask:[[-HasModelDatabase::{{#titleparts: {{FULLPAGENAME}}|1}}]]|format=ul}}
+&lt;/td&gt;&lt;/tr&gt;}}&lt;!--
+--&gt;{{#ifeq:{{PropertyTestTemplate|prop=HasOverview|page={{#titleparts: {{FULLPAGENAME}}|1}} }}|0||
+&lt;tr&gt;&lt;td class="InfoBoxCellStyleTemplate"&gt;Relevant  overviews&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;{{#ask:[[-HasOverview::{{#titleparts: {{FULLPAGENAME}}|1}}]]|format=ul}}
+&lt;/td&gt;&lt;/tr&gt;}}&lt;!--
+--&gt;{{#ifeq:{{PropertyTestTemplate|prop=HasKeyReference|page={{#titleparts: {{FULLPAGENAME}}|1}} }}|0||
+&lt;tr&gt;&lt;td class="InfoBoxCellStyleTemplate"&gt;Key publications&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;tr&gt;&lt;td&gt;{{#ask:[[-HasKeyReference::{{#titleparts: {{FULLPAGENAME}}|1}}]]|format=ul}}
+&lt;/td&gt;&lt;/tr&gt;}}&lt;!--
+--&gt;{{#ifeq:{{PropertyTestTemplate|prop=HasReference|page={{FULLPAGENAME}} }}|0||
+&lt;tr&gt;&lt;td class="InfoBoxCellStyleTemplate"&gt;References&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class="mw-collapsible mw-collapsed"&gt;
+{{#ask:[[-HasReference::{{FULLPAGENAME}}]]|format=ul}}
+&lt;/td&gt;&lt;/tr&gt;
+}}
+&lt;/table&gt;
+&lt;/div&gt;
+}}&lt;!--
+--&gt;&lt;/includeonly&gt;</text>
+      <sha1>8iph7xfip9l7gcymr7tmqb4wj8tfr4n</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:InfoboxTestTemplate</title>
+    <ns>10</ns>
+    <id>291</id>
+    <revision>
+      <id>26666</id>
+      <parentid>23993</parentid>
+      <timestamp>2016-05-11T10:00:11Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>26666</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="901" sha1="aoh0zz8jrnyisq6249z2e7kl8bq7sp7" xml:space="preserve">&lt;noinclude&gt;
+This is the "InfoboxTestTemplate" template. it returns 1 (true) if an infobox should be displayed, 0 (false) otherwise
+It should be called in the following format; subpage is optional
+&lt;pre&gt;
+{{InfoboxTestTemplate
+|basepage=
+|subpage=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;&lt;!--
+--&gt;{{#ifexpr:
+{{PropertyTestTemplate|prop=HasReference|page={{{basepage|}}} }} or 
+{{PropertyTestTemplate|prop=HasIMAGEComponent|page={{{basepage|}}} }} or
+{{PropertyTestTemplate|prop=HasApplication|page={{{basepage|}}} }} or
+{{PropertyTestTemplate|prop=HasModelDatabase|page={{{basepage|}}} }} or
+{{PropertyTestTemplate|prop=HasKeyReference|page={{{basepage|}}} }} or
+{{#ifeq:{{{subpage|}}}|
+  |{{PropertyTestTemplate|prop=HasReference|page={{{basepage|}}} }}
+  |{{PropertyTestTemplate|prop=HasReference|page={{{basepage|}}}/{{{subpage|}}} }} 
+}}
+|1|0}}&lt;!--
+--&gt;&lt;/includeonly&gt;</text>
+      <sha1>aoh0zz8jrnyisq6249z2e7kl8bq7sp7</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:LinkToExpertpageTemplate</title>
+    <ns>10</ns>
+    <id>7273</id>
+    <revision>
+      <id>35883</id>
+      <parentid>35875</parentid>
+      <timestamp>2019-03-06T14:41:45Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>35883</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="622" sha1="ck2nloxza9igooepwxyv10jvvs3nquk" xml:space="preserve">&lt;noinclude&gt;
+This is the "LinkToExpertpageTemplate" template.
+It should be called in the following format:
+&lt;pre&gt;
+{{LinkToExpertpageTemplate
+1 page from category Component
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;&lt;!--
+--&gt;{{#ifeq:{{#show:{{FULLPAGENAME}}|? -ExpertPageBelongsTo}}||
+     |&lt;div class="toc"&gt;'''More detailed (Expert) descriptions:'''&lt;!--
+   --&gt;&lt;ul&gt;{{#arraymap:
+            {{#ask:[[ExpertPageBelongsTo::{{FULLPAGENAME}}]]|link=none|sep=;}}
+            |;|mainpage
+            |&lt;li&gt;[[mainpage|{{#show:mainpage|?HasLabel}}]]&lt;/li&gt;&lt;!--
+   --&gt;|}}&lt;/ul&gt;&lt;/div&gt;&lt;!--
+--&gt;}} &lt;/includeonly&gt;</text>
+      <sha1>ck2nloxza9igooepwxyv10jvvs3nquk</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:PropertyTestTemplate</title>
+    <ns>10</ns>
+    <id>288</id>
+    <revision>
+      <id>26668</id>
+      <parentid>26667</parentid>
+      <timestamp>2016-05-11T10:05:25Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>26668</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="511" sha1="a152syqakewty1idk3wnhz6230w48wg" xml:space="preserve">&lt;noinclude&gt;
+This is the "testPropertyTemplate" template. returns true (&lt;&gt; 0) if page has property . reverse is optional and should be used as reverse=1 for reversed properties
+It should be called in the following format:
+&lt;pre&gt;
+{{PropertyTestTemplate
+|prop=
+|page=
+|reverse=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;&lt;!--
+--&gt;{{#ifeq:{{{reverse|}}}|1
+|{{#ask:[[{{{prop|}}}::{{{page|}}}]]|format=count}}
+|{{#ask:[[-{{{prop|}}}::{{{page|}}}]]|format=count}} }}&lt;!--
+--&gt;&lt;/includeonly&gt;</text>
+      <sha1>a152syqakewty1idk3wnhz6230w48wg</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:ViewIconTemplate</title>
+    <ns>10</ns>
+    <id>1034</id>
+    <revision>
+      <id>15363</id>
+      <parentid>15362</parentid>
+      <timestamp>2014-01-29T15:08:48Z</timestamp>
+      <contributor>
+        <username>LiselotteHeukelom</username>
+        <id>45</id>
+      </contributor>
+      <origin>15363</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="114" sha1="tppm3bro57o2zsqb4fhjjsoqbgld6uk" xml:space="preserve">[[{{{2|}}}|plain|255px|right|link=Framework overview|{{{3|}}}. Figure links to "Framework overview"|alt={{{4|}}}]]</text>
+      <sha1>tppm3bro57o2zsqb4fhjjsoqbgld6uk</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:ComponentInputTemplate</title>
+    <ns>10</ns>
+    <id>3160</id>
+    <revision>
+      <id>36334</id>
+      <parentid>26831</parentid>
+      <timestamp>2020-03-20T07:36:46Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>36334</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="761" sha1="sqm76ioaxw1w156c9t5fm6uqj9k8z1k" xml:space="preserve">&lt;noinclude&gt; 
+* Template used in InputOutputParametertemplate to display drivers and model input variables. 
+1= Variable
+2= description
+3= variable type
+&lt;/noinclude&gt;
+&lt;includeonly&gt;&lt;tr class="StandardTableRow"&gt;
+{{#ifeq:{{{3|}}} 
+ |historical data
+ |&lt;td class="StandardTableCell"&gt;[[{{{1|}}}]] (historical data)&lt;/td&gt;
+  &lt;td class="StandardTableCell"&gt;{{{2|}}}&lt;/td&gt;
+  &lt;td class="StandardTableCell"&gt;{{#show:{{{1|}}}| ?HasSource}} &lt;/td&gt;	           
+ |&lt;td class="StandardTableCell"&gt;[[{{{1|}}}]]&lt;/td&gt;
+  &lt;td class="StandardTableCell"&gt;{{{2|}}}&lt;/td&gt;
+  &lt;td class="StandardTableCell"&gt;{{#ifeq:{{{3|}}}
+    |driver
+    |{{#ask:[[Category:Component]][[FrameworkElementType::driver component]]}}
+    |{{#ask:[[HasOutputVar::{{{1|}}}]]}}
+   }}&lt;/td&gt;	           
+}}&lt;/tr&gt;
+&lt;/includeonly&gt;</text>
+      <sha1>sqm76ioaxw1w156c9t5fm6uqj9k8z1k</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:ComponentOutputTemplate</title>
+    <ns>10</ns>
+    <id>3161</id>
+    <revision>
+      <id>36335</id>
+      <parentid>26824</parentid>
+      <timestamp>2020-03-20T07:39:51Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>36335</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="524" sha1="amxthilu7ros9d4m5iin5ebkx3t4apy" xml:space="preserve">&lt;noinclude&gt; 
+* Template used in InputOutputParametertemplate to display  model output variables. 
+1= Variable
+2= description
+3= use
+4= variable type
+&lt;/noinclude&gt;
+&lt;includeonly&gt;
+&lt;tr class="StandardTableRow"&gt;                           
+&lt;td class="StandardTableCell"&gt;[[{{{1|}}}]]&lt;/td&gt;
+&lt;td class="StandardTableCell"&gt;{{{2|}}}&lt;/td&gt;
+&lt;td class="StandardTableCell"&gt;{{#ifeq:{{{3|}}}
+    |model (end-indicator) 
+    |Final output
+    |{{#ask:[[HasInputVar::{{{1|}}}]]
+       |format=ul
+      }}
+|}}&lt;/td&gt;	           
+&lt;/tr&gt;
+&lt;/includeonly&gt;</text>
+      <sha1>amxthilu7ros9d4m5iin5ebkx3t4apy</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:ComponentParameterTemplate</title>
+    <ns>10</ns>
+    <id>3162</id>
+    <revision>
+      <id>23711</id>
+      <parentid>23675</parentid>
+      <timestamp>2014-05-23T17:56:12Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <comment>Undo revision 23675 by [[Special:Contributions/RinekeOostenrijk|RinekeOostenrijk]] ([[User talk:RinekeOostenrijk|talk]])</comment>
+      <origin>23711</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="447" sha1="s445zoehdki0j51hyjzmoslcto18zbz" xml:space="preserve">&lt;noinclude&gt;
+Used by inputOotputParameterTemplate. Puts the parameters in a row and merges source and basedon
+
+1=parameter
+2=desription
+3=source
+4 =basedon
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;tr class="StandardTableRow"&gt;
+&lt;td class="StandardTableCell"&gt;{{{1|}}}&lt;/td&gt;
+&lt;td class="StandardTableCell"&gt;{{{2|}}}&lt;/td&gt;
+&lt;td class="StandardTableCell"&gt;{{#ifeq:{{{4|}}}|
+ |{{{3|}}}
+ |{{#ifeq:{{{3|}}}|
+   |{{{4|}}}
+   |{{{3|}}}, {{{4|}}} 
+  }}
+}}&lt;/td&gt;
+&lt;/tr&gt;&lt;/includeonly&gt;</text>
+      <sha1>s445zoehdki0j51hyjzmoslcto18zbz</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:InputOutputParameterTemplate</title>
+    <ns>10</ns>
+    <id>55</id>
+    <revision>
+      <id>36341</id>
+      <parentid>26830</parentid>
+      <timestamp>2020-03-20T08:18:00Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>36341</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1692" sha1="frknvhe8sje2l0nqpg6ohyy0eckupgt" xml:space="preserve">&lt;includeonly&gt;__NOEDITSECTION__{{#ifexpr:
+{{PropertyTestTemplate|prop=HasInputVar|page={{FULLPAGENAME}} }}+
+{{PropertyTestTemplate|prop=HasParameter|page={{FULLPAGENAME}} }}+
+{{PropertyTestTemplate|prop=HasOutputVar|page={{FULLPAGENAME}} }}&gt; 0
+|&lt;h2&gt;Input/Output Table&lt;/h2&gt;&lt;p&gt;Input {{FULLPAGENAME}} component &lt;/p&gt;
+|}}
+{{#ifexpr: {{PropertyTestTemplate|prop=HasInputVar|page={{FULLPAGENAME}} }}&gt;0
+|{{#ask:[[Category:Variable]][[-HasInputVar::{{FULLPAGENAME}}]]
+  |mainlabel=
+  |?HasDescription=Description
+  |?HasVariableType=Type
+  |link=none
+  |sort=HasVariableType 
+  |format=Plainlist
+  |template=ComponentInputTemplate
+  |intro={{TableIntroTemplate|20%|IMAGE model drivers and variables|60%|Description|20%|Source}}
+  |outro=&lt;/table&gt;
+  }}
+|}}{{#ifexpr:{{PropertyTestTemplate|prop=HasParameter|page={{FULLPAGENAME}} }}&gt;0
+|{{#ask:[[Category:Variable]][[HasVariableType::external parameter]][[-HasParameter::{{FULLPAGENAME}}]]
+  |mainlabel= Parameter
+  |?HasDescription=Description
+  |?HasSource=Source
+  |?HasValuesBasedOn = basedon
+  |format=Plainlist
+  |template=ComponentParameterTemplate
+  |intro={{TableIntroTemplate|20%|External datasets|60%|Description|20%|Source}}
+  |outro=&lt;/table&gt;
+  }}
+|}}{{#ifexpr:{{PropertyTestTemplate|prop=HasOutputVar|page={{FULLPAGENAME}} }}&gt;0
+|&lt;p&gt;Output {{FULLPAGENAME}} component&lt;/p&gt;
+{{#ask:[[Category:Variable]][[-HasOutputVar::{{FULLPAGENAME}}]]
+  |mainlabel= Variabele
+  |?HasDescription=Description
+  |?HasVariableType=Type
+  |link=none
+  |sort=HasVariableType
+  |order=desc
+  |format=Plainlist
+  |template=ComponentOutputTemplate
+  |intro={{TableIntroTemplate|20%|IMAGE model variables|60%|Description|20%|Use}}
+  |outro=&lt;/table&gt;
+  }}
+|}}&lt;/includeonly&gt;</text>
+      <sha1>frknvhe8sje2l0nqpg6ohyy0eckupgt</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:PagePartTemplate</title>
+    <ns>10</ns>
+    <id>1978</id>
+    <revision>
+      <id>36330</id>
+      <parentid>23670</parentid>
+      <timestamp>2020-03-19T16:12:19Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>36330</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="49" sha1="lb4cjbzdtwhwo9f9qe2bmv55fh1c84o" xml:space="preserve">&lt;li class="toclevel-1"&gt;[[{{{1|}}}|{{{2|}}}]]&lt;/li&gt;</text>
+      <sha1>lb4cjbzdtwhwo9f9qe2bmv55fh1c84o</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:TableIntroTemplate</title>
+    <ns>10</ns>
+    <id>2417</id>
+    <revision>
+      <id>32894</id>
+      <parentid>32888</parentid>
+      <timestamp>2017-08-01T10:18:30Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>32894</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1481" sha1="hbidrk6vq9u41sk88wyncasj95db361" xml:space="preserve">&lt;noinclude&gt;header styling for sortabel table with flexible nr of columns (current max=15)
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;table class="StandardTable  sortable smwtable jquery-tablesorter"&gt;
+&lt;tr class="StandardTableHeaderRow"&gt;
+&lt;th class="headerSort" style="width: {{{1|}}}"&gt;
+{{{2|}}}&lt;/th&gt;{{#ifeq:
+{{{3|}}}|||&lt;th class="headerSort" style="width: {{{3|}}}"&gt;{{{4|}}}&lt;/th&gt;}}{{#ifeq:
+{{{5|}}}|||&lt;th class="headerSort" style="width: {{{5|}}}"&gt;{{{6|}}}&lt;/th&gt;}}{{#ifeq:
+{{{7|}}}|||&lt;th class="headerSort" style="width: {{{7|}}}"&gt;{{{8|}}}&lt;/th&gt;}}{{#ifeq:
+{{{9|}}}|||&lt;th class="headerSort" style="width: {{{9|}}}"&gt;{{{10|}}}&lt;/th&gt;}}{{#ifeq:
+{{{11|}}}|||&lt;th class="headerSort" style="width: {{{11|}}}"&gt;{{{12|}}}&lt;/th&gt;}}{{#ifeq:
+{{{13|}}}|||&lt;th class="headerSort" style="width: {{{13|}}}"&gt;{{{14|}}}&lt;/th&gt;}}{{#ifeq:
+{{{15|}}}|||&lt;th class="headerSort" style="width: {{{15|}}}"&gt;{{{16|}}}&lt;/th&gt;}}{{#ifeq:
+{{{17|}}}|||&lt;th class="headerSort" style="width: {{{17|}}}"&gt;{{{18|}}}&lt;/th&gt;}}{{#ifeq:
+{{{19|}}}|||&lt;th class="headerSort" style="width: {{{19|}}}"&gt;{{{20|}}}&lt;/th&gt;}}{{#ifeq:
+{{{21|}}}|||&lt;th class="headerSort" style="width: {{{21|}}}"&gt;{{{22|}}}&lt;/th&gt;}}{{#ifeq:
+{{{23|}}}|||&lt;th class="headerSort" style="width: {{{23|}}}"&gt;{{{24|}}}&lt;/th&gt;}}{{#ifeq:
+{{{25|}}}|||&lt;th class="headerSort" style="width: {{{25|}}}"&gt;{{{26|}}}&lt;/th&gt;}}{{#ifeq:
+{{{27|}}}|||&lt;th class="headerSort" style="width: {{{27|}}}"&gt;{{{28|}}}&lt;/th&gt;}}{{#ifeq:
+{{{29|}}}|||&lt;th class="headerSort" style="width: {{{29|}}}"&gt;{{{30|}}}&lt;/th&gt;}}
+&lt;/tr&gt;
+&lt;/includeonly&gt;</text>
+      <sha1>hbidrk6vq9u41sk88wyncasj95db361</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:ViewFlowchartTemplate</title>
+    <ns>10</ns>
+    <id>1002</id>
+    <revision>
+      <id>22184</id>
+      <parentid>7386</parentid>
+      <timestamp>2014-05-16T07:25:42Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <origin>22184</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="66" sha1="irv39ytf6pcf97u832j3tv1wkc6w4zz" xml:space="preserve">[[{{{2|}}}|thumb|right|240px|alt={{{3|}}}|{{{4|}}}|link={{{1|}}}]]</text>
+      <sha1>irv39ytf6pcf97u832j3tv1wkc6w4zz</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:AbbrTemplate</title>
+    <ns>10</ns>
+    <id>3420</id>
+    <revision>
+      <id>36141</id>
+      <parentid>23322</parentid>
+      <timestamp>2020-03-10T14:47:10Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>36141</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="138" sha1="il1dxwmfyyg0wu2yjd7m985czybyrir" xml:space="preserve">&lt;noinclude&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;&lt;abbr title="{{#show:{{{1|}}}|?IsAbbrOf}}"&gt;{{{1|}}}&lt;/abbr&gt;{{#set:HasAcronym={{{1|}}} }}&lt;/includeonly&gt;</text>
+      <sha1>il1dxwmfyyg0wu2yjd7m985czybyrir</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:ComponentFrameTemplate</title>
+    <ns>10</ns>
+    <id>6467</id>
+    <revision>
+      <id>36217</id>
+      <parentid>36216</parentid>
+      <timestamp>2020-03-11T08:30:42Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>36217</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="444" sha1="qtdmjcrjzd4yj5jykszsrfcgeged1zt" xml:space="preserve">&lt;noinclude&gt;
+this template displays and layouts the standard elements of a component
+&lt;/noinclude&gt;&lt;includeonly&gt;&lt;div class="top_container"&gt;{{IconTemplate|{{#titleparts: {{FULLPAGENAME}}|1}} }}
+{{ContentPartsTemplate|PagePartHeader=Parts of {{FULLPAGENAME}} }}{{LinkToExpertpageTemplate }}
+__TOC____NOEDITSECTION__ &lt;/div&gt;&lt;div class="container"&gt;{{InfoBoxTemplate}}{{DisplayFlowchartTemplate|{{#titleparts: {{FULLPAGENAME}}|1}} }}&lt;/div&gt;&lt;/includeonly&gt;</text>
+      <sha1>qtdmjcrjzd4yj5jykszsrfcgeged1zt</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:ComponentTemplate2</title>
+    <ns>10</ns>
+    <id>284</id>
+    <revision>
+      <id>36490</id>
+      <parentid>36489</parentid>
+      <timestamp>2020-04-01T12:40:22Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>36490</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1495" sha1="niv2ig404yb93mmh5dqkr9d5h25si4o" xml:space="preserve">&lt;noinclude&gt;
+This is the "ComponentTemplate2" template.
+It should be called in the following format:
+&lt;pre&gt;
+{{ComponentTemplate2
+|Application=
+|IMAGEComponent=
+|Model-Database=
+|KeyReference=
+|Reference=
+}}
+&lt;/pre&gt;
+Steps in this template:
+# Icon en De subpages van deze pagina ophalen en weergeven in toc  style plus de toc 
+# De InfoboxTemplate aanroep
+# De flowchart
+# We beginnen de Component-beschrijving met de KeyPolicyQuestions
+# description
+# De input and outputs
+&lt;/noinclude&gt;&lt;includeonly&gt;{{ComponentFrameTemplate}}
+&lt;div class="page_standard"&gt;
+{{DisplayKeyPolicyQuestionsTemplate|{{PAGENAME}} }}
+&lt;h2&gt;Introduction&lt;/h2&gt;&lt;/div&gt;
+[[Category:Component]]
+{{#set:
+   |FrameworkElementType={{{FrameworkElementType|}}}
+   |BelongsToAggregatedComponent={{{AggregatedComponent|}}}
+   |HasInputVar={{{InputVar|}}}|+sep=;
+   |HasOutputVar={{{OutputVar|}}}|+sep=;
+   |HasParameter={{{Parameter|}}}|+sep=;
+   |HasOverview={{{Overview|}}}|+sep=;
+   |HasIMAGEComponent={{{IMAGEComponent|}}}|+sep=;
+   |HasApplication={{{Application|}}}|+sep=;
+   |HasModelDatabase={{{Model-Database|}}}|+sep=;  
+   |HasKeyReference={{{KeyReference|}}}|+sep=;
+   |HasReference={{{Reference|}}}|+sep=;
+   |HasPageLabel=Introduction page
+   |HasDetailedDescription={{FULLPAGENAME}}/Description
+   |HasPolicyIntervention={{FULLPAGENAME}}/Policy issues
+   |HasDataLimitations={{FULLPAGENAME}}/Data_uncertainties_limitations
+   |HasAllReferences={{FULLPAGENAME}}/References
+   |HasComponentCode={{{ComponentCode|}}}
+}}&lt;/includeonly&gt;</text>
+      <sha1>niv2ig404yb93mmh5dqkr9d5h25si4o</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:ContentPartsTemplate</title>
+    <ns>10</ns>
+    <id>2012</id>
+    <revision>
+      <id>36146</id>
+      <parentid>33659</parentid>
+      <timestamp>2020-03-10T14:50:59Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>36146</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="786" sha1="qoik9fj53hlyi5wkvlzgwmgzvn38vn4" xml:space="preserve">&lt;noinclude&gt;
+Template to display main page and subpages of an 'object' 
+&lt;pre&gt;
+{{ContentPartsTemplate
+|PagePartHeader=
+}}
+&lt;/pre&gt;
+&lt;/noinclude&gt;&lt;includeonly&gt;
+{{#ifexpr:{{PropertyTestTemplate
+  |prop=BelongsToPage
+  |page= {{#titleparts:{{FULLPAGENAME}}|1}}
+  |reverse=1}}&gt;0
+|
+  &lt;div class="toc"&gt;
+&lt;strong&gt;{{{PagePartHeader|}}}&lt;/strong&gt;
+  &lt;ol&gt;
+  {{#ask:[[ {{#titleparts:{{FULLPAGENAME}}|1}}]][[!AggregatedComponent]]
+   |mainlabel=
+   |? HasPageLabel=
+   |link=none
+   |format=Plainlist
+   |template=PagePartTemplate
+  }}
+  {{#ask:[[BelongsToPage::{{#titleparts: {{FULLPAGENAME}}|1}}]][[!AggregatedComponent]]
+   |mainlabel=
+   |? HasPageLabel=
+   |? HasSequence=
+   |sort=HasSequence
+   |link=none
+   |format=Plainlist
+   |template=PagePartTemplate
+  }}{{addInfoPartsTemplate}}&lt;/ol&gt;&lt;/div&gt;
+|}}</text>
+      <sha1>qoik9fj53hlyi5wkvlzgwmgzvn38vn4</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:DisplayKeyPolicyQuestionsTemplate</title>
+    <ns>10</ns>
+    <id>2700</id>
+    <revision>
+      <id>23719</id>
+      <parentid>13880</parentid>
+      <timestamp>2014-05-24T06:04:01Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <minor/>
+      <comment>Text replace - "Key policy questions" to "Key policy issues"</comment>
+      <origin>23719</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="239" sha1="5w3yljq101z09og9b2b476rtqgge8l0" xml:space="preserve">&lt;noinclude&gt;
+1=filename
+&lt;/noinclude&gt;
+&lt;includeonly&gt;{{#ask:[[Category:KeyPolicyQuestion]][[PQBelongsToComponent::{{{1|}}}]]
+   |mainlabel=-
+   |?HasDescription=
+   |link=none
+   |format=ul
+   |intro=&lt;h2&gt;Key policy issues&lt;/h2&gt;
+}}&lt;/includeonly&gt;</text>
+      <sha1>5w3yljq101z09og9b2b476rtqgge8l0</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:PolicyResponseComponentTemplate</title>
+    <ns>10</ns>
+    <id>2682</id>
+    <revision>
+      <id>36537</id>
+      <parentid>36536</parentid>
+      <timestamp>2020-04-01T13:57:26Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>36537</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="924" sha1="4j51bkrolxl1sl66z2wj2it23eznaxs" xml:space="preserve">&lt;noinclude&gt;
+
+This is the "PolicyResponseComponentTemplate" template.
+It should be called in the following format:
+&lt;pre&gt;
+{{PolicyResponseComponentTemplate}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;{{ComponentFrameTemplate}}&lt;div class="page_standard"&gt;{{DisplayKeyPolicyQuestionsTemplate|{{PAGENAME}} }}
+&lt;h2&gt;Introduction&lt;/h2&gt;&lt;/div&gt;
+
+[[Category:PolicyResponseComponent]] [[Category:Component]]
+{{#set:
+|HasComponentCode={{{ComponentCode |}}}
+|FrameworkElementType={{{FrameworkElementType|}}}
+|BelongsToAggregatedComponent={{{AggregatedComponent|}}}
+|HasPageLabel=Introduction page
+|HasOverview={{{Overview|}}}|+sep=;
+|HasIMAGEComponent={{{IMAGEComponent|}}}|+sep=;
+|HasApplication={{{Application|}}}|+sep=;
+|HasModelDatabase={{{Model-Database|}}}|+sep=;  
+|HasKeyReference={{{KeyReference|}}}|+sep=;
+|HasReference={{{Reference|}}}|+sep=;
+|HasAllReferences={{PAGENAME}}/References
+}}&lt;/includeonly&gt;</text>
+      <sha1>4j51bkrolxl1sl66z2wj2it23eznaxs</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:DriverComponentTemplate</title>
+    <ns>10</ns>
+    <id>2350</id>
+    <revision>
+      <id>33627</id>
+      <parentid>33626</parentid>
+      <timestamp>2018-11-17T07:36:57Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <minor/>
+      <comment>1 revision imported</comment>
+      <origin>33627</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="966" sha1="r5uqnij35cuyqitzsuk9mbxi78p03d7" xml:space="preserve">&lt;noinclude&gt;
+This is the "DriverComponentTemplate" template.
+It should be called in the following format:
+&lt;pre&gt;
+{{DriverComponentTemplate
+|Application=
+|Overview=
+|Model-Database=
+|KeyReference=
+|Reference=
+|Description=}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;{{ComponentFrameTemplate}}
+
+&lt;!--Below, a number of properties is set based on the values entered in the form. These properties are relevant for other parts of the wiki but need not be shown to the reader of this page.--&gt;
+[[Category:Component]][[Category:DriverComponent]]
+{{#set:
+|HasOverview={{{Overview|}}}|+sep=;
+|HasApplication={{{Application|}}}|+sep=;
+|HasModelDatabase={{{Model-Database|}}}|+sep=;  
+|HasKeyReference={{{KeyReference|}}}|+sep=;
+|HasReference={{{Reference|}}}|+sep=;
+|FrameworkElementType={{{FrameworkElementType|}}}
+|HasComponentCode={{{ComponentCode|}}}
+|HasPageLabel=Introduction page
+|HasAllReferences={{FULLPAGENAME}}/References
+}}&lt;/includeonly&gt;</text>
+      <sha1>r5uqnij35cuyqitzsuk9mbxi78p03d7</sha1>
+    </revision>
+  </page>
+</mediawiki>

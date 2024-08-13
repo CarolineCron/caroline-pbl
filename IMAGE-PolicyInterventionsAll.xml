@@ -1,0 +1,1898 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>IMAGE</sitename>
+    <dbname>imagedb</dbname>
+    <base>https://models.pbl.nl/image/Home_IMAGE</base>
+    <generator>MediaWiki 1.39.7</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">IMAGE-3</namespace>
+      <namespace key="5" case="first-letter">IMAGE-3 talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="102" case="first-letter">Property</namespace>
+      <namespace key="103" case="first-letter">Property talk</namespace>
+      <namespace key="106" case="first-letter">Form</namespace>
+      <namespace key="107" case="first-letter">Form talk</namespace>
+      <namespace key="108" case="first-letter">Concept</namespace>
+      <namespace key="109" case="first-letter">Concept talk</namespace>
+      <namespace key="112" case="first-letter">smw/schema</namespace>
+      <namespace key="113" case="first-letter">smw/schema talk</namespace>
+      <namespace key="114" case="first-letter">Rule</namespace>
+      <namespace key="115" case="first-letter">Rule talk</namespace>
+      <namespace key="2300" case="case-sensitive">Gadget</namespace>
+      <namespace key="2301" case="case-sensitive">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Implementation of biofuel targets</title>
+    <ns>0</ns>
+    <id>60</id>
+    <revision>
+      <id>22422</id>
+      <parentid>22363</parentid>
+      <timestamp>2014-05-16T16:39:08Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <minor/>
+      <comment>Text replace - "Agricultural systems" to "Land-use allocation"</comment>
+      <origin>22422</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1943" sha1="7hg97nxzjgp1gkfs8r53bd7nx01ear2" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Agricultural economy
+|Description=Policies to enhance the use of biofuels, especially in the transport sector. In the Agricultural economy component only 'first generation' crops are taken into account. The policy is implemented as a budget-neutral policy from government perspective, e.g. a subsidy is implemented to achieve a certain share of biofuels in fuel production and an end-user tax is applied to counterfinance the implemented subsidy.
+|Reference=Banse et al., 2008
+|EnergyThemeItem=Energy demand (Energy); Energy system (Energy); Other energy (Energy)
+|LanduseThemeItem=Agricultural land use (Land use)
+|NatureThemeItem=Eco goods and services (NB); Land cover (NB); Other nature and biodiversity (NB)
+|ClimateThemeItem=Climate mitigation (Climate)
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Agricultural economy
+|EffectDescription=Obligatory biofuel blending increases the demand for biofuel crops, e.g. maize and oil crops, which causes higher prices. Secondly, production will be increased and/or demand for food will decrease, due to these higher prices. Production can be increased by increasing external inputs, labour or land expansion.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Land-use allocation
+|EffectDescription=Targets for biofuel production/blending impact agricultural production and consequently land use.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Terrestrial biodiversity
+|EffectDescription=Targets for biofuel production/blending impact terrestrial biodiversity in two ways. Firstly, land used for biofuel crops usually has a negative impact on biodiversity. Secondly, mitigated climate change - due to the use of biofuels - probably has a positive impact on future biodiversity (change).
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Energy supply
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Emissions
+}}</text>
+      <sha1>7hg97nxzjgp1gkfs8r53bd7nx01ear2</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>REDD policies</title>
+    <ns>0</ns>
+    <id>64</id>
+    <revision>
+      <id>33494</id>
+      <parentid>25097</parentid>
+      <timestamp>2018-11-15T12:54:19Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>33494</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="978" sha1="4rukicm0x7cr1z7ra0m8xctdyjy8wgy" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Agricultural economy
+|Description=The objective of REDD policies it to reduce land-use related emissions by protecting existing forests in the world; The implementation of REDD includes also costs of policies.
+|Reference=Overmars et al., 2012;
+|ClimateThemeItem=Climate mitigation (Climate)
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Agricultural economy
+|EffectDescription=Increases the cost for land expansion in certain regions, favouring the use of other external inputs to increase production.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Emissions
+|EffectDescription=Less emissions due to deforestation and land-use change.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Carbon cycle and natural vegetation
+|EffectDescription=REDD measures can substantially reduce the pressure on forests. This increases the extent of natural forests, and the net CO&lt;sub&gt;2&lt;/sub&gt; uptake and C pools of forests.
+}}</text>
+      <sha1>4rukicm0x7cr1z7ra0m8xctdyjy8wgy</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Agricultural trade policies</title>
+    <ns>0</ns>
+    <id>112</id>
+    <revision>
+      <id>24933</id>
+      <parentid>22604</parentid>
+      <timestamp>2014-06-30T11:45:28Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>24933</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1318" sha1="mlxg1acc5aneyzputvem831qzeuvp51" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Agricultural economy
+|Description=Changes in agricultural trade policies are applied to the corresponding quota (export or import quota) or border taxes.
+|Reference=Verburg et al., 2009;
+|LanduseThemeItem=Agricultural land use (Land use)
+|FoodThemeItem=Trade (Food)
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Agricultural economy
+|EffectDescription=Impact of this policy intervention is a change in trade between regions, and consequently a change in production within a region for the different crop and livestock sectors.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Land-use allocation
+|EffectDescription=Due to changed production in agricultural commodities, land use for agriculture within a region will change.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Terrestrial biodiversity
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Ecosystem services
+|EffectDescription=Change in land use for agriculture, will also result in a change in nature and thereby influence the ES dependent on nature (e.g. erosion and flood protection, pest control and pollination).
+Large agricultural areas negatively influence the ES "nature based tourism", therefore change in agricultural land use will influence the ES "nature based tourism".
+}}</text>
+      <sha1>mlxg1acc5aneyzputvem831qzeuvp51</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Enlarge protected areas</title>
+    <ns>0</ns>
+    <id>113</id>
+    <revision>
+      <id>22607</id>
+      <parentid>22428</parentid>
+      <timestamp>2014-05-17T07:21:08Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <minor/>
+      <comment>Text replace - "Ecosystem goods and services" to "Ecosystem services"</comment>
+      <origin>22607</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1381" sha1="lwuhg8xah75yzv4r54puds6eh547eir" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Land-use allocation;
+|Description=Increase in areas with protected status, as well the size of the areas as the numer of parks.
+|Reference=PBL, 2010
+|LanduseThemeItem=Agricultural land use (Land use); Other land use (Land use)
+|NatureThemeItem=Aquatic biodiversity (NB); Eco goods and services (NB); Land cover (NB); Terrestrial biodiversity (NB)
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Agricultural economy
+|EffectDescription=Expansion of protected areas decreases the available area for agriculture in certain regions.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Land-use allocation
+|EffectDescription=Agriculture is not allowed in protected areas and therefore is allocated at other locations.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Terrestrial biodiversity
+|EffectDescription=No pressure from agricultural land use in protected areas. Outside protected areas this pressure may increase.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Aquatic biodiversity
+|EffectDescription=Lower pressure from agricultural impacts in protected area regions. Outside protected areas this pressure may increase.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Ecosystem services
+|EffectDescription=the ES "nature based tourism" is positively influenced by the amount of protected area.
+}}</text>
+      <sha1>lwuhg8xah75yzv4r54puds6eh547eir</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Changes in consumption and diet preferences</title>
+    <ns>0</ns>
+    <id>132</id>
+    <revision>
+      <id>24284</id>
+      <parentid>22611</parentid>
+      <timestamp>2014-06-16T14:36:14Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>24284</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2046" sha1="lx74wn0rid6epwn7ym6h4avaxylco80" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Agricultural economy
+|Description=Interventions that target consumption changes or changes in dietary preferences
+|Reference=Stehfest et al., 2013
+|LanduseThemeItem=Agricultural land use (Land use)
+|FoodThemeItem=Animal husbandry (Food); Crop production (Food); Food demand (Food); Nutrition and diet (Food)
+|ClimateThemeItem=GHG emissions (Climate)
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Agricultural economy
+|EffectDescription=Changes demand for certain products, and subsequently production and trade of that product.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Livestock systems
+|EffectDescription=Changes the production of livestock products within a region.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Land-use allocation
+|EffectDescription=Changes in production of agricultural commodities within a region change the land use for agricultural purposes (both total area for agriculture and the ratio of grass to crop area).
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Nutrients
+|EffectDescription=Dietary changes, for example assumes that by 2050 10% of the baseline scenario’s beef consumption is replaced by poultry meat in all producing regions, without accounting for changes in agricultural trade
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Aquatic biodiversity
+|EffectDescription=Changes in agricultural land use affects nutrient leaching to water bodies.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Terrestrial biodiversity
+|EffectDescription=This intervention reduces the pressure from agricultural land use to terrestrial biodiversity.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Ecosystem services
+|EffectDescription=Dietary changes reduces the amount of the ES "food" needed. 
+
+When the reduced agricultural land use, results in an increase of natural area, the supply of the services dependent  nature (e.g. erosion and flood protection, pollination and pest control), will be increased.
+}}</text>
+      <sha1>lx74wn0rid6epwn7ym6h4avaxylco80</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Changes in crop and livestock production systems</title>
+    <ns>0</ns>
+    <id>134</id>
+    <revision>
+      <id>22610</id>
+      <parentid>22570</parentid>
+      <timestamp>2014-05-17T07:21:08Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <minor/>
+      <comment>Text replace - "Ecosystem goods and services" to "Ecosystem services"</comment>
+      <origin>22610</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2242" sha1="1ge7upec0x2uxmynjiqai108ag2era0" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Agricultural economy
+|Description=General changes in crop and livestock production systems, e.g. more efficient production methods to create higher production per unit of input, or other systems like organic farming
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Agricultural economy
+|EffectDescription=Effect of this bunch of interventions is a change in the relation between the use of external inputs (capital), land and labour. For livestock systems the intervention can result in the use of more feed instead of grazing. For cropping systems it could, for example, express the use of more fertilizer to increase yields (closing the yield gap).
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Nutrients
+|EffectDescription=intervention may be increased fertilizer use, or fertilizer use efficiency ...
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Water
+|EffectDescription=Increasing the productivity of crops by converting rainfed to irrigated agriculture will have an effect on the irrigation water demand in the region. Extracting more water for irrigation will have an effect on downstream water availability and can increase water stress in the region.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Aquatic biodiversity
+|EffectDescription=On one hand the increase of productivity increases nutrient leaching to water bodies, on the other hand a smaller  agricultural area is needed, reducing the pressures from agriculture.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Terrestrial biodiversity
+|EffectDescription=Impacts terrestrial biodiversity in two ways: 1) a smaller agricultural area decrease habitat loss and 2) it increase intensity of the agricultural area and consequently the biodiversity value of those areas.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Ecosystem services
+|EffectDescription=Increase intensity of the agricultural area, reduces nature on agricultural area thereby negatively influencing the ES dependent of nature (e.g. flood and erosion protection, pest control and pollination). While systems like organic farming contain more nature on agricultural areas and thereby positively influencing ES.
+}}</text>
+      <sha1>1ge7upec0x2uxmynjiqai108ag2era0</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Increase forest plantations</title>
+    <ns>0</ns>
+    <id>192</id>
+    <revision>
+      <id>22514</id>
+      <parentid>20234</parentid>
+      <timestamp>2014-05-17T07:05:09Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <minor/>
+      <comment>Text replace - "Natural vegetation and carbon cycle" to "Carbon cycle and natural vegetation"</comment>
+      <origin>22514</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1102" sha1="kypm9gt2wfeqbslyk0236f710cmj1d9" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Forest management
+|Description=Increase the use of wood from highly productive wood plantations instead of wood from (semi-) natural forests.
+|Reference=PBL, 2010;
+|LanduseThemeItem=Forestry (Land use); Other land use (Land use)
+|NatureThemeItem=Terrestrial biodiversity (NB)
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Forest management
+|EffectDescription=Decreases the area impacted by forestry/logging
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Carbon cycle and natural vegetation
+|EffectDescription=This intervention changes the regional C pools and fluxes. It limits the exploitation of (natural) forests and preserves the C budgets within these forests. In the plantations the C pools might become reduced. 
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Terrestrial biodiversity
+|EffectDescription=Terrestrial biodiversity is effected in two ways: 1) the area with forestry impacts will be smaller, and 2) the biodiversity value of plantations will be lower than (semi-)natural forests in which logging takes place.
+}}</text>
+      <sha1>kypm9gt2wfeqbslyk0236f710cmj1d9</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Expanding Reduced Impact Logging</title>
+    <ns>0</ns>
+    <id>200</id>
+    <revision>
+      <id>22526</id>
+      <parentid>20240</parentid>
+      <timestamp>2014-05-17T07:05:16Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <minor/>
+      <comment>Text replace - "Natural vegetation and carbon cycle" to "Carbon cycle and natural vegetation"</comment>
+      <origin>22526</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1180" sha1="lftzedbkmkhbfu4rznvlaawo10c6641" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Forest management
+|Description=Increasing the share of produced wood yielded with Reduced Impact Logging (RIL) practices instead of conventional logging practices.
+|Reference=PBL, 2010;
+|LanduseThemeItem=Forestry (Land use)
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Forest management
+|EffectDescription=RIL leads to lower loss of biodiversity in forest areas, and it can have impacts on C pools and fluxes as less residues are produced per unit harvested wood product. 
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Carbon cycle and natural vegetation
+|EffectDescription=RIL can change the volume of the C pools in the soil and vegetation pools and reduces the human induced land-use change emissions.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Terrestrial biodiversity
+|EffectDescription=The impacts on biodiversity is lower using RIL practices instead of the conventional practices. This because (i) less forets will be used (higher biodiversity on large scale); (ii) a better and faster regrowth of the harvested forests, also thus a long-term increasing biodiversity also within these forests.
+}}</text>
+      <sha1>lftzedbkmkhbfu4rznvlaawo10c6641</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Improving energy efficiency</title>
+    <ns>0</ns>
+    <id>226</id>
+    <revision>
+      <id>20079</id>
+      <parentid>20039</parentid>
+      <timestamp>2014-04-04T10:46:26Z</timestamp>
+      <contributor>
+        <username>Oreane Edelenbosch</username>
+        <id>3</id>
+      </contributor>
+      <origin>20079</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="981" sha1="k092b7oqk4yuk3r0bbpu4uu3e0hpwn5" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Energy demand
+|Description=Exogenously set improvement in efficiency. Such improvements can be introduced for the submodels that focus on particular technologies, for example, in transport, heavy industry and households submodels.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Energy demand
+|EffectDescription=More efficient use of final energy, change in end use technologies, which leads to lower energy demand.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Emissions
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Energy supply
+|EffectDescription=Efficiency improvements result in a decreased energy demand, resulting in less need for energy supply.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Energy conversion
+|EffectDescription=Efficiency improvements result in less energy input at an equal energy output of conversion technologies. This results in a lower need for conversion capacity.
+}}</text>
+      <sha1>k092b7oqk4yuk3r0bbpu4uu3e0hpwn5</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Change market shares of fuel types</title>
+    <ns>0</ns>
+    <id>228</id>
+    <revision>
+      <id>20036</id>
+      <parentid>19548</parentid>
+      <timestamp>2014-04-03T14:28:59Z</timestamp>
+      <contributor>
+        <username>Oreane Edelenbosch</username>
+        <id>3</id>
+      </contributor>
+      <origin>20036</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1095" sha1="tlhwgvtuz6qha3hf35cfkkd5b4xfx4t" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Energy demand
+|Description=Exogenously set the market shares of certain fuel types. This can be done for specific analyses or scenarios to explore the broader implications of increasing the use of, for instance, biofuels, electricity or hydrogen and reflects the impact of fuel targets.
+|Reference=van Ruijven et al., 2007
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Energy conversion
+|EffectDescription=An interference with the share of fuel types, results in a change of the market share of the selected fuel types to the predetermined values. This again results in less conversion capacity of the selected fuel type.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Energy demand
+|EffectDescription=The share of the fuel in final energy consumption will be at least equal to the target.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Emissions
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Energy supply
+|EffectDescription=A change of the market share of the selected fuel types to the predetermined values.
+}}</text>
+      <sha1>tlhwgvtuz6qha3hf35cfkkd5b4xfx4t</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Carbon tax</title>
+    <ns>0</ns>
+    <id>247</id>
+    <revision>
+      <id>20222</id>
+      <parentid>20035</parentid>
+      <timestamp>2014-04-08T21:42:22Z</timestamp>
+      <contributor>
+        <username>PaulLucas</username>
+        <id>29</id>
+      </contributor>
+      <origin>20222</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1839" sha1="fr3uxo5q51wyopehvurve4klt8dexyt" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Energy conversion; Energy demand; Climate policy;
+|Description=A tax on carbon leads to higher prices for carbon intensive fuels (such as fossil fuels), making low-carbon alternatives more attractive.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Energy conversion
+|EffectDescription=A carbon tax will induce a transition from carbon intensive fuel to carbon low fuels. Since hydrogen and electricity are well suited for carrying carbon low energy, the production of hydrogen and electricity could increase.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Energy demand
+|EffectDescription=The higher fossil fuel prices result in a shift towards less carbon-intensive energy carriers and (assuming a higher overall energy price) more energy efficiency. There can also be changes in end-use technologies ( e.g. electric cars in the transport sector,  blast furnaces with CCS to produce iron and steel).
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Energy supply
+|EffectDescription=The energy supply will change from the use of carbon intensive energy carriers to the use of low/zero carbon energy carriers.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Climate policy
+|EffectDescription=In the climate policy component, the carbon tax leads to emission reductions via Marginal Abatement Cost (MAC) curves derived from the TIMER model.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Emissions
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Human development
+|EffectDescription=Induces a transition from carbon intensive fuels to carbon low fuels, thereby also lowering outdoor air pollution. Lower air pollution reduces mortality rates through reduced incidence of lung cancer, cardiopulmonary diseases and acute respiratory infections 
+}}</text>
+      <sha1>fr3uxo5q51wyopehvurve4klt8dexyt</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Capacity targets</title>
+    <ns>0</ns>
+    <id>248</id>
+    <revision>
+      <id>20041</id>
+      <parentid>20040</parentid>
+      <timestamp>2014-04-03T14:46:38Z</timestamp>
+      <contributor>
+        <username>Oreane Edelenbosch</username>
+        <id>3</id>
+      </contributor>
+      <minor/>
+      <comment>Oreane Edelenbosch moved page [[Change generation capacity]] to [[Capacity targets]]</comment>
+      <origin>20041</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="580" sha1="ecwolcdfodruwavobs34fk4oo1m3rmp" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Energy conversion
+|Description=It is possible to prescribe the shares of renewables, CCS technology, nuclear power and other forms of generation capacity. This measure influences the amount of capacity installed of the technology chosen.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Energy conversion
+|EffectDescription=Manually changing the generation capacity will result in a transition towards using more or less capacity of the selected generation type.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Emissions
+}}</text>
+      <sha1>ecwolcdfodruwavobs34fk4oo1m3rmp</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Change the use of electricity and hydrogen</title>
+    <ns>0</ns>
+    <id>249</id>
+    <revision>
+      <id>20050</id>
+      <parentid>20037</parentid>
+      <timestamp>2014-04-03T14:57:59Z</timestamp>
+      <contributor>
+        <username>Oreane Edelenbosch</username>
+        <id>3</id>
+      </contributor>
+      <origin>20050</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="790" sha1="jyfd3f39i6cz6kpe20odkpart4g0r29" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Energy conversion
+|Description=It is possible to promote the use of electricity and hydrogen at the end-use level.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Energy conversion
+|EffectDescription=This policy intervention will result in more hydrogen or electricity production and generation capacity.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Emissions
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Energy demand
+|EffectDescription=An increase in the use of electricity and hydrogen at the end use level. Given the high flexibility in the choice of feedstock in electricity and hydrogen production this can increase the ability of the total system to reduce greenhouse gas emissions in a mitigation scenario.
+}}</text>
+      <sha1>jyfd3f39i6cz6kpe20odkpart4g0r29</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Excluding certain technologies</title>
+    <ns>0</ns>
+    <id>274</id>
+    <revision>
+      <id>20046</id>
+      <parentid>20045</parentid>
+      <timestamp>2014-04-03T14:53:55Z</timestamp>
+      <contributor>
+        <username>Oreane Edelenbosch</username>
+        <id>3</id>
+      </contributor>
+      <minor/>
+      <comment>Oreane Edelenbosch moved page [[Energy technology choice]] to [[Excluding certain technologies]]</comment>
+      <origin>20046</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="539" sha1="063lfwz5bvue686dkv6mrqyju0nxs5k" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Energy conversion
+|Description=Certain energy technology options can be excluded in the model for environmental, societal, and/or security reasons.
+|Reference=Kruyt et al., 2009
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Energy conversion
+|EffectDescription=This policy intervention will result in the exclusion of the selected technologies. This is likely to result in an increased use of alternative technologies.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Emissions
+}}</text>
+      <sha1>063lfwz5bvue686dkv6mrqyju0nxs5k</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Sanitation measures</title>
+    <ns>0</ns>
+    <id>1225</id>
+    <revision>
+      <id>22580</id>
+      <parentid>19997</parentid>
+      <timestamp>2014-05-17T07:16:08Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <minor/>
+      <comment>Text replace - "Nutrient balances" to "Nutrients"</comment>
+      <origin>22580</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="683" sha1="3m4fsc2m1olpbmcfpq9m6at5ier56bm" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Nutrients
+|Description=Increase the access to improved sanitation, and connection to sewage systems; institution of wastewater treatment installations; recycling of human waste for substitution of synthetic fertilisers.
+|WaterThemeItem=Access to drinking water (Water)
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Nutrients
+|EffectDescription=This option has no consequences for nutrient budgets. Connection of inhabitants to sewage systems concentrates nutrient flows and generally leads to increasing pollution of surface water if not combined with wastewater treatment; Treatment results in a reduction of nutrient discharge.
+}}</text>
+      <sha1>3m4fsc2m1olpbmcfpq9m6at5ier56bm</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Reducing health risk</title>
+    <ns>0</ns>
+    <id>1227</id>
+    <revision>
+      <id>20122</id>
+      <parentid>20121</parentid>
+      <timestamp>2014-04-04T13:51:52Z</timestamp>
+      <contributor>
+        <username>PaulLucas</username>
+        <id>29</id>
+      </contributor>
+      <origin>20122</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="112" sha1="cwt6q8gelb7nplrpr6n55ns60kkjejo" xml:space="preserve">{{PolicyInterventionTemplate
+|Description=(primary) prevention, i.e. eliminating or reducing  the health risk
+}}</text>
+      <sha1>cwt6q8gelb7nplrpr6n55ns60kkjejo</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Reduction proposals (pledges)</title>
+    <ns>0</ns>
+    <id>2258</id>
+    <revision>
+      <id>27803</id>
+      <parentid>19786</parentid>
+      <timestamp>2016-11-13T11:57:31Z</timestamp>
+      <contributor>
+        <username>Harmsenm</username>
+        <id>81</id>
+      </contributor>
+      <origin>27803</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="479" sha1="ks20aj4naqk803yy4oeicep73kmx0go" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Climate policy
+|Description=Evaluation of current reduction proposals by countries and policy options (for the next 10-20 years).
+|Reference=Den Elzen et al., 2011a; Den Elzen et al., 2011b; Den Elzen et al., 2012a;  Hof et al., 2013; UNEP (2016); 
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Climate policy
+|EffectDescription=The pledges affect near-term regional emission reductions, thereby influencing mitigation costs.
+}}</text>
+      <sha1>ks20aj4naqk803yy4oeicep73kmx0go</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Effort- or burden-sharing of emission reductions</title>
+    <ns>0</ns>
+    <id>2260</id>
+    <revision>
+      <id>19944</id>
+      <parentid>19783</parentid>
+      <timestamp>2014-04-03T09:20:00Z</timestamp>
+      <contributor>
+        <username>MarkRoelfsema</username>
+        <id>35</id>
+      </contributor>
+      <origin>19944</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="550" sha1="ez0bkl5gt023ohdsvn8spl4dg68xy96" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Climate policy
+|Description=Evaluation of burden-sharing or effort-sharing regimes. Which regions or countries should contribute, when and by how much to reduce global greenhouse gas emissions?
+|Reference=Den Elzen and Höhne, 2010; Den Elzen et al., 2012b; Hof et al., 2012;
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Climate policy
+|EffectDescription=The burden-sharing regime affects regional mitigation costs, as different burden-sharing rules lead to different emission reduction targets.
+}}</text>
+      <sha1>ez0bkl5gt023ohdsvn8spl4dg68xy96</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Emission trading policy</title>
+    <ns>0</ns>
+    <id>2261</id>
+    <revision>
+      <id>19784</id>
+      <parentid>19597</parentid>
+      <timestamp>2014-04-02T07:37:07Z</timestamp>
+      <contributor>
+        <username>AndriesHof</username>
+        <id>33</id>
+      </contributor>
+      <origin>19784</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="644" sha1="fa6zpzazr8e59fzysyj23dnd246blyb" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Climate policy
+|Description=Analysis of the effect of rules for trading emission credits on regional abatement costs.
+|Reference=Den Elzen et al., 2008; Den Elzen et al., 2011a; Mendoza Beltrán et al., 2011;
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Climate policy
+|EffectDescription=Different rules for trading emission credits lead to different regional mitigation costs. Without any restrictions on emission trading, emission reductions take place wherever it is cheapest to do so and the differences between regional targets and actual domestic emissions is traded among regions.  
+}}</text>
+      <sha1>fa6zpzazr8e59fzysyj23dnd246blyb</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Financing climate policy</title>
+    <ns>0</ns>
+    <id>2262</id>
+    <revision>
+      <id>19949</id>
+      <parentid>19785</parentid>
+      <timestamp>2014-04-03T09:32:03Z</timestamp>
+      <contributor>
+        <username>MarkRoelfsema</username>
+        <id>35</id>
+      </contributor>
+      <origin>19949</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="695" sha1="4wbelsugiff977ktg33tq8hzrn9mab4" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Climate policy
+|Description=Developed countries could provide financial resources to assist developing countries by implementation of mitigation and adaptation policies. To mobilise these funds, several mechanisms exist, of which the effect can be analysed
+|Reference=Hof et al., 2009; Hof et al., 2011;
+|ClimateThemeItem=Other climate (Climate)
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Climate policy
+|EffectDescription=Implementation of climate financing proposals affect regional mitigation costs, as regions have to contribute to financing. The funds mobilised can be used to finance climate policies of the least developed regions.
+}}</text>
+      <sha1>4wbelsugiff977ktg33tq8hzrn9mab4</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Climate change adaptation</title>
+    <ns>0</ns>
+    <id>2263</id>
+    <revision>
+      <id>19779</id>
+      <parentid>19594</parentid>
+      <timestamp>2014-04-02T07:25:14Z</timestamp>
+      <contributor>
+        <username>AndriesHof</username>
+        <id>33</id>
+      </contributor>
+      <origin>19779</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="578" sha1="qwpm2d1s48lewiortxcwsicu8bbbcgw" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Climate policy
+|Description=Adaptation to climate change reduces climate damage. The model can optimally calculate the optimal adaptation level based on marginal adaptation costs and marginal avoided damage, but an alternative adaptation level can be used as well.
+|Reference=Hof et al., 2009; Hof et al., 2010;
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Climate policy
+|EffectDescription=More adaptation increases adaptation costs, but reduces the damage resulting from climate change.  
+|Reference=De Bruin et al., 2009
+}}</text>
+      <sha1>qwpm2d1s48lewiortxcwsicu8bbbcgw</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Restrictions on fuel trade</title>
+    <ns>0</ns>
+    <id>2326</id>
+    <revision>
+      <id>20082</id>
+      <parentid>20043</parentid>
+      <timestamp>2014-04-04T10:52:13Z</timestamp>
+      <contributor>
+        <username>Oreane Edelenbosch</username>
+        <id>3</id>
+      </contributor>
+      <origin>20082</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="562" sha1="1yspg5d6w6f52zqc8pjmf8he14kihyy" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Energy supply
+|Description=As part of energy security policies, fuel trade between different regions can be blocked.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Energy supply
+|EffectDescription=Less fuel trade will result in a change in fuel prices and availability.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Energy conversion
+|EffectDescription=Less fuel trade will result in a change in fuel prices and availability. As a result, the amount of conversion capacity can increase or decrease.
+}}</text>
+      <sha1>1yspg5d6w6f52zqc8pjmf8he14kihyy</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Implementation of sustainability criteria in bio-energy production</title>
+    <ns>0</ns>
+    <id>2327</id>
+    <revision>
+      <id>36638</id>
+      <parentid>36637</parentid>
+      <timestamp>2021-10-21T14:20:16Z</timestamp>
+      <contributor>
+        <username>Dafnomilii</username>
+        <id>102</id>
+      </contributor>
+      <origin>36638</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="873" sha1="p3ephp1zuqid8qnj39jtnq118zyz6fb" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Energy supply;Land cover and land use
+|Description=Sustainability criteria that could become binding for dedicated bio-energy production, such as the restrictive use of water-scarce or degraded areas.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Energy supply
+|EffectDescription=Application of sustainability criteria for bio-energy production, reduces the areas potentially suitable for the cultivation of bio-energy crops, and consequently the marginal costs of bio-energy use.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Terrestrial biodiversity
+|EffectDescription=Sustainability criteria limit the use of land for bio-energy cultivation and therefore reduce pressures on biodiversity from climate policies (via bio-energy production).
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Emissions
+}}</text>
+      <sha1>p3ephp1zuqid8qnj39jtnq118zyz6fb</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Production targets for energy technologies</title>
+    <ns>0</ns>
+    <id>2328</id>
+    <revision>
+      <id>20044</id>
+      <parentid>19560</parentid>
+      <timestamp>2014-04-03T14:51:08Z</timestamp>
+      <contributor>
+        <username>Oreane Edelenbosch</username>
+        <id>3</id>
+      </contributor>
+      <origin>20044</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="498" sha1="298uv1i8bp1x0k9z286kogrhc3mfbva" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Energy supply
+|Description=Production targets for energy technologies can be set to force technologies through a learning curve.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Energy conversion
+|EffectDescription=Production targets force a conversion technology to convert energy, even though this is not economically attractive. If the learning rate of that technology depends on the amount of converted energy, the learning rate will increase.
+}}</text>
+      <sha1>298uv1i8bp1x0k9z286kogrhc3mfbva</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Improved rainwater management</title>
+    <ns>0</ns>
+    <id>2342</id>
+    <revision>
+      <id>21457</id>
+      <parentid>20114</parentid>
+      <timestamp>2014-05-08T12:46:06Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <minor/>
+      <comment>Text replace - "Hydrological cycle" to "Water"</comment>
+      <origin>21457</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="899" sha1="bule17o8k82i1u1p32hkog4jydil8m1" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Water
+|Description=Improved rainwater management assumes a decrease in the evaporative losses from rainfed agriculture and the creation of small scale reservoirs to harvest rainwater during the wet period and use it during a dryer period. Both measures lead to more efficient use of water and increased yields on rainfed fields.
+|Reference=Rost et al., 2009;
+|WaterThemeItem=Precipitation (Water)
+|FoodThemeItem=Crop production (Food)
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Water
+|EffectDescription=Improved rainwater management will lead to more efficient use of rainwater over the year and therefore a better fullfillment of crop water requirements. Further it will lead to more efficient use of the soil moisture because of a decrease in evaporative losses from bare soil. Both measures lead to increased yields of rainfed agriculture.
+}}</text>
+      <sha1>bule17o8k82i1u1p32hkog4jydil8m1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Improved irrigation efficiency</title>
+    <ns>0</ns>
+    <id>2343</id>
+    <revision>
+      <id>21471</id>
+      <parentid>20113</parentid>
+      <timestamp>2014-05-08T12:46:16Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <minor/>
+      <comment>Text replace - "Hydrological cycle" to "Water"</comment>
+      <origin>21471</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="576" sha1="i36x1jah2imvt9y7ak0gekqo6byxd25" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Water
+|Description=Improved irrigation efficiency assumes an increase in the irrigation project efficiency and irrigation conveyance efficiency.
+|Reference=Biemans et al., 2013
+|WaterThemeItem=Irrigation (Water)
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Water
+|EffectDescription=If irrigated area is not expanded, improving the irrigation efficiency on a large scale will decrease irrigation water withdrawals for irrigation. This means that water availability downstream will increase and water stress will get lower.
+}}</text>
+      <sha1>i36x1jah2imvt9y7ak0gekqo6byxd25</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Increased storage capacity</title>
+    <ns>0</ns>
+    <id>2344</id>
+    <revision>
+      <id>21468</id>
+      <parentid>20134</parentid>
+      <timestamp>2014-05-08T12:46:14Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <minor/>
+      <comment>Text replace - "Hydrological cycle" to "Water"</comment>
+      <origin>21468</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="759" sha1="75p8g21qje42ebobnqcdcq5wp4sl2c2" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Water
+|Description=Increasing storage capacity assumes that the total water volume stored in large reservoirs will increase. This can either be established by an increase of the capacity of existing reservoirs, or by  building new reservoirs.
+|Reference=Biemans et al., 2013
+|WaterThemeItem=Flood risk (Water); Irrigation (Water)
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Water
+|EffectDescription=Increasing the storage capacity of reservoirs will lead to a reduction in streamflow variability and an increase in the amount of water stored in the river system. In basins that have a very variable flow regime, a storage reservoir can increase the water availability for irrigation during dry periods. 
+}}</text>
+      <sha1>75p8g21qje42ebobnqcdcq5wp4sl2c2</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Increase natural carbon storage</title>
+    <ns>0</ns>
+    <id>2355</id>
+    <revision>
+      <id>22599</id>
+      <parentid>20077</parentid>
+      <timestamp>2014-05-17T07:21:02Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <minor/>
+      <comment>Text replace - "Ecosystem goods and services" to "Ecosystem services"</comment>
+      <origin>22599</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="447" sha1="tr6eq8ffzqdlfvydtjbydypjd0p7l15" xml:space="preserve">{{PolicyInterventionTemplate
+|Description=It should be noted that policy measures to increase carbon storage often generate certain co-benefits, such as the restoration of watershed and wildlife habitats, and the prevention of soil erosion.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Ecosystem services
+|EffectDescription=Increasing carbon storage will increase the supply of the ES "carbon sequestration" and "erosion prevention"
+}}</text>
+      <sha1>tr6eq8ffzqdlfvydtjbydypjd0p7l15</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Increase access to water</title>
+    <ns>0</ns>
+    <id>2452</id>
+    <revision>
+      <id>20215</id>
+      <parentid>20176</parentid>
+      <timestamp>2014-04-08T21:03:43Z</timestamp>
+      <contributor>
+        <username>PaulLucas</username>
+        <id>29</id>
+      </contributor>
+      <origin>20215</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="344" sha1="fjjc7ogu5dmlrm1jqfa49tv6yfbzpxr" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Human development
+|Description=Increase access to safe drinking water and improved sanitation by lowering prices and investing in infrastructure
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Human development
+|EffectDescription=Reduces child mortality by lowering the incidence of diarrhoea
+}}</text>
+      <sha1>fjjc7ogu5dmlrm1jqfa49tv6yfbzpxr</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Improve quality of access</title>
+    <ns>0</ns>
+    <id>2453</id>
+    <revision>
+      <id>20213</id>
+      <parentid>20172</parentid>
+      <timestamp>2014-04-08T21:01:43Z</timestamp>
+      <contributor>
+        <username>PaulLucas</username>
+        <id>29</id>
+      </contributor>
+      <origin>20213</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="492" sha1="hyfj3g3f3yx0ya7rt0795fxdsur14i6" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Human development
+|Description=Improve the quality of access to drinking water, sanitation and modern sources of energy, through, for example, household connections to drinking-water supply and the use of LPG or kerosene instead of traditional biomass on improved biomass stoves
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Human development
+|EffectDescription=Reduces child mortality by lowering the incidence of diarrhoea and pneumonia
+}}</text>
+      <sha1>hyfj3g3f3yx0ya7rt0795fxdsur14i6</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Improve behaviour</title>
+    <ns>0</ns>
+    <id>2454</id>
+    <revision>
+      <id>20212</id>
+      <parentid>20171</parentid>
+      <timestamp>2014-04-08T21:01:02Z</timestamp>
+      <contributor>
+        <username>PaulLucas</username>
+        <id>29</id>
+      </contributor>
+      <origin>20212</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="515" sha1="e4i05dahylfmjnbu5umqwgs4qjsligb" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Human development
+|Description=Reduce the health impacts of malnutrition and inadequate access to safe drinking water, basic sanitaion and modern sources of energy, through, for example, improving female education, promoting good hygiene and providing good indoor good ventilation
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Human development
+|EffectDescription=Decreases chil moratality by lowering the incidence of child underweight, diarrhoea and pneumonia
+}}</text>
+      <sha1>e4i05dahylfmjnbu5umqwgs4qjsligb</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Mitigate environmental changes</title>
+    <ns>0</ns>
+    <id>2455</id>
+    <revision>
+      <id>20183</id>
+      <parentid>20140</parentid>
+      <timestamp>2014-04-07T14:32:12Z</timestamp>
+      <contributor>
+        <username>AnneGerdienPrins</username>
+        <id>31</id>
+      </contributor>
+      <origin>20183</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="137" sha1="4mlkf43iif0yz1iv0znso0xnr4ab6lf" xml:space="preserve">{{PolicyInterventionTemplate
+|Description=Mitigating environmental changes, such as climate change, biodiversity loss and water stress
+}}</text>
+      <sha1>4mlkf43iif0yz1iv0znso0xnr4ab6lf</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Intensification/extensification of livestock systems</title>
+    <ns>0</ns>
+    <id>2520</id>
+    <revision>
+      <id>25200</id>
+      <parentid>25166</parentid>
+      <timestamp>2014-07-01T08:39:02Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <minor/>
+      <comment>Text replace - "NH3" to "NH&lt;sub&gt;3&lt;/sub&gt;"</comment>
+      <origin>25200</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1099" sha1="or8qdy8mbo56t4ml2vhmay23re77als" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Livestock systems;
+|Description=A change in the distribution of the production over pastoral and mixed systems; usually to a larger share of the production in mixed systems, which inherently changes the overall feed conversion ratios of ruminants.
+|FoodThemeItem=Animal husbandry (Food)
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Agricultural economy
+|EffectDescription=An intensification of livestock systems decreases the average area needed per animal (in land using livestock systems)
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Land-use allocation
+|EffectDescription=An intensification of livestock systems decreases the average area needed per animal (in land using livestock systems)
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Nutrients
+|EffectDescription=Generally leads to a reduction of overall emissions (e.g. CH&lt;sub&gt;4&lt;/sub&gt;) and reduction of overall nutrient excretion; however, it will generally also lead to an increase of ammonia (NH&lt;sub&gt;3&lt;/sub&gt;) emissions from manure storage and spreading of manure
+}}</text>
+      <sha1>or8qdy8mbo56t4ml2vhmay23re77als</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Increased livestock productivity</title>
+    <ns>0</ns>
+    <id>2521</id>
+    <revision>
+      <id>22475</id>
+      <parentid>22412</parentid>
+      <timestamp>2014-05-16T17:17:09Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <minor/>
+      <comment>Text replace - "Livestock" to "Livestock systems"</comment>
+      <origin>22475</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="763" sha1="s92vx0c0a3o3rhx5e5ze56gvky26zci" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Livestock systems;
+|Description=A change in production characteristics, such as milk production per animal, carcass weight and off-take rates, which will also have an impact on the feed conversion ratio; in general, this will be lower in more productive animals
+|LanduseThemeItem=Agricultural land use (Land use)
+|FoodThemeItem=Animal husbandry (Food)
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Livestock systems
+|EffectDescription=Change the amount of feed crops and grass needed to feed animals.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Land-use allocation
+|EffectDescription=A change in feed crop and grass requirements results in changes in land use, e.g. grasslands and cropping areas.
+}}</text>
+      <sha1>s92vx0c0a3o3rhx5e5ze56gvky26zci</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Improvement of feed conversion</title>
+    <ns>0</ns>
+    <id>1174</id>
+    <revision>
+      <id>27667</id>
+      <parentid>22578</parentid>
+      <timestamp>2016-11-03T11:48:58Z</timestamp>
+      <contributor>
+        <username>Doelmanj</username>
+        <id>80</id>
+      </contributor>
+      <origin>27667</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="769" sha1="3ql2a0c9tpf5j33i5wxgmtrqbj5w4u1" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Livestock systems;
+|Description=Improvement of feed conversion ratio of small ruminants, such as sheep and goats. This means other breeds will be used that need less grass to produce the same amount of meat.
+|LanduseThemeItem=Agricultural land use (Land use)
+|FoodThemeItem=Animal husbandry (Food)
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Livestock systems
+|EffectDescription=decreases the demand for grass.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Nutrients
+|EffectDescription=The increased use of concentrates effects the height of N and P excretion for cattle, pigs, poultry and small ruminants in mixed and industrial systems. In this example a 10% lower N and P excretion has been assumed.
+}}</text>
+      <sha1>3ql2a0c9tpf5j33i5wxgmtrqbj5w4u1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Changes in feed ration</title>
+    <ns>0</ns>
+    <id>2522</id>
+    <revision>
+      <id>22451</id>
+      <parentid>19324</parentid>
+      <timestamp>2014-05-16T17:17:02Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <minor/>
+      <comment>Text replace - "Livestock" to "Livestock systems"</comment>
+      <origin>22451</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="441" sha1="oyxuhz1gy6hpy6e39r67sjifnh1phy3" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Livestock systems;
+|Description=Change in the share of grass in the feed rations of cattle, sheep and goats, usually a decrease, meaning grass will be substituted by feed crops and the livestock system will be more intensive. 
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Livestock systems
+|EffectDescription=changes the grass and feed crop demand for the required livestock production.
+}}</text>
+      <sha1>oyxuhz1gy6hpy6e39r67sjifnh1phy3</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Change in grazing intensity</title>
+    <ns>0</ns>
+    <id>2523</id>
+    <revision>
+      <id>22472</id>
+      <parentid>22431</parentid>
+      <timestamp>2014-05-16T17:17:08Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <minor/>
+      <comment>Text replace - "Livestock" to "Livestock systems"</comment>
+      <origin>22472</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1286" sha1="dogaoogetnfutr565iwbm2rfr2exz7q" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Land-use allocation;
+|Description=Change in grazing intensity, usually more intensive. This would require better management of grasslands, including for example the use of grass-clover mixtures and fertilisers, bringing the length of the grazing season in tune with the period of grass production, and rotations.
+|LanduseThemeItem=Agricultural land use (Land use); Land use system (Land use); Natural vegetation (Land use)
+|FoodThemeItem=Animal husbandry (Food)
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Land-use allocation
+|EffectDescription=More intensive grassland management decrease the area needed for grassland, while producing the same amount of grass and/or feeding the same size of livestock.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Livestock systems
+|EffectDescription=Increasing grazing intensity has no consequences for the livestock if not combined with introduction of better breeds
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Terrestrial biodiversity
+|EffectDescription=Effects biodiversity in two ways: less grazing areas decrease the impact on habitats, while more intensive management or increased grazing intensity icnreases the pressures on biodiversity of the remaining areas.
+}}</text>
+      <sha1>dogaoogetnfutr565iwbm2rfr2exz7q</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Improved manure storage</title>
+    <ns>0</ns>
+    <id>2527</id>
+    <revision>
+      <id>25206</id>
+      <parentid>22589</parentid>
+      <timestamp>2014-07-01T08:39:03Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <minor/>
+      <comment>Text replace - "NH3" to "NH&lt;sub&gt;3&lt;/sub&gt;"</comment>
+      <origin>25206</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="392" sha1="ob200pk98ww2o6cgflm0bluxvmkwm5i" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Nutrients;
+|Description=Improved manure storage systems (ST), considering 20% lower NH&lt;sub&gt;3&lt;/sub&gt; emissions from animal housing and storage systems.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Nutrients
+|EffectDescription=This means that the animal manure that is used for spreading contains 5% more N than under the baseline scenario.
+}}</text>
+      <sha1>ob200pk98ww2o6cgflm0bluxvmkwm5i</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Integrated manure management</title>
+    <ns>0</ns>
+    <id>2528</id>
+    <revision>
+      <id>22588</id>
+      <parentid>19995</parentid>
+      <timestamp>2014-05-17T07:16:11Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <minor/>
+      <comment>Text replace - "Nutrient balances" to "Nutrients"</comment>
+      <origin>22588</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="686" sha1="1diydpt5h394050mg0hxekm1yjs0nm1" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Nutrients;
+|Description=Better integration of manure in crop production systems. This consists of recycling of manure that under the baseline scenario ends up outside the agricultural system (e.g. manure used as fuel), in crop systems to  substitute fertiliser. In addition, there is improved integration of animal manure in crop systems, particularly in industrialised countries.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Nutrients
+|EffectDescription=This change causes more nutrients to be available for recycling in agriculture, and take nutrients in the manure into account when determining of the nutrient application rates
+}}</text>
+      <sha1>1diydpt5h394050mg0hxekm1yjs0nm1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Avoiding deforestation</title>
+    <ns>0</ns>
+    <id>2540</id>
+    <revision>
+      <id>19953</id>
+      <parentid>19945</parentid>
+      <timestamp>2014-04-03T09:34:44Z</timestamp>
+      <contributor>
+        <username>AnneGerdienPrins</username>
+        <id>31</id>
+      </contributor>
+      <origin>19953</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="67" sha1="nn6vpzaqhpuxc8r83vicf7f9o4cm4x1" xml:space="preserve">{{PolicyInterventionTemplate
+|Description=Here comes description
+}}</text>
+      <sha1>nn6vpzaqhpuxc8r83vicf7f9o4cm4x1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>More sustainable forest management</title>
+    <ns>0</ns>
+    <id>2541</id>
+    <revision>
+      <id>25129</id>
+      <parentid>25038</parentid>
+      <timestamp>2014-07-01T08:30:15Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <minor/>
+      <comment>Text replace - "CO&lt;sub&gt;2&lt;/sub&gt;" to "CO&lt;sub&gt;2&lt;/sub&gt; "</comment>
+      <origin>25129</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="994" sha1="sbqlx9j8tlrprz3ne6pkuai9ip5zdvi" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Forest management;
+|Description=Sustainable forest management aims for maintaining long-term harvest potential and good ecological status of forests (e.g. the nutrient balance and biodiversity). This can be implemented by (i) enlarging the return period when a forest can be harvested again; (ii) only using certain fractions of the harvested biomass and leave the remaining part in the forests.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Forest management
+|EffectDescription=Because forests might supply less timber,  more sustainable forest management lead to more forests to be used throughout the world (assuming no change in demand). 
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Carbon cycle and natural vegetation
+|EffectDescription=Sustainable forest management has an effect on the C storage in vegetation and soil of forests, and it enhances the net CO&lt;sub&gt;2&lt;/sub&gt; uptake by the forests (as degradation is avoided).
+}}</text>
+      <sha1>sbqlx9j8tlrprz3ne6pkuai9ip5zdvi</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Hydropower</title>
+    <ns>0</ns>
+    <id>3180</id>
+    <revision>
+      <id>18742</id>
+      <parentid>18741</parentid>
+      <timestamp>2014-03-12T12:50:10Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <origin>18742</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="445" sha1="i73s5k8ex3vxm2th20p63mef7jpof03" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Aquatic biodiversity;
+|Description=Construction of dams and reservoirs in rivers
+|Reference=Fekete et al., 2010
+|EnergyThemeItem=Other energy (Energy)
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Aquatic biodiversity
+|EffectDescription=Construction of dam and reservoir e.g. for hydropower causes disturbance of river flow leading to loss of habitats and migration routes for aquatic biota.
+}}</text>
+      <sha1>i73s5k8ex3vxm2th20p63mef7jpof03</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Reduction of waste/losses</title>
+    <ns>0</ns>
+    <id>3234</id>
+    <revision>
+      <id>22425</id>
+      <parentid>22374</parentid>
+      <timestamp>2014-05-16T16:39:09Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <minor/>
+      <comment>Text replace - "Agricultural systems" to "Land-use allocation"</comment>
+      <origin>22425</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="859" sha1="pnanqc31c2lhixhzqfqdokfj8hujmwk" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Agricultural economy;
+|Description=Reduction of losses in the agro-food chain and waste after consumption.
+|Reference=PBL, 2010; PBL, 2012;
+|LanduseThemeItem=Agricultural land use (Land use)
+|FoodThemeItem=Food demand (Food)
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Agricultural economy
+|EffectDescription=Reduction in losses and/or waste decrease the demand for agricultural commodities and consequently production.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Land-use allocation
+|EffectDescription=The reduced need for production decreases the need for agricultural area.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Terrestrial biodiversity
+|EffectDescription=The reduced need for agricultural area decreases habitat loss or could even result in an increased natural area.
+}}</text>
+      <sha1>pnanqc31c2lhixhzqfqdokfj8hujmwk</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Implementation of land use planning</title>
+    <ns>0</ns>
+    <id>3236</id>
+    <revision>
+      <id>22602</id>
+      <parentid>22418</parentid>
+      <timestamp>2014-05-17T07:21:05Z</timestamp>
+      <contributor>
+        <username>RinekeOostenrijk</username>
+        <id>39</id>
+      </contributor>
+      <minor/>
+      <comment>Text replace - "Ecosystem goods and services" to "Ecosystem services"</comment>
+      <origin>22602</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="843" sha1="t1z0d51u3eqakgdsiccjhw9ppvwv8hp" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Land-use allocation;
+|Description=Application of zoning laws or cadastres, assigning areas to certain land uses.
+|LanduseThemeItem=Agricultural land use (Land use); Other land use (Land use)
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Agricultural economy
+|EffectDescription=This intervention can decrease available area for agriculture in certain regions.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Land-use allocation
+|EffectDescription=Could affect allocation of agriculture, in case agriculture is excluded in some areas.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Ecosystem services
+|EffectDescription=By implementing mosaic landscapes the supply of ES dependent of nature will increase (e.g. flood and erosion protection, pollination and pest control). 
+}}</text>
+      <sha1>t1z0d51u3eqakgdsiccjhw9ppvwv8hp</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Apply emission and energy intensity standards</title>
+    <ns>0</ns>
+    <id>3320</id>
+    <revision>
+      <id>19933</id>
+      <timestamp>2014-04-03T09:08:04Z</timestamp>
+      <contributor>
+        <username>MarkRoelfsema</username>
+        <id>35</id>
+      </contributor>
+      <comment>Created page with "{{PolicyInterventionTemplate |Component=Energy conversion; Energy demand;  |Description=Apply emission intensity standards for e.g. cars (gCO2/km), power plants (gCO2/kWh) or ..."</comment>
+      <origin>19933</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="430" sha1="kddm2bcgi4nybsofmq29exilrj5vir2" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Energy conversion; Energy demand; 
+|Description=Apply emission intensity standards for e.g. cars (gCO2/km), power plants (gCO2/kWh) or appliances (kWh/hour).
+|EnergyThemeItem=Energy demand (Energy); Energy emissions (Energy); Energy system (Energy)
+|ClimateThemeItem=Climate mitigation (Climate); GHG emissions (Climate)
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Emissions
+}}</text>
+      <sha1>kddm2bcgi4nybsofmq29exilrj5vir2</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Energy tax or subsidiy</title>
+    <ns>0</ns>
+    <id>3321</id>
+    <revision>
+      <id>19946</id>
+      <timestamp>2014-04-03T09:26:06Z</timestamp>
+      <contributor>
+        <username>MarkRoelfsema</username>
+        <id>35</id>
+      </contributor>
+      <comment>Created page with "{{PolicyInterventionTemplate |Component=Energy supply;  |Description=Changing the prices through energy tax or subsidy for the various energy carriers influences the choice of..."</comment>
+      <origin>19946</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="403" sha1="g3vq3b8njtjco1rbs6fsbz4z3hzsehr" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Energy supply; 
+|Description=Changing the prices through energy tax or subsidy for the various energy carriers influences the choice of technology and thus the level of emissions.
+|EnergyThemeItem=Energy emissions (Energy); Energy system (Energy)
+|AirThemeItem=Air quality (Air pollution)
+|ClimateThemeItem=Climate mitigation (Climate); GHG emissions (Climate)
+}}</text>
+      <sha1>g3vq3b8njtjco1rbs6fsbz4z3hzsehr</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Subsidies on modern energy</title>
+    <ns>0</ns>
+    <id>3331</id>
+    <revision>
+      <id>20219</id>
+      <parentid>20216</parentid>
+      <timestamp>2014-04-08T21:21:44Z</timestamp>
+      <contributor>
+        <username>PaulLucas</username>
+        <id>29</id>
+      </contributor>
+      <origin>20219</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="524" sha1="0jix5ezuyx2j7b2jy1utdlhw3iqst5c" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Energy demand;
+|Description=Reduces the costs of modern energy to reduce traditional energy use (can be targeted to low income groups).
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Energy demand
+|EffectDescription=Reduces traditional energy use, while increasing modern energy use.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Human development
+|EffectDescription=Reduces indoor air pollution. This reduces child motality due to lower incidence of pneumonia
+}}</text>
+      <sha1>0jix5ezuyx2j7b2jy1utdlhw3iqst5c</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Provision on improved stoves for traditional bio-energy</title>
+    <ns>0</ns>
+    <id>3332</id>
+    <revision>
+      <id>20218</id>
+      <parentid>20076</parentid>
+      <timestamp>2014-04-08T21:18:53Z</timestamp>
+      <contributor>
+        <username>PaulLucas</username>
+        <id>29</id>
+      </contributor>
+      <origin>20218</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="424" sha1="if7emrzwgoup07y2lqdqxirc77qjhxx" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Energy demand;
+|Description=Increases the efficiency of bio-energy use.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Energy demand
+|EffectDescription=Reduces demand for bio-energy.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Human development
+|EffectDescription=Reduces indoor air pollution. This reduces child mortality due to lower incidence of pneumonia
+}}</text>
+      <sha1>if7emrzwgoup07y2lqdqxirc77qjhxx</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Increase access to food</title>
+    <ns>0</ns>
+    <id>3339</id>
+    <revision>
+      <id>20220</id>
+      <parentid>20214</parentid>
+      <timestamp>2014-04-08T21:30:52Z</timestamp>
+      <contributor>
+        <username>PaulLucas</username>
+        <id>29</id>
+      </contributor>
+      <origin>20220</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="523" sha1="mvpuo5kciwg3krdwm4l8k191oxsvxhp" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Human development;
+|Description=Increase access to food by targeting food prices for the poorest households
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Human development
+|EffectDescription=Increases food security, thereby reducing child underweight. This in turn reduces child mortality as lower levels of child underweight result in a lower incidence of diarrhoea and pneumonia and a lower case fatality of malaria, diarrhoea, pneumonia and protein energy deficiency
+}}</text>
+      <sha1>mvpuo5kciwg3krdwm4l8k191oxsvxhp</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Closing the yield gap</title>
+    <ns>0</ns>
+    <id>3343</id>
+    <revision>
+      <id>36452</id>
+      <parentid>22543</parentid>
+      <timestamp>2020-03-26T08:04:48Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>36452</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1129" sha1="tkbvbxle8kev6azb13ur3mnf14sflhs" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Agricultural economy
+|Description=This intervention increases actual yields (reduces the gap between potential and actual yields), usually realized by better management.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Agricultural economy
+|EffectDescription=Higher yields reduce the need for agricultural land and usually lower the price of food commodities.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Crops and grass
+|EffectDescription=missing description
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Terrestrial biodiversity
+|EffectDescription=Decreases the pressure on land for agriculture. On the other hand it can increase the pressure from emissions towards natural areas.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Human development
+|EffectDescription=Increases food security, thereby reducing child underweight. This in turn reduces child mortality as lower levels of child underweight result in a lower incidence of diarrhoea and pneumonia and a lower case fatality of malaria, diarrhoea, pneumonia and protein energy deficiency
+}}</text>
+      <sha1>tkbvbxle8kev6azb13ur3mnf14sflhs</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Afforestation policies</title>
+    <ns>0</ns>
+    <id>7468</id>
+    <revision>
+      <id>36962</id>
+      <parentid>36911</parentid>
+      <timestamp>2021-11-26T15:09:42Z</timestamp>
+      <contributor>
+        <username>Doelmanj</username>
+        <id>80</id>
+      </contributor>
+      <origin>36962</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="729" sha1="01f9o9tjyum12vzm4dpg1lsz5qbw13d" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Agricultural economy
+|Description=Increasing forest area to sequester CO&lt;sub&gt;2&lt;/sub&gt; in biomass which helps to achieve stringent climate targets.
+|Reference=Doelman et al., 2020
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Agricultural economy
+|EffectDescription=Reduces agricultural land use in regions with cost-optimal afforestation leading to higher food prices, lower food availability and changes in trade.
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Carbon cycle and natural vegetation
+|EffectDescription=Reduces agricultural land use in regions with cost-optimal afforestation leading to higher food prices, lower food availability and changes in trade.
+}}</text>
+      <sha1>01f9o9tjyum12vzm4dpg1lsz5qbw13d</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Non-CO2 taxation policies</title>
+    <ns>0</ns>
+    <id>7469</id>
+    <revision>
+      <id>36774</id>
+      <timestamp>2021-11-05T14:22:53Z</timestamp>
+      <contributor>
+        <username>Dafnomilii</username>
+        <id>102</id>
+      </contributor>
+      <comment>Created page with "{{PolicyInterventionTemplate |Component=Agricultural economy |Description=Taxes greenhouse gas emissions in agriculture to achieve cost-optimal mitigation in the agricultural..."</comment>
+      <origin>36774</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="416" sha1="pnpplqplcuokm7bviei8c6l7mdhmegd" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Agricultural economy
+|Description=Taxes greenhouse gas emissions in agriculture to achieve cost-optimal mitigation in the agricultural sector.
+|Reference=Frank et al., 2019
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Agricultural economy
+|EffectDescription=Reduces production of emission-intensive agricultural products and impacts consumption and trade-flows.
+}}</text>
+      <sha1>pnpplqplcuokm7bviei8c6l7mdhmegd</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Intensification or extensification of livestock systems</title>
+    <ns>0</ns>
+    <id>7526</id>
+    <revision>
+      <id>37248</id>
+      <parentid>37246</parentid>
+      <timestamp>2024-03-20T16:20:10Z</timestamp>
+      <contributor>
+        <username>Ioannis</username>
+        <id>115</id>
+      </contributor>
+      <origin>37248</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1099" sha1="or8qdy8mbo56t4ml2vhmay23re77als" xml:space="preserve">{{PolicyInterventionTemplate
+|Component=Livestock systems;
+|Description=A change in the distribution of the production over pastoral and mixed systems; usually to a larger share of the production in mixed systems, which inherently changes the overall feed conversion ratios of ruminants.
+|FoodThemeItem=Animal husbandry (Food)
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Agricultural economy
+|EffectDescription=An intensification of livestock systems decreases the average area needed per animal (in land using livestock systems)
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Land-use allocation
+|EffectDescription=An intensification of livestock systems decreases the average area needed per animal (in land using livestock systems)
+}}
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=Nutrients
+|EffectDescription=Generally leads to a reduction of overall emissions (e.g. CH&lt;sub&gt;4&lt;/sub&gt;) and reduction of overall nutrient excretion; however, it will generally also lead to an increase of ammonia (NH&lt;sub&gt;3&lt;/sub&gt;) emissions from manure storage and spreading of manure
+}}</text>
+      <sha1>or8qdy8mbo56t4ml2vhmay23re77als</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:PropertyTestTemplate</title>
+    <ns>10</ns>
+    <id>288</id>
+    <revision>
+      <id>26668</id>
+      <parentid>26667</parentid>
+      <timestamp>2016-05-11T10:05:25Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>26668</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="511" sha1="a152syqakewty1idk3wnhz6230w48wg" xml:space="preserve">&lt;noinclude&gt;
+This is the "testPropertyTemplate" template. returns true (&lt;&gt; 0) if page has property . reverse is optional and should be used as reverse=1 for reversed properties
+It should be called in the following format:
+&lt;pre&gt;
+{{PropertyTestTemplate
+|prop=
+|page=
+|reverse=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;&lt;!--
+--&gt;{{#ifeq:{{{reverse|}}}|1
+|{{#ask:[[{{{prop|}}}::{{{page|}}}]]|format=count}}
+|{{#ask:[[-{{{prop|}}}::{{{page|}}}]]|format=count}} }}&lt;!--
+--&gt;&lt;/includeonly&gt;</text>
+      <sha1>a152syqakewty1idk3wnhz6230w48wg</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:PolicyInterventionEffectTemplate</title>
+    <ns>10</ns>
+    <id>3163</id>
+    <revision>
+      <id>31429</id>
+      <parentid>24031</parentid>
+      <timestamp>2017-07-11T07:00:08Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>31429</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="698" sha1="mjqya1wgpklxao3zghvbs4ojkg2txt9" xml:space="preserve">&lt;noinclude&gt;
+This is the "PolicyInterventionEffectTemplate" template.
+It should be called in the following format:
+&lt;pre&gt;
+{{PolicyInterventionEffectTemplate
+|EffectOnComponent=
+|Effect=
+|Reference=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;&lt;div class="page_standard"&gt;
+{{#subobject:EffectOn{{{EffectOnComponent|}}}
+|HasEffect={{PAGENAME}}
+|HasEffectOnComponent={{{EffectOnComponent|}}}
+|HasEffectDescription={{{EffectDescription|}}}
+|HasReference={{{Reference|}}} }}
+Component: [[{{{EffectOnComponent|}}}/Policy issues|{{{EffectOnComponent|}}}]]&lt;br/&gt;
+Effect : {{{EffectDescription|}}}
+{{#ifeq:{{{Reference|}}}|||&lt;br/&gt;References: {{{Reference|}}} }}&lt;/div&gt;&lt;/includeonly&gt;</text>
+      <sha1>mjqya1wgpklxao3zghvbs4ojkg2txt9</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:PolicyInterventionTemplate</title>
+    <ns>10</ns>
+    <id>58</id>
+    <revision>
+      <id>36254</id>
+      <parentid>36253</parentid>
+      <timestamp>2020-03-12T12:38:22Z</timestamp>
+      <contributor>
+        <username>Oostenrijr</username>
+        <id>68</id>
+      </contributor>
+      <origin>36254</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2087" sha1="gobqvc8i38sp31kuvexk1ceysia46kk" xml:space="preserve">&lt;noinclude&gt;
+This is the "PolicyInterventionTemplate" template.
+It should be called in the following format:
+&lt;pre&gt;
+{{PolicyInterventionTemplate
+|Description=
+|Reference=
+|Component=
+|BelongsToTheme=
+|ThemeItem=
+}}
+&lt;/pre&gt;
+Edit the page to see the template text.
+&lt;/noinclude&gt;&lt;includeonly&gt;
+&lt;table class="PageWidthTableTemplate"&gt;
+{{#ifeq:{{{Description|}}}|||&lt;tr&gt;
+&lt;td class="PageWidthTableFirstCell"&gt;'''Description:'''&lt;/td&gt;
+&lt;td class="PageWidthTableRemainderCell"&gt;
+{{{Description|}}}&lt;/td&gt;&lt;/tr&gt;}}
+{{#ifeq:{{{Reference|}}}|||&lt;tr&gt;
+&lt;td class="PageWidthTableFirstCell"&gt;'''Reference:'''&lt;/td&gt;
+&lt;td class="PageWidthTableRemainderCell"&gt;
+[[{{{Reference|}}}]]&lt;/td&gt;&lt;/tr&gt;}}
+{{#ifeq:{{{Component|}}}|||&lt;tr&gt;
+&lt;td class="PageWidthTableFirstCell"&gt;'''Is implemented in:'''&lt;/td&gt;
+&lt;td class="PageWidthTableRemainderCell"&gt;
+{{#arraymap:{{{Component|}}}|;|x|[[x/Policy issues| x]]|, }}&lt;/td&gt;&lt;/tr&gt;}} 
+{{#ifeq:{{{HumanDevelopmentThemeItem|}}}{{{WaterThemeItem|}}}{{{EnergyThemeItem|}}}{{{LanduseThemeItem|}}}{{{NatureThemeItem|}}}{{{FoodThemeItem|}}}{{{AirThemeItem|}}}{{{ClimateThemeItem|}}}|||&lt;tr&gt;
+&lt;td class="PageWidthTableFirstCell"&gt;'''Associated theme items:'''&lt;/td&gt;
+&lt;td class="PageWidthTableRemainderCell"&gt;{{#arraymap:{{{HumanDevelopmentThemeItem|}}};{{{WaterThemeItem|}}};{{{EnergyThemeItem|}}};{{{LanduseThemeItem|}}};{{{NatureThemeItem|}}};{{{FoodThemeItem|}}};{{{AirThemeItem|}}};{{{ClimateThemeItem|}}}|;|x|[[HasThemeItem::x]]|,&amp;nbsp; }}&lt;/td&gt;&lt;/tr&gt;}}
+&lt;/table&gt;
+&lt;br/&gt;
+{{#ifexpr:{{PropertyTestTemplate|prop=consistsOfPI|page={{PAGENAME}}|reverse=1}}&gt;0
+|&lt;h3&gt;Associated policy response component&lt;/h3&gt;
+{{#arraymap:
+  {{#ask:[[{{PAGENAME}}]]
+   |mainlabel=-
+   |?-consistsOfPI=
+   |format=Plainlist|valuesep=;
+   |link=none
+  }}
+ |;|xx
+ |Component: [[{{#titleparts:xx|1}}]]&lt;br/&gt;Page: [[xx]]&lt;br/&gt;
+ |}}
+|}}
+{{#ifexpr:{{PropertyTestTemplate|prop=HasEffect|page={{PAGENAME}}|reverse=1}}&gt;0
+|&lt;h3&gt;Effects of this policy intervention on components&lt;/h3&gt;
+|}}
+{{#set:HasDescription={{{Description|}}}
+  |HasReference={{{Reference|}}}|+sep=;
+  |HasComponent={{{Component|}}}|+sep=;
+}}
+[[Category:PolicyIntervention]] &lt;/includeonly&gt;</text>
+      <sha1>gobqvc8i38sp31kuvexk1ceysia46kk</sha1>
+    </revision>
+  </page>
+</mediawiki>
