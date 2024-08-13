@@ -8,6 +8,7 @@ import requests
 from bs4 import BeautifulSoup
 
 
+# LOADING FILES AND BASIC PARSING
 
 def loadXmlFile(filename):
     data = open(filename, 'r').read()
@@ -134,6 +135,7 @@ def parseTemplate(strng):
     else:
         ret = {tplName : d}
         return ret
+
 
 # TREE LEAF PAGES
 
@@ -458,7 +460,7 @@ def buildDict(file):
     return(d)
 
 
-# CALL SECTION
+# TEST FILES
 
 testfile_easy = 'test.xml' 
 testfile_1 = 'IMAGE-Agricultural economy.xml'
